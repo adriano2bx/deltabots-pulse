@@ -1,0 +1,29 @@
+menu "DeltaBots Pulse (bancada)"
+  config PULSE_WIFI_SSID
+    string "Wi-Fi SSID"
+    default ""
+  config PULSE_WIFI_PASSWORD
+    string "Wi-Fi senha"
+    default ""
+  config PULSE_MQTT_URI
+    string "URI do broker (use mqtts://)"
+    default "mqtts://broker.example.invalid:8883"
+  config PULSE_TENANT_ID
+    string "tenant_id"
+    default ""
+  config PULSE_EQUIPMENT_ID
+    string "equipment_id"
+    default ""
+  config PULSE_LED_GPIO
+    int "GPIO da saída (LED / relé de BAIXA tensão)"
+    default 2
+  config PULSE_ARM_BUTTON_GPIO
+    int "GPIO do botão de armação local"
+    default 0
+  config PULSE_ESTOP_GPIO
+    int "GPIO do interruptor de parada (e-stop, NF)"
+    default 4
+  config PULSE_WATCHDOG_MS
+    int "Watchdog local (ms)"
+    default 1500
+endmenu

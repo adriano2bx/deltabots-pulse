@@ -41,6 +41,13 @@ jobs:
           python quality/status.py
           git diff --exit-code implementation-status.md
 
+  esp32-core:
+    name: Núcleo de segurança do ESP32 (C, ASan/UBSan)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: make -C apps/esp32-demo test
+
   secrets:
     name: Varredura de segredos
     runs-on: ubuntu-latest

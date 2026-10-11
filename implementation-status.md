@@ -9,7 +9,8 @@
 | Estado | Quantidade |
 |---|---|
 | `DESCOPED_BY_OWNER` | 40 |
-| `NOT_STARTED` | 350 |
+| `IN_REVIEW` | 2 |
+| `NOT_STARTED` | 348 |
 
 ## Por área
 
@@ -280,7 +281,7 @@ _NOT_STARTED: 28_
 
 ### Cloud: automações
 
-_NOT_STARTED: 30_
+_IN_REVIEW: 1, NOT_STARTED: 29_
 
 | ID | Funcionalidade | Escopo | Estado | Evidência |
 |---|---|---|---|---|
@@ -306,7 +307,7 @@ _NOT_STARTED: 30_
 | F208 | E-mail transacional | REQUIRED | `NOT_STARTED` | — |
 | F209 | Mensageria externa opt-in | REQUIRED | `NOT_STARTED` | — |
 | F210 | Vibração via gateway | REQUIRED | `NOT_STARTED` | — |
-| F211 | Controle IoT permitido | REQUIRED | `NOT_STARTED` | — |
+| F211 | Controle IoT permitido | REQUIRED | `IN_REVIEW` | apps/api/test/platform.test.ts (controle via DO); equipamento físico: HARDWARE_BLOCKED (HW11) |
 | F212 | Multi-step flows | REQUIRED | `NOT_STARTED` | — |
 | F213 | Aprovação humana | REQUIRED | `NOT_STARTED` | — |
 | F214 | Simular com histórico | REQUIRED | `NOT_STARTED` | — |
@@ -354,7 +355,7 @@ _NOT_STARTED: 30_
 
 ### Cloud: plataforma API
 
-_NOT_STARTED: 22_
+_IN_REVIEW: 1, NOT_STARTED: 21_
 
 | ID | Funcionalidade | Escopo | Estado | Evidência |
 |---|---|---|---|---|
@@ -372,7 +373,7 @@ _NOT_STARTED: 22_
 | F260 | Coleção Postman | REQUIRED | `NOT_STARTED` | — |
 | F261 | Logs tracing | REQUIRED | `NOT_STARTED` | — |
 | F262 | Quotas rate limit | REQUIRED | `NOT_STARTED` | — |
-| F263 | Gateway MQTT | REQUIRED | `NOT_STARTED` | — |
+| F263 | Gateway MQTT | REQUIRED | `IN_REVIEW` | apps/bridge-mqtt/test/bridge.test.ts (broker real em memória); TLS/ACL do broker real pendentes (BLOCKED_EXTERNAL) |
 | F264 | Home Assistant | REQUIRED | `NOT_STARTED` | — |
 | F265 | N8N | REQUIRED | `NOT_STARTED` | — |
 | F266 | Integrações DeltaBots | REQUIRED | `NOT_STARTED` | — |
