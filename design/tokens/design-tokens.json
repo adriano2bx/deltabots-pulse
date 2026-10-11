@@ -1,0 +1,45 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "name": "DeltaBots Pulse · Product UI",
+  "source": "DeltaBots Institutional Website Build Spec v1.0 §13",
+  "colors": {
+    "obsidian": "#0A0A0B",
+    "bone": "#F5F7FA",
+    "steel": "#485560",
+    "cyan": "#00D5D8",
+    "surface_1": "#111214",
+    "border": "#25282C",
+    "muted": "#8A929A",
+    "good": "#64D9A8",
+    "warning": "#F0BA6A",
+    "danger": "#F58A8A"
+  },
+  "space": {
+    "xs": 4,
+    "sm": 8,
+    "md": 12,
+    "base": 16,
+    "lg": 24,
+    "xl": 32,
+    "2xl": 48,
+    "3xl": 64
+  },
+  "radii": {
+    "sm": 8,
+    "md": 12,
+    "lg": 16,
+    "xl": 24
+  },
+  "typography": {
+    "ui": "Inter, sans-serif",
+    "display": "Geist Sans, Inter, sans-serif",
+    "technical": "IBM Plex Mono, monospace"
+  },
+  "rules": {
+    "masterLogo": "MUST PROVIDE APPROVED DeltaBots v4.1 WHITE CANONICAL MASTER SVG",
+    "monochromeHardware": true,
+    "noGradient": true,
+    "noGlow": true,
+    "brandSymbolNoReconstruction": true
+  }
+}

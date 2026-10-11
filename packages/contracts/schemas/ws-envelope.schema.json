@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pulse.deltabots.com.br/schemas/ws-envelope-v1.json",
+  "title": "PulseRealtimeEnvelope",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "v",
+    "id",
+    "type",
+    "session_id",
+    "seq",
+    "sent_at",
+    "payload"
+  ],
+  "properties": {
+    "v": {
+      "type": "integer",
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "minLength": 5,
+      "maxLength": 100
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "session.hello",
+        "session.ready",
+        "session.arm.request",
+        "session.armed",
+        "session.disarm",
+        "session.revoked",
+        "session.heartbeat",
+        "session.status",
+        "device.status",
+        "telemetry.update",
+        "gesture.sample_batch",
+        "gesture.detected",
+        "gesture.rejected",
+        "control.command",
+        "control.accepted",
+        "control.executed",
+        "control.failed",
+        "control.expired",
+        "command.ack",
+        "policy.changed",
+        "server.error",
+        "rate_limited"
+      ]
+    },
+    "tenant_id": {
+      "type": "string"
+    },
+    "session_id": {
+      "type": "string"
+    },
+    "device_id": {
+      "type": "string"
+    },
+    "gateway_id": {
+      "type": "string"
+    },
+    "seq": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "sent_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "expires_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "trace_id": {
+      "type": "string"
+    },
+    "payload": {
+      "type": "object"
+    }
+  }
+}

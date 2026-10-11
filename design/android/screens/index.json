@@ -1,0 +1,1218 @@
+[
+  {
+    "id": "A01",
+    "route": "/splash",
+    "title": "marca e boot",
+    "svg": "android/screens/svg/A01_splash.svg",
+    "png": "android/screens/png/A01_splash.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A02",
+    "route": "/welcome",
+    "title": "explicar produto",
+    "svg": "android/screens/svg/A02_welcome.svg",
+    "png": "android/screens/png/A02_welcome.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A03",
+    "route": "/onboarding/privacy",
+    "title": "privacidade por padrão",
+    "svg": "android/screens/svg/A03_onboarding-privacy.svg",
+    "png": "android/screens/png/A03_onboarding-privacy.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A04",
+    "route": "/onboarding/gateway",
+    "title": "explicar função gateway",
+    "svg": "android/screens/svg/A04_onboarding-gateway.svg",
+    "png": "android/screens/png/A04_onboarding-gateway.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A05",
+    "route": "/auth/login",
+    "title": "autenticar",
+    "svg": "android/screens/svg/A05_auth-login.svg",
+    "png": "android/screens/png/A05_auth-login.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A06",
+    "route": "/auth/register",
+    "title": "criar conta",
+    "svg": "android/screens/svg/A06_auth-register.svg",
+    "png": "android/screens/png/A06_auth-register.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A07",
+    "route": "/auth/reset",
+    "title": "recuperar",
+    "svg": "android/screens/svg/A07_auth-reset.svg",
+    "png": "android/screens/png/A07_auth-reset.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A08",
+    "route": "/auth/mfa",
+    "title": "desafio segundo fator",
+    "svg": "android/screens/svg/A08_auth-mfa.svg",
+    "png": "android/screens/png/A08_auth-mfa.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A09",
+    "route": "/permissions",
+    "title": "BLE/notifications/background",
+    "svg": "android/screens/svg/A09_permissions.svg",
+    "png": "android/screens/png/A09_permissions.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A10",
+    "route": "/devices/discover",
+    "title": "encontrar bandas",
+    "svg": "android/screens/svg/A10_devices-discover.svg",
+    "png": "android/screens/png/A10_devices-discover.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A11",
+    "route": "/devices/pair",
+    "title": "conectar e autenticar",
+    "svg": "android/screens/svg/A11_devices-pair.svg",
+    "png": "android/screens/png/A11_devices-pair.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A12",
+    "route": "/devices/capabilities",
+    "title": "diagnóstico do firmware",
+    "svg": "android/screens/svg/A12_devices-capabilities.svg",
+    "png": "android/screens/png/A12_devices-capabilities.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A13",
+    "route": "/devices/sync-initial",
+    "title": "importação inicial",
+    "svg": "android/screens/svg/A13_devices-sync-initial.svg",
+    "png": "android/screens/png/A13_devices-sync-initial.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A14",
+    "route": "/devices/connected",
+    "title": "boas-vindas",
+    "svg": "android/screens/svg/A14_devices-connected.svg",
+    "png": "android/screens/png/A14_devices-connected.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A15",
+    "route": "/home",
+    "title": "resumo pessoal",
+    "svg": "android/screens/svg/A15_home.svg",
+    "png": "android/screens/png/A15_home.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A16",
+    "route": "/home/timeline",
+    "title": "linha do tempo",
+    "svg": "android/screens/svg/A16_home-timeline.svg",
+    "png": "android/screens/png/A16_home-timeline.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A17",
+    "route": "/health/heart",
+    "title": "batimentos",
+    "svg": "android/screens/svg/A17_health-heart.svg",
+    "png": "android/screens/png/A17_health-heart.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A18",
+    "route": "/health/heart/details",
+    "title": "curvas e zonas informativas",
+    "svg": "android/screens/svg/A18_health-heart-details.svg",
+    "png": "android/screens/png/A18_health-heart-details.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A19",
+    "route": "/health/activity",
+    "title": "passos e calorias estimadas",
+    "svg": "android/screens/svg/A19_health-activity.svg",
+    "png": "android/screens/png/A19_health-activity.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A20",
+    "route": "/health/activity/session",
+    "title": "sessão específica",
+    "svg": "android/screens/svg/A20_health-activity-session.svg",
+    "png": "android/screens/png/A20_health-activity-session.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A21",
+    "route": "/health/sleep",
+    "title": "sono agregado",
+    "svg": "android/screens/svg/A21_health-sleep.svg",
+    "png": "android/screens/png/A21_health-sleep.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A22",
+    "route": "/health/sleep/detail",
+    "title": "noite/intervalos",
+    "svg": "android/screens/svg/A22_health-sleep-detail.svg",
+    "png": "android/screens/png/A22_health-sleep-detail.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A23",
+    "route": "/health/trends",
+    "title": "comparação períodos",
+    "svg": "android/screens/svg/A23_health-trends.svg",
+    "png": "android/screens/png/A23_health-trends.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A24",
+    "route": "/health/insights",
+    "title": "insights",
+    "svg": "android/screens/svg/A24_health-insights.svg",
+    "png": "android/screens/png/A24_health-insights.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A25",
+    "route": "/health/goals",
+    "title": "metas",
+    "svg": "android/screens/svg/A25_health-goals.svg",
+    "png": "android/screens/png/A25_health-goals.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A26",
+    "route": "/gestures",
+    "title": "home do Gesture Engine",
+    "svg": "android/screens/svg/A26_gestures.svg",
+    "png": "android/screens/png/A26_gestures.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A27",
+    "route": "/gestures/live",
+    "title": "raw XYZ se habilitado",
+    "svg": "android/screens/svg/A27_gestures-live.svg",
+    "png": "android/screens/png/A27_gestures-live.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A28",
+    "route": "/gestures/record",
+    "title": "gravação consentida",
+    "svg": "android/screens/svg/A28_gestures-record.svg",
+    "png": "android/screens/png/A28_gestures-record.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A29",
+    "route": "/gestures/datasets",
+    "title": "sessões de gravação",
+    "svg": "android/screens/svg/A29_gestures-datasets.svg",
+    "png": "android/screens/png/A29_gestures-datasets.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A30",
+    "route": "/gestures/train",
+    "title": "treinamento",
+    "svg": "android/screens/svg/A30_gestures-train.svg",
+    "png": "android/screens/png/A30_gestures-train.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A31",
+    "route": "/gestures/models",
+    "title": "modelos e versões",
+    "svg": "android/screens/svg/A31_gestures-models.svg",
+    "png": "android/screens/png/A31_gestures-models.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A32",
+    "route": "/gestures/evaluate",
+    "title": "matriz e falsos positivos",
+    "svg": "android/screens/svg/A32_gestures-evaluate.svg",
+    "png": "android/screens/png/A32_gestures-evaluate.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A33",
+    "route": "/gestures/mappings",
+    "title": "mapeamentos gesto→ação",
+    "svg": "android/screens/svg/A33_gestures-mappings.svg",
+    "png": "android/screens/png/A33_gestures-mappings.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A34",
+    "route": "/gestures/equipment",
+    "title": "selecionar equipamento",
+    "svg": "android/screens/svg/A34_gestures-equipment.svg",
+    "png": "android/screens/png/A34_gestures-equipment.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A35",
+    "route": "/gestures/control",
+    "title": "sessão armada",
+    "svg": "android/screens/svg/A35_gestures-control.svg",
+    "png": "android/screens/png/A35_gestures-control.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A36",
+    "route": "/gestures/latency",
+    "title": "diagnóstico WS/IoT",
+    "svg": "android/screens/svg/A36_gestures-latency.svg",
+    "png": "android/screens/png/A36_gestures-latency.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A37",
+    "route": "/automations",
+    "title": "lista automações",
+    "svg": "android/screens/svg/A37_automations.svg",
+    "png": "android/screens/png/A37_automations.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A38",
+    "route": "/automations/new",
+    "title": "wizard de regra",
+    "svg": "android/screens/svg/A38_automations-new.svg",
+    "png": "android/screens/png/A38_automations-new.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A39",
+    "route": "/automations/simulate",
+    "title": "simular",
+    "svg": "android/screens/svg/A39_automations-simulate.svg",
+    "png": "android/screens/png/A39_automations-simulate.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A40",
+    "route": "/automations/history",
+    "title": "histórico de ações",
+    "svg": "android/screens/svg/A40_automations-history.svg",
+    "png": "android/screens/png/A40_automations-history.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A41",
+    "route": "/notifications",
+    "title": "inbox",
+    "svg": "android/screens/svg/A41_notifications.svg",
+    "png": "android/screens/png/A41_notifications.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A42",
+    "route": "/notifications/rules",
+    "title": "alertas personalizados",
+    "svg": "android/screens/svg/A42_notifications-rules.svg",
+    "png": "android/screens/png/A42_notifications-rules.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A43",
+    "route": "/assistant",
+    "title": "chat IA",
+    "svg": "android/screens/svg/A43_assistant.svg",
+    "png": "android/screens/png/A43_assistant.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A44",
+    "route": "/assistant/insight",
+    "title": "evidência insight",
+    "svg": "android/screens/svg/A44_assistant-insight.svg",
+    "png": "android/screens/png/A44_assistant-insight.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A45",
+    "route": "/reports",
+    "title": "relatórios",
+    "svg": "android/screens/svg/A45_reports.svg",
+    "png": "android/screens/png/A45_reports.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A46",
+    "route": "/reports/detail",
+    "title": "detalhe",
+    "svg": "android/screens/svg/A46_reports-detail.svg",
+    "png": "android/screens/png/A46_reports-detail.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A47",
+    "route": "/family",
+    "title": "painel compartilhamentos",
+    "svg": "android/screens/svg/A47_family.svg",
+    "png": "android/screens/png/A47_family.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A48",
+    "route": "/family/invite",
+    "title": "convidar familiar",
+    "svg": "android/screens/svg/A48_family-invite.svg",
+    "png": "android/screens/png/A48_family-invite.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A49",
+    "route": "/family/care",
+    "title": "visão cuidador",
+    "svg": "android/screens/svg/A49_family-care.svg",
+    "png": "android/screens/png/A49_family-care.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A50",
+    "route": "/safety/checkin",
+    "title": "check-in e ajuda",
+    "svg": "android/screens/svg/A50_safety-checkin.svg",
+    "png": "android/screens/png/A50_safety-checkin.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A51",
+    "route": "/devices",
+    "title": "inventário pessoal",
+    "svg": "android/screens/svg/A51_devices.svg",
+    "png": "android/screens/png/A51_devices.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A52",
+    "route": "/devices/detail",
+    "title": "estado bateria firmware",
+    "svg": "android/screens/svg/A52_devices-detail.svg",
+    "png": "android/screens/png/A52_devices-detail.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A53",
+    "route": "/devices/diagnostics",
+    "title": "logs BLE anonimizados",
+    "svg": "android/screens/svg/A53_devices-diagnostics.svg",
+    "png": "android/screens/png/A53_devices-diagnostics.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A54",
+    "route": "/settings/profile",
+    "title": "perfil",
+    "svg": "android/screens/svg/A54_settings-profile.svg",
+    "png": "android/screens/png/A54_settings-profile.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A55",
+    "route": "/settings/privacy",
+    "title": "consentimentos/dados",
+    "svg": "android/screens/svg/A55_settings-privacy.svg",
+    "png": "android/screens/png/A55_settings-privacy.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A56",
+    "route": "/settings/sync",
+    "title": "política offline/cloud",
+    "svg": "android/screens/svg/A56_settings-sync.svg",
+    "png": "android/screens/png/A56_settings-sync.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A57",
+    "route": "/settings/notifications",
+    "title": "espelhamento, push",
+    "svg": "android/screens/svg/A57_settings-notifications.svg",
+    "png": "android/screens/png/A57_settings-notifications.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A58",
+    "route": "/settings/appearance",
+    "title": "idioma/acessibilidade",
+    "svg": "android/screens/svg/A58_settings-appearance.svg",
+    "png": "android/screens/png/A58_settings-appearance.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A59",
+    "route": "/settings/integrations",
+    "title": "MCP/IoT/APIs",
+    "svg": "android/screens/svg/A59_settings-integrations.svg",
+    "png": "android/screens/png/A59_settings-integrations.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A60",
+    "route": "/settings/security",
+    "title": "sessões e MFA",
+    "svg": "android/screens/svg/A60_settings-security.svg",
+    "png": "android/screens/png/A60_settings-security.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A61",
+    "route": "/billing",
+    "title": "planos e consumo",
+    "svg": "android/screens/svg/A61_billing.svg",
+    "png": "android/screens/png/A61_billing.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A62",
+    "route": "/support",
+    "title": "central de ajuda",
+    "svg": "android/screens/svg/A62_support.svg",
+    "png": "android/screens/png/A62_support.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A63",
+    "route": "/support/diagnostics",
+    "title": "diagnóstico e ticket",
+    "svg": "android/screens/svg/A63_support-diagnostics.svg",
+    "png": "android/screens/png/A63_support-diagnostics.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A64",
+    "route": "/about",
+    "title": "legal e versão",
+    "svg": "android/screens/svg/A64_about.svg",
+    "png": "android/screens/png/A64_about.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A65",
+    "route": "/devices/{id}/appearance",
+    "title": "personalização wearable",
+    "svg": "android/screens/svg/A65_devices-id-appearance.svg",
+    "png": "android/screens/png/A65_devices-id-appearance.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A66",
+    "route": "/devices/{id}/themes",
+    "title": "catálogo temas DeltaBots",
+    "svg": "android/screens/svg/A66_devices-id-themes.svg",
+    "png": "android/screens/png/A66_devices-id-themes.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A67",
+    "route": "/themes/{id}/preview",
+    "title": "prévia monocromática detalhada",
+    "svg": "android/screens/svg/A67_themes-id-preview.svg",
+    "png": "android/screens/png/A67_themes-id-preview.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A68",
+    "route": "/devices/{id}/themes/check",
+    "title": "verificação compatibilidade",
+    "svg": "android/screens/svg/A68_devices-id-themes-check.svg",
+    "png": "android/screens/png/A68_devices-id-themes-check.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A69",
+    "route": "/devices/{id}/themes/download",
+    "title": "download autenticado e seguro",
+    "svg": "android/screens/svg/A69_devices-id-themes-download.svg",
+    "png": "android/screens/png/A69_devices-id-themes-download.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A70",
+    "route": "/devices/{id}/themes/preflight",
+    "title": "checklist instalação",
+    "svg": "android/screens/svg/A70_devices-id-themes-preflight.svg",
+    "png": "android/screens/png/A70_devices-id-themes-preflight.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A71",
+    "route": "/devices/{id}/themes/confirm",
+    "title": "confirmação explícita presencial",
+    "svg": "android/screens/svg/A71_devices-id-themes-confirm.svg",
+    "png": "android/screens/png/A71_devices-id-themes-confirm.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A72",
+    "route": "/devices/{id}/themes/install",
+    "title": "atualização BLE",
+    "svg": "android/screens/svg/A72_devices-id-themes-install.svg",
+    "png": "android/screens/png/A72_devices-id-themes-install.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A73",
+    "route": "/devices/{id}/themes/result",
+    "title": "verificação pós-instalação",
+    "svg": "android/screens/svg/A73_devices-id-themes-result.svg",
+    "png": "android/screens/png/A73_devices-id-themes-result.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A74",
+    "route": "/devices/{id}/themes/history",
+    "title": "histórico de temas",
+    "svg": "android/screens/svg/A74_devices-id-themes-history.svg",
+    "png": "android/screens/png/A74_devices-id-themes-history.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A75",
+    "route": "/devices/{id}/themes/restore",
+    "title": "restauração de recurso confiável",
+    "svg": "android/screens/svg/A75_devices-id-themes-restore.svg",
+    "png": "android/screens/png/A75_devices-id-themes-restore.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  },
+  {
+    "id": "A76",
+    "route": "/devices/{id}/themes/recovery",
+    "title": "diagnóstico e assistência",
+    "svg": "android/screens/svg/A76_devices-id-themes-recovery.svg",
+    "png": "android/screens/png/A76_devices-id-themes-recovery.png",
+    "states": [
+      "loading",
+      "data",
+      "empty",
+      "offline",
+      "error",
+      "unsupported",
+      "stale"
+    ]
+  }
+]

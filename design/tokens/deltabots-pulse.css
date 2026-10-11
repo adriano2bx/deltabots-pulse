@@ -1,0 +1,19 @@
+:root {
+  --db-obsidian: #0A0A0B;
+  --db-bone: #F5F7FA;
+  --db-steel: #485560;
+  --db-cyan: #00D5D8;
+  --db-surface-1: #111214;
+  --db-border: #25282C;
+  --db-muted: #8A929A;
+  --db-good: #64D9A8;
+  --db-warning: #F0BA6A;
+  --db-danger: #F58A8A;
+  --db-font-ui: Inter, system-ui, sans-serif;
+  --db-font-display: "Geist Sans", Inter, system-ui, sans-serif;
+  --db-font-mono: "IBM Plex Mono", monospace;
+  --db-radius-sm: 8px; --db-radius-md: 12px; --db-radius-lg: 16px;
+  --db-space-1: 4px; --db-space-2: 8px; --db-space-3: 12px;
+  --db-space-4: 16px; --db-space-6: 24px; --db-space-8: 32px;
+}
+:focus-visible { outline:2px solid var(--db-cyan); outline-offset:3px; }

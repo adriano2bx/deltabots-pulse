@@ -1,0 +1,189 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://api.pulse.deltabots.com.br/schemas/theme-manifest.v1.json",
+  "title": "Wearable theme manifest v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "theme_id",
+    "release_id",
+    "display_name",
+    "version",
+    "artifact",
+    "target",
+    "publisher",
+    "published_at",
+    "expires_at",
+    "signature"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "const": 1
+    },
+    "theme_id": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 96
+    },
+    "release_id": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 96
+    },
+    "display_name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+(-[A-Za-z0-9.-]+)?$"
+    },
+    "description": {
+      "type": "string",
+      "maxLength": 500
+    },
+    "artifact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "format",
+        "sha256",
+        "size_bytes",
+        "r2_key"
+      ],
+      "properties": {
+        "format": {
+          "const": "res"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "size_bytes": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 8388608
+        },
+        "r2_key": {
+          "type": "string",
+          "minLength": 3,
+          "maxLength": 400
+        }
+      }
+    },
+    "target": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "device_family",
+        "variant_code",
+        "hardware_revisions",
+        "firmware_versions",
+        "min_driver_version",
+        "resource_format_version"
+      ],
+      "properties": {
+        "device_family": {
+          "const": "mi_band_3"
+        },
+        "variant_code": {
+          "enum": [
+            "wuhan",
+            "hankou",
+            "chongqing"
+          ]
+        },
+        "hardware_revisions": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "firmware_versions": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "resource_format_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "min_driver_version": {
+          "type": "string",
+          "minLength": 3
+        },
+        "locale": {
+          "type": "string"
+        },
+        "requires_font": {
+          "type": "boolean",
+          "default": false
+        }
+      }
+    },
+    "publisher": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "license",
+        "rights_review_id"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "license": {
+          "type": "string"
+        },
+        "rights_review_id": {
+          "type": "string"
+        }
+      }
+    },
+    "published_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "expires_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "signature": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "alg",
+        "key_id",
+        "value_base64url",
+        "canonicalization"
+      ],
+      "properties": {
+        "alg": {
+          "const": "Ed25519"
+        },
+        "key_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "value_base64url": {
+          "type": "string",
+          "minLength": 43
+        },
+        "canonicalization": {
+          "const": "RFC8785-excluding-signature"
+        }
+      }
+    }
+  }
+}

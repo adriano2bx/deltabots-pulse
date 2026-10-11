@@ -1,0 +1,5 @@
+@import url('../../tokens/deltabots-pulse.css');
+.pulse-button{background:var(--db-cyan);color:var(--db-obsidian);border:0;border-radius:12px;padding:12px 20px;font:600 14px Inter,sans-serif;min-height:44px;cursor:pointer}
+.pulse-button:disabled{opacity:.55;cursor:not-allowed}
+.pulse-panel{background:var(--db-surface-1);border:1px solid var(--db-border);border-radius:16px;padding:24px}
+.pulse-meta{font:600 12px "IBM Plex Mono",monospace;letter-spacing:.04em;color:var(--db-muted)}

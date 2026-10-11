@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "theme_id": "theme_pulse_mono",
+  "release_id": "release_lab_wuhan_001",
+  "display_name": "DeltaBots Pulse Mono",
+  "version": "1.0.0",
+  "description": "Exemplo estrutural para homologação; NÃO é um tema instalável.",
+  "artifact": {
+    "format": "res",
+    "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+    "size_bytes": 1024,
+    "r2_key": "themes/demo-only/pulse-mono.res"
+  },
+  "target": {
+    "device_family": "mi_band_3",
+    "variant_code": "wuhan",
+    "hardware_revisions": [
+      "V0.18.3.2"
+    ],
+    "firmware_versions": [
+      "2.3.0.6"
+    ],
+    "resource_format_version": "lab-unverified",
+    "min_driver_version": "1.0.0",
+    "locale": "pt-BR",
+    "requires_font": false
+  },
+  "publisher": {
+    "name": "DeltaBots (exemplo)",
+    "license": "DEMO-NOT-FOR-REDISTRIBUTION",
+    "rights_review_id": "not-approved"
+  },
+  "published_at": "2026-10-11T00:00:00Z",
+  "expires_at": "2027-01-01T00:00:00Z",
+  "signature": {
+    "alg": "Ed25519",
+    "key_id": "UNTRUSTED_DEMO_DO_NOT_INSTALL",
+    "value_base64url": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "canonicalization": "RFC8785-excluding-signature"
+  }
+}

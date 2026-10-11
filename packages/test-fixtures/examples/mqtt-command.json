@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "command_id": "cmd_test",
+  "session_id": "sess_test",
+  "equipment_id": "led_demo",
+  "seq": 58,
+  "action": "set_led",
+  "arguments": {
+    "value": true
+  },
+  "idempotency_key": "idem_test",
+  "expires_at": "2026-10-11T20:00:00.350Z",
+  "max_duration_ms": 1000
+}

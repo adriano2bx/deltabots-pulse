@@ -1,0 +1,146 @@
+[
+  {
+    "name": "clock",
+    "pixels": "80x128_portrait",
+    "installable": false,
+    "classification": "CONCEPT"
+  },
+  {
+    "name": "clock_alt",
+    "pixels": "80x128_portrait",
+    "installable": false,
+    "classification": "CONCEPT"
+  },
+  {
+    "name": "steps",
+    "pixels": "80x128_portrait",
+    "installable": false,
+    "classification": "CONCEPT"
+  },
+  {
+    "name": "heart",
+    "pixels": "80x128_portrait",
+    "installable": false,
+    "classification": "CONCEPT"
+  },
+  {
+    "name": "sleep",
+    "pixels": "80x128_portrait",
+    "installable": false,
+    "classification": "CONCEPT"
+  },
+  {
+    "name": "battery",
+    "pixels": "80x128_portrait",
+    "installable": false,
+    "classification": "CONCEPT"
+  },
+  {
+    "name": "cloud_online",
+    "pixels": "80x128_portrait",
+    "installable": false,
+    "classification": "CONCEPT"
+  },
+  {
+    "name": "cloud_offline",
+    "pixels": "80x128_portrait",
+    "installable": false,
+    "classification": "CONCEPT"
+  },
+  {
+    "name": "ble_connected",
+    "pixels": "80x128_portrait",
+    "installable": false,
+    "classification": "CONCEPT"
+  },
+  {
+    "name": "ble_lost",
+    "pixels": "80x128_portrait",
+    "installable": false,
+    "classification": "CONCEPT"
+  },
+  {
+    "name": "gesture_ready",
+    "pixels": "80x128_portrait",
+    "installable": false,
+    "classification": "CONCEPT"
+  },
+  {
+    "name": "gesture_armed",
+    "pixels": "80x128_portrait",
+    "installable": false,
+    "classification": "CONCEPT"
+  },
+  {
+    "name": "gesture_left",
+    "pixels": "80x128_portrait",
+    "installable": false,
+    "classification": "CONCEPT"
+  },
+  {
+    "name": "gesture_right",
+    "pixels": "80x128_portrait",
+    "installable": false,
+    "classification": "CONCEPT"
+  },
+  {
+    "name": "gesture_stop",
+    "pixels": "80x128_portrait",
+    "installable": false,
+    "classification": "CONCEPT"
+  },
+  {
+    "name": "command_sent",
+    "pixels": "80x128_portrait",
+    "installable": false,
+    "classification": "CONCEPT"
+  },
+  {
+    "name": "command_ack",
+    "pixels": "80x128_portrait",
+    "installable": false,
+    "classification": "CONCEPT"
+  },
+  {
+    "name": "command_fail",
+    "pixels": "80x128_portrait",
+    "installable": false,
+    "classification": "CONCEPT"
+  },
+  {
+    "name": "alert",
+    "pixels": "80x128_portrait",
+    "installable": false,
+    "classification": "CONCEPT"
+  },
+  {
+    "name": "checkin",
+    "pixels": "80x128_portrait",
+    "installable": false,
+    "classification": "CONCEPT"
+  },
+  {
+    "name": "syncing",
+    "pixels": "80x128_portrait",
+    "installable": false,
+    "classification": "CONCEPT"
+  },
+  {
+    "name": "update",
+    "pixels": "80x128_portrait",
+    "installable": false,
+    "classification": "CONCEPT"
+  },
+  {
+    "name": "temperature",
+    "pixels": "80x128_portrait",
+    "installable": false,
+    "classification": "CONCEPT"
+  },
+  {
+    "name": "recovery",
+    "pixels": "80x128_portrait",
+    "installable": false,
+    "classification": "CONCEPT"
+  }
+]

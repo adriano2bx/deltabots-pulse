@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://api.pulse.deltabots.com.br/schemas/theme-install-event.v1.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "event_id",
+    "attempt_id",
+    "device_id",
+    "release_id",
+    "seq",
+    "phase",
+    "status",
+    "observed_at"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "attempt_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "device_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "release_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "seq": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "phase": {
+      "enum": [
+        "download",
+        "validation",
+        "preflight",
+        "transfer",
+        "device_processing",
+        "reconnect",
+        "postcheck",
+        "recovery"
+      ]
+    },
+    "status": {
+      "enum": [
+        "IN_PROGRESS",
+        "VERIFIED_INSTALLED",
+        "TRANSFER_COMPLETE_UNVERIFIED",
+        "FAILED",
+        "RECOVERY_REQUIRED",
+        "CANCELLED",
+        "INTERRUPTED"
+      ]
+    },
+    "observed_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "confirmed_bytes": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "total_bytes": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "error_code": {
+      "type": "string",
+      "maxLength": 100
+    },
+    "evidence_ref": {
+      "type": "string",
+      "maxLength": 256
+    }
+  }
+}

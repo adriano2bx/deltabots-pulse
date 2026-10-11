@@ -1,0 +1,2166 @@
+{
+  "version": "1.0.1",
+  "files_count_before_manifest": 432,
+  "files": [
+    {
+      "path": "CLAUDE_VISUAL_HANDOFF.md",
+      "bytes": 1834,
+      "sha256": "46dffb9c69fcf574ecdf834295d0b29b0595f160f8860e3839f0b636665de424"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1747,
+      "sha256": "9c487c9567c7343067ef538645cc6a35cb3b677b71f9b23959f8ab4122a0caab"
+    },
+    {
+      "path": "android/compose/PulseTheme.kt",
+      "bytes": 1069,
+      "sha256": "d37033ca5d9a62bf67d5e28e3377c2371e05acb630544b307de514ae5c6500cd"
+    },
+    {
+      "path": "android/gallery.html",
+      "bytes": 13572,
+      "sha256": "3f305dd2fb9498932ede49bcdd119d2a259d04d94d3b15c0f2ba2d4e15a6b61d"
+    },
+    {
+      "path": "android/resources/drawable/ic_brand_master_REQUIRED.README",
+      "bytes": 127,
+      "sha256": "c3d38c817ea57047e269eb38e0d87a3d4839b92439ae5c96ed43d7719b53aae7"
+    },
+    {
+      "path": "android/resources/mipmap-anydpi-v26/ic_launcher.xml",
+      "bytes": 326,
+      "sha256": "91d489f960525b5a1ea59427b2dc6dec7a14647ff3a263869a94df2810c80b77"
+    },
+    {
+      "path": "android/resources/values/colors.xml",
+      "bytes": 482,
+      "sha256": "251cfa2b24bd267981b8d7584467da1ecac7f3a6c5e763c5aa0f036daf997c1e"
+    },
+    {
+      "path": "android/screens/index.json",
+      "bytes": 26418,
+      "sha256": "7d9bd04ad630384c13944c9cade966c09df7e03c1dec016efea2e6beee80be55"
+    },
+    {
+      "path": "android/screens/png/A01_splash.png",
+      "bytes": 29328,
+      "sha256": "6a2c8a1812b7cbb8b63174a577ae0f469ced0d3b41a02a7e605599adbdaca264"
+    },
+    {
+      "path": "android/screens/png/A02_welcome.png",
+      "bytes": 29813,
+      "sha256": "3ed2474830d927a16e46aa7919c75ded4915eae33759713aa2e1ea1b405684e3"
+    },
+    {
+      "path": "android/screens/png/A03_onboarding-privacy.png",
+      "bytes": 31048,
+      "sha256": "35f813e2a0f7ff8196347b60dbeb17b5e94f26c6bb88096c024fe4c8bc445b8c"
+    },
+    {
+      "path": "android/screens/png/A04_onboarding-gateway.png",
+      "bytes": 33078,
+      "sha256": "ab2baf99f043fdb95f4ce1af3e2163b405cd5d1f79a0ac910170b74997942bdc"
+    },
+    {
+      "path": "android/screens/png/A05_auth-login.png",
+      "bytes": 29442,
+      "sha256": "0321de6058a083d3c55fc926bef340e958f3f3cb7649fcd6970b0aaa61c48a02"
+    },
+    {
+      "path": "android/screens/png/A06_auth-register.png",
+      "bytes": 29512,
+      "sha256": "d6c797b60cbe71e914cac4d946797f5f2ba2b708e45f7503f5ea3efa50909fe9"
+    },
+    {
+      "path": "android/screens/png/A07_auth-reset.png",
+      "bytes": 29314,
+      "sha256": "d9404be8850e4d0090b47345ab45629244f5cf1b7a27b1f0d82d639786cb03e4"
+    },
+    {
+      "path": "android/screens/png/A08_auth-mfa.png",
+      "bytes": 30946,
+      "sha256": "09b7b1b1fc5804ced11ef5cdb783845b1555fa3841db4fc63fccced4187e44e4"
+    },
+    {
+      "path": "android/screens/png/A09_permissions.png",
+      "bytes": 33526,
+      "sha256": "ed6d0570531783a49b943f2c3fa9e77f10a6db9d8bda3ce2be509a77ab02caef"
+    },
+    {
+      "path": "android/screens/png/A10_devices-discover.png",
+      "bytes": 31576,
+      "sha256": "98bc9260ed1152ffde29cc974351be3b70c99b26144c31e94627e65287e5f79d"
+    },
+    {
+      "path": "android/screens/png/A11_devices-pair.png",
+      "bytes": 31763,
+      "sha256": "425286c787723066bda7e9376ec01e01bd31beff8b9ec40a479aa5bc84cfdfc9"
+    },
+    {
+      "path": "android/screens/png/A12_devices-capabilities.png",
+      "bytes": 33867,
+      "sha256": "09ea866eb159c03f328a75f9894a06be07209a720a8ff8d9757da84a878d42a3"
+    },
+    {
+      "path": "android/screens/png/A13_devices-sync-initial.png",
+      "bytes": 31960,
+      "sha256": "4cbd171e4a21a03c21f56394d9a51330ad1187e7705b191bde02f099286c64b2"
+    },
+    {
+      "path": "android/screens/png/A14_devices-connected.png",
+      "bytes": 31494,
+      "sha256": "95eebbc5e42e7e37a4d1f55f3280041d6e4a4e37b02cf59c6899603371121aec"
+    },
+    {
+      "path": "android/screens/png/A15_home.png",
+      "bytes": 36104,
+      "sha256": "6433ca6fee038da2df95515b7e5c5f4aad42eb33082201fa872ed9d4c671872a"
+    },
+    {
+      "path": "android/screens/png/A16_home-timeline.png",
+      "bytes": 36094,
+      "sha256": "840ff2800cf4654ce5ad0aa07d95bc6640bc6cbd3122d6f2bb2e9d6370b6acf7"
+    },
+    {
+      "path": "android/screens/png/A17_health-heart.png",
+      "bytes": 34027,
+      "sha256": "96cb23b60a937e98ccc859144bad52a75ce1f7e524f96ff1ee9ff6e4da91b5e0"
+    },
+    {
+      "path": "android/screens/png/A18_health-heart-details.png",
+      "bytes": 35647,
+      "sha256": "ce408f3d0fe8efcbdfe99784a18fa9966d596133a29795b6cf8f1e9836ce06f5"
+    },
+    {
+      "path": "android/screens/png/A19_health-activity.png",
+      "bytes": 34101,
+      "sha256": "0b7c0593ff42bbf668abae9ef3eac50f36ab954ee1345dcb76404483128b9842"
+    },
+    {
+      "path": "android/screens/png/A20_health-activity-session.png",
+      "bytes": 34376,
+      "sha256": "7de8df3ae2137c52dd3b4bb7aa6597c6b7fa4ed3334d652d23e1b63ef5fc48ee"
+    },
+    {
+      "path": "android/screens/png/A21_health-sleep.png",
+      "bytes": 33227,
+      "sha256": "056a6a5b615e77d0c18a7aa4d676f549630686695bf694e578df8d4b3b043a30"
+    },
+    {
+      "path": "android/screens/png/A22_health-sleep-detail.png",
+      "bytes": 33532,
+      "sha256": "1282996e19ebfc03bc72c50defd91c0de58e25f8e87f82828993cb6bca11b8f5"
+    },
+    {
+      "path": "android/screens/png/A23_health-trends.png",
+      "bytes": 37501,
+      "sha256": "158d934e7d3dab303354b8c77aba914f1e55fae2c2753a8f0c077f2ff6b862b4"
+    },
+    {
+      "path": "android/screens/png/A24_health-insights.png",
+      "bytes": 35263,
+      "sha256": "cf534a07fdd182d9ab657044e5775d86f5a64d2e06c0c0cc20ae503a7f62fd4d"
+    },
+    {
+      "path": "android/screens/png/A25_health-goals.png",
+      "bytes": 35683,
+      "sha256": "86864d72bdb90b16655aa8c60a91ba3aa9110bd229deeb8f1f6985dd0a837078"
+    },
+    {
+      "path": "android/screens/png/A26_gestures.png",
+      "bytes": 42460,
+      "sha256": "59bde2e4137bfd7f6f29e5666151e92f41d55ea4e40e3af9a44091b9b148d061"
+    },
+    {
+      "path": "android/screens/png/A27_gestures-live.png",
+      "bytes": 43934,
+      "sha256": "6b07f97d040143f6e7ae7bf69c3d4b2bf9caf4728e5258bc11d0db057667d440"
+    },
+    {
+      "path": "android/screens/png/A28_gestures-record.png",
+      "bytes": 43292,
+      "sha256": "05b883955397ea57bb2ff3f5204f8975405ea429331c2017bb698751f99de07e"
+    },
+    {
+      "path": "android/screens/png/A29_gestures-datasets.png",
+      "bytes": 43201,
+      "sha256": "171b91e11c6a3a7fb75dff5c01910fed0adc27cb9ba7dcd6f426e45429abab67"
+    },
+    {
+      "path": "android/screens/png/A30_gestures-train.png",
+      "bytes": 40671,
+      "sha256": "b564f48d8590b6d6ecff1c5e89e4425cab288a9fd3f3fee1883535d86ab136f9"
+    },
+    {
+      "path": "android/screens/png/A31_gestures-models.png",
+      "bytes": 41752,
+      "sha256": "1d1c13fb24e8127e90db764b02f491071bc357b027787cb2ff7292aa426817b5"
+    },
+    {
+      "path": "android/screens/png/A32_gestures-evaluate.png",
+      "bytes": 42671,
+      "sha256": "edf4a5940f57ce78d1aa81b79a269c02512b85533b1db24d1215d8a3e489b24c"
+    },
+    {
+      "path": "android/screens/png/A33_gestures-mappings.png",
+      "bytes": 43908,
+      "sha256": "69620e4d806f9fac8fec86e93b35e90001ede53fd0b5e6e34cccdb5a218a9591"
+    },
+    {
+      "path": "android/screens/png/A34_gestures-equipment.png",
+      "bytes": 43371,
+      "sha256": "0d9007f79d56dc05f7fb9fb413f84d5eb9c7357a643051f76253658c54839636"
+    },
+    {
+      "path": "android/screens/png/A35_gestures-control.png",
+      "bytes": 42377,
+      "sha256": "ba2580c1e724620d30b1c208ce2dae7b024c1bdf60888ee4b80a382f21c13b0c"
+    },
+    {
+      "path": "android/screens/png/A36_gestures-latency.png",
+      "bytes": 42957,
+      "sha256": "bffccd04a3bf3b75e682d4029bbbdbc547c098d9af02b00f430581fe960426f8"
+    },
+    {
+      "path": "android/screens/png/A37_automations.png",
+      "bytes": 43619,
+      "sha256": "f0a8c02e4cc55e14523327f8e4b47cc338e8fc6f5176e6a8909c7966194d7cfe"
+    },
+    {
+      "path": "android/screens/png/A38_automations-new.png",
+      "bytes": 43651,
+      "sha256": "9cda447bd3567f0dd206460b0f81207cf7e38734d4c7a09c7670e724f7249373"
+    },
+    {
+      "path": "android/screens/png/A39_automations-simulate.png",
+      "bytes": 42302,
+      "sha256": "ee9dc080ff1d074f84d546598d0c948840e6de35f193ea1915d6fb9416377b10"
+    },
+    {
+      "path": "android/screens/png/A40_automations-history.png",
+      "bytes": 44208,
+      "sha256": "08ba1f4c45b4372bb9aad2b2cfb2e9e2f608130a9ea53acc0a642e8302c53a8f"
+    },
+    {
+      "path": "android/screens/png/A41_notifications.png",
+      "bytes": 40990,
+      "sha256": "69f9f4ab8c9e5080f28d8009af46b30a0c38adf5004a0621eccd69bcb72aa4d4"
+    },
+    {
+      "path": "android/screens/png/A42_notifications-rules.png",
+      "bytes": 43812,
+      "sha256": "3dd97bc43756a0fe700ab745c41dd7d81882cf68ad1862177aa0c638bbe44357"
+    },
+    {
+      "path": "android/screens/png/A43_assistant.png",
+      "bytes": 40921,
+      "sha256": "ff08f362f1268ba58fadb84875fd6c9a44eb57822c0fd973ecd43907c0da02eb"
+    },
+    {
+      "path": "android/screens/png/A44_assistant-insight.png",
+      "bytes": 43524,
+      "sha256": "257e33cc2ae625093fa060ff96b03a103920f38b8df41f6a38db0666269629f0"
+    },
+    {
+      "path": "android/screens/png/A45_reports.png",
+      "bytes": 42111,
+      "sha256": "74733a98c3bab0fd67f3e0f99bc4ea274190aedcee3e836d518d5e7f6e6ae300"
+    },
+    {
+      "path": "android/screens/png/A46_reports-detail.png",
+      "bytes": 41464,
+      "sha256": "9a5ae871d0faf80e98de0d6e5a90a201b5d264b03cb86b3e36f2da893de7da89"
+    },
+    {
+      "path": "android/screens/png/A47_family.png",
+      "bytes": 43211,
+      "sha256": "7add0d5eb0dc46deb6f0f734d8e6055214d7252b436db1f025bcbf4644ec5179"
+    },
+    {
+      "path": "android/screens/png/A48_family-invite.png",
+      "bytes": 42883,
+      "sha256": "a825b4a7f94d23f630c1c9fb5f1a09aea5093f1c8a3b1723a9a4d4c84bb764e1"
+    },
+    {
+      "path": "android/screens/png/A49_family-care.png",
+      "bytes": 42702,
+      "sha256": "e86831b4d7643eb359980c4a5fa731ac7bfc85bffabb40fc06c9f7193da4d0cd"
+    },
+    {
+      "path": "android/screens/png/A50_safety-checkin.png",
+      "bytes": 43156,
+      "sha256": "116b3852edba2459c690c139a0152b181538f30e03d4ef970b1061f3216ca177"
+    },
+    {
+      "path": "android/screens/png/A51_devices.png",
+      "bytes": 43099,
+      "sha256": "ce9ef9646373f75dc3aa098c3e4b9ce0d6cf696b6bc305c4daebf1e63c9e1bcf"
+    },
+    {
+      "path": "android/screens/png/A52_devices-detail.png",
+      "bytes": 44231,
+      "sha256": "17ba5ac6b63459bee6a0d189609b720ec73c7af79d9027fc2b73a56fcb8a3724"
+    },
+    {
+      "path": "android/screens/png/A53_devices-diagnostics.png",
+      "bytes": 44414,
+      "sha256": "feb13cfabbb27bd393c85dc010607cb48587e10d1348aec368bce3bf3bdd74fb"
+    },
+    {
+      "path": "android/screens/png/A54_settings-profile.png",
+      "bytes": 41132,
+      "sha256": "621e3719a6b0829e0bf6f8490a142d1c1cfd0b7fbe7536c7956fd279f4ff71f6"
+    },
+    {
+      "path": "android/screens/png/A55_settings-privacy.png",
+      "bytes": 44087,
+      "sha256": "a6d45ca22a328211ebb98662d070aee75a96899a438aa4910161ec5f678f63fa"
+    },
+    {
+      "path": "android/screens/png/A56_settings-sync.png",
+      "bytes": 43335,
+      "sha256": "fbeb46902abbe2994d6d54c87edf6720d5d855e5dbde395544d44f7610b84a7d"
+    },
+    {
+      "path": "android/screens/png/A57_settings-notifications.png",
+      "bytes": 43556,
+      "sha256": "ecf1d33cc6ce739e772a92dfbf23c4d7977650fdf800e3804592ee580e50b805"
+    },
+    {
+      "path": "android/screens/png/A58_settings-appearance.png",
+      "bytes": 44392,
+      "sha256": "5ee1e9d09bcab82f981e36a5a6a32320aec1a2d76e1ede70641e8fbd8710cf3b"
+    },
+    {
+      "path": "android/screens/png/A59_settings-integrations.png",
+      "bytes": 43165,
+      "sha256": "15091632875330870ea8ce3815feeb85c93119063e6e25d2e886d456845f7fa9"
+    },
+    {
+      "path": "android/screens/png/A60_settings-security.png",
+      "bytes": 43157,
+      "sha256": "e0bd9bc25831f0c1b195dececd3140b9ff87a66defd78229bd08755f8c8a5702"
+    },
+    {
+      "path": "android/screens/png/A61_billing.png",
+      "bytes": 42393,
+      "sha256": "2cf5b4e72b591d1a2bacea241c8dae208e13b448b51faf7bfc97307bd65636b1"
+    },
+    {
+      "path": "android/screens/png/A62_support.png",
+      "bytes": 42269,
+      "sha256": "244b289ecff2060a877056a90c41f71afa529f3c974733213fd5773d8a9f3520"
+    },
+    {
+      "path": "android/screens/png/A63_support-diagnostics.png",
+      "bytes": 44019,
+      "sha256": "04c20221d16d03fb9f973a248ce3767503a26fff912bb7f3761d694272ee21f0"
+    },
+    {
+      "path": "android/screens/png/A64_about.png",
+      "bytes": 42453,
+      "sha256": "047daaff4624ecd784c47de816cf459fd73fc170085165d9e93868f2474ca145"
+    },
+    {
+      "path": "android/screens/png/A65_devices-id-appearance.png",
+      "bytes": 36123,
+      "sha256": "e1063366fcba927782c4849e98f14a04d01e7b292b7b23e5f065bb76485a058f"
+    },
+    {
+      "path": "android/screens/png/A66_devices-id-themes.png",
+      "bytes": 35881,
+      "sha256": "c0651e16e814c0bed1ff238bff688d8bb1575e3700e96692a27f64a926b893b1"
+    },
+    {
+      "path": "android/screens/png/A67_themes-id-preview.png",
+      "bytes": 35609,
+      "sha256": "9b010db0a159b0dca4ed125e0d5b15f8487f7b151fd667b483c8e94fb5218aac"
+    },
+    {
+      "path": "android/screens/png/A68_devices-id-themes-check.png",
+      "bytes": 36715,
+      "sha256": "a17e6027ac8daa5e97fcf120e36a8eb16cf7a38bda647084fc8afd7a412417a5"
+    },
+    {
+      "path": "android/screens/png/A69_devices-id-themes-download.png",
+      "bytes": 37159,
+      "sha256": "5aef8a9d1e7c053ec4470d876b2ace865bda5982836a665774347e3b0bbda7ae"
+    },
+    {
+      "path": "android/screens/png/A70_devices-id-themes-preflight.png",
+      "bytes": 36643,
+      "sha256": "642c0dc59265960ce020b937ac45c95e5f6d2a090c1990a2fccaf9f72c7f2229"
+    },
+    {
+      "path": "android/screens/png/A71_devices-id-themes-confirm.png",
+      "bytes": 37603,
+      "sha256": "03b1c86fe6f2fb7ddd1eb7452d0083cd4004398b8375d08c6d535d820deb0fe1"
+    },
+    {
+      "path": "android/screens/png/A72_devices-id-themes-install.png",
+      "bytes": 35569,
+      "sha256": "fa1bb0fe99fddc53aa52db76a99fcac470067ddbfc90be00e2d92fdba554dcc7"
+    },
+    {
+      "path": "android/screens/png/A73_devices-id-themes-result.png",
+      "bytes": 36706,
+      "sha256": "18d9727808f17ce10e386c2538918d2fa074d8fa8475e1a99daf7365d1dcfec7"
+    },
+    {
+      "path": "android/screens/png/A74_devices-id-themes-history.png",
+      "bytes": 35757,
+      "sha256": "64229d735f1ea6cb45950d242b49dd0a03589ead3e43cd33116f6e735b1aba20"
+    },
+    {
+      "path": "android/screens/png/A75_devices-id-themes-restore.png",
+      "bytes": 36674,
+      "sha256": "d4739d6adc9fdab0cdc9c326ab24af36a459ba2c10d856cef466e048ea9c037b"
+    },
+    {
+      "path": "android/screens/png/A76_devices-id-themes-recovery.png",
+      "bytes": 36392,
+      "sha256": "7557f918a27c456746f80c0f3280ab9f0660b38fbb85870ccf873874aa4ab70a"
+    },
+    {
+      "path": "android/screens/svg/A01_splash.svg",
+      "bytes": 4467,
+      "sha256": "fc7d64b318b8cce6c98489ff101eecb11687c79077b96407353f7259a07af321"
+    },
+    {
+      "path": "android/screens/svg/A02_welcome.svg",
+      "bytes": 4472,
+      "sha256": "39b6fd97ffee94c8b0f1a45745762c1f42fd1cfe620b2b1894b3c0e20612705d"
+    },
+    {
+      "path": "android/screens/svg/A03_onboarding-privacy.svg",
+      "bytes": 4490,
+      "sha256": "1978b0cc18cae197fc49d181a867cea9270d0f39d64e66bb8e31754777b28334"
+    },
+    {
+      "path": "android/screens/svg/A04_onboarding-gateway.svg",
+      "bytes": 4492,
+      "sha256": "93a91328a526c9a81ad45565a6e652a075228d3b11315f9d0d54f77e613b2c88"
+    },
+    {
+      "path": "android/screens/svg/A05_auth-login.svg",
+      "bytes": 4469,
+      "sha256": "20f24c13dcb56ed6b99fb59e2da8520947eda2a5704518b32486d9426869cea6"
+    },
+    {
+      "path": "android/screens/svg/A06_auth-register.svg",
+      "bytes": 4473,
+      "sha256": "f0154acc0a8cb329e14a16743e066aa3f2647d06450b76fd584e83348e833000"
+    },
+    {
+      "path": "android/screens/svg/A07_auth-reset.svg",
+      "bytes": 4468,
+      "sha256": "90e8ceebada321d431d9eee2fab332a3643ac8f0e305e05ad534b6e60e7ce904"
+    },
+    {
+      "path": "android/screens/svg/A08_auth-mfa.svg",
+      "bytes": 4478,
+      "sha256": "86baaed5949ddaa6e9f01a479c0e937a04441742b37a4ad9125ac989a81014b4"
+    },
+    {
+      "path": "android/screens/svg/A09_permissions.svg",
+      "bytes": 4499,
+      "sha256": "5370f78fde67198ad7eaa97c2ef6de5671cd23db8421da2c36b7c80f4d6d8026"
+    },
+    {
+      "path": "android/screens/svg/A10_devices-discover.svg",
+      "bytes": 4499,
+      "sha256": "745fbaa8b923766ebd34a500a7d478741991ea623667d03f37b684a402aedc68"
+    },
+    {
+      "path": "android/screens/svg/A11_devices-pair.svg",
+      "bytes": 4500,
+      "sha256": "eb17e8e58c60c51090473265123eb540e3b33b04504bef8cc8225e932a4aeb62"
+    },
+    {
+      "path": "android/screens/svg/A12_devices-capabilities.svg",
+      "bytes": 4511,
+      "sha256": "daa0c6ee77f411cd79e00422de3670f70081f51acf9d381331860e79e541670a"
+    },
+    {
+      "path": "android/screens/svg/A13_devices-sync-initial.svg",
+      "bytes": 4507,
+      "sha256": "77b6d6aebc9d46ffc1eaf5176a6d779c72bc483cf513afdaa36c6bcb8435fc54"
+    },
+    {
+      "path": "android/screens/svg/A14_devices-connected.svg",
+      "bytes": 4495,
+      "sha256": "0698b9770a6111f9fa7d265b170838d517cd21dddb5330836d3b2c416bf1abf1"
+    },
+    {
+      "path": "android/screens/svg/A15_home.svg",
+      "bytes": 6644,
+      "sha256": "e7dacc0fced9e991763732c0575d4e71fba622f0325d30d52f393e97fcaf0350"
+    },
+    {
+      "path": "android/screens/svg/A16_home-timeline.svg",
+      "bytes": 6661,
+      "sha256": "65b427f8eb0342f814561bc7192391b2e55abab0d2b97ec314f0b83d18286af7"
+    },
+    {
+      "path": "android/screens/svg/A17_health-heart.svg",
+      "bytes": 6650,
+      "sha256": "b978c21dd2bd35a42b623ec7891c5034e414f77c67186f5385644f2cadc0909a"
+    },
+    {
+      "path": "android/screens/svg/A18_health-heart-details.svg",
+      "bytes": 6674,
+      "sha256": "a2487c9a432dd325cbbbdffdcd7a670eb9536cac812c38712cc029275485fd60"
+    },
+    {
+      "path": "android/screens/svg/A19_health-activity.svg",
+      "bytes": 7207,
+      "sha256": "2420307ad0c810c979ff13d3c7e079ece17440eed87a8add4410e7b2cb426b73"
+    },
+    {
+      "path": "android/screens/svg/A20_health-activity-session.svg",
+      "bytes": 7206,
+      "sha256": "544593a0c8460967101f839e14670319020d5e5dda9be53d8bb2b284bf1eb901"
+    },
+    {
+      "path": "android/screens/svg/A21_health-sleep.svg",
+      "bytes": 6825,
+      "sha256": "f070fdae0bed32ea10f6c38d44986e98399177862a6945253b6893ec67b79a9c"
+    },
+    {
+      "path": "android/screens/svg/A22_health-sleep-detail.svg",
+      "bytes": 6806,
+      "sha256": "5f14f7003d94d359b639d9d9d9feef01d2f9d615dcda297fcfa23adc1b9cf4ae"
+    },
+    {
+      "path": "android/screens/svg/A23_health-trends.svg",
+      "bytes": 6669,
+      "sha256": "7430aafe9b452d6775152b9acaa909ccd9f87684baddc6894b173c8a5cbdd62a"
+    },
+    {
+      "path": "android/screens/svg/A24_health-insights.svg",
+      "bytes": 6652,
+      "sha256": "e71860046db094d3d54d6eb09cad6b96729a5627f0799de44b8eb75bc8e2220e"
+    },
+    {
+      "path": "android/screens/svg/A25_health-goals.svg",
+      "bytes": 6652,
+      "sha256": "57f3b0b735e40a65b83ba3a6e761098eb90cba3376a503794af5f449edb4b03c"
+    },
+    {
+      "path": "android/screens/svg/A26_gestures.svg",
+      "bytes": 10107,
+      "sha256": "9a92c2179ff3e2dc7d5c13522a07500a62eb46f8a0743db114181cf13b36fd19"
+    },
+    {
+      "path": "android/screens/svg/A27_gestures-live.svg",
+      "bytes": 10094,
+      "sha256": "4c310c9f910890b9b6b9e03e0439c7ecc6deccac1e0a6aee660cf2a55f3efd26"
+    },
+    {
+      "path": "android/screens/svg/A28_gestures-record.svg",
+      "bytes": 10094,
+      "sha256": "afe7670d5148b079b214597722528a41f45a5154e4cd9cd45f504cd0ed460226"
+    },
+    {
+      "path": "android/screens/svg/A29_gestures-datasets.svg",
+      "bytes": 10101,
+      "sha256": "11709ac9df94200e88fa7f535c1328e9ce076a78110b9870d2490c85ecc2c989"
+    },
+    {
+      "path": "android/screens/svg/A30_gestures-train.svg",
+      "bytes": 10086,
+      "sha256": "44cb52a99a743291dcf065f9a3f51b6f9ee2b2b43bb6c21f49009a4463c8a502"
+    },
+    {
+      "path": "android/screens/svg/A31_gestures-models.svg",
+      "bytes": 10092,
+      "sha256": "310ae72010565d9bf8c7637b960e098cd84a2d7514fb47030f9d3d1b043a9e44"
+    },
+    {
+      "path": "android/screens/svg/A32_gestures-evaluate.svg",
+      "bytes": 10100,
+      "sha256": "cd427d5a345236362d936d7714c97819d27b218a5cd1ad424ddc63fcc8539479"
+    },
+    {
+      "path": "android/screens/svg/A33_gestures-mappings.svg",
+      "bytes": 10112,
+      "sha256": "25cbda200c303b422ab4395357d6971d5a317fd02ab35fdc945e14f577db8815"
+    },
+    {
+      "path": "android/screens/svg/A34_gestures-equipment.svg",
+      "bytes": 10111,
+      "sha256": "b6773fcc4e218863aebf3c2619c35d0130266b77c90d968860100d13abdf192e"
+    },
+    {
+      "path": "android/screens/svg/A35_gestures-control.svg",
+      "bytes": 10108,
+      "sha256": "080f44c853d3e8e42812047a15c0eab1ea4d2a7e84b25d2a03a8377055a18240"
+    },
+    {
+      "path": "android/screens/svg/A36_gestures-latency.svg",
+      "bytes": 10122,
+      "sha256": "9ee59c87a91c9db6f1fc6cd87f77b1c823406ccf87713c3f93ff95e86fd93144"
+    },
+    {
+      "path": "android/screens/svg/A37_automations.svg",
+      "bytes": 6558,
+      "sha256": "7cf92d438af89e0b978653caa4877e2ab11269da776e2cf3cdea2753a0b6c5c2"
+    },
+    {
+      "path": "android/screens/svg/A38_automations-new.svg",
+      "bytes": 6559,
+      "sha256": "756f8c31796908cbcf5e99b5be9865b1dde24219d1b11a4d49ddc5b58fab615a"
+    },
+    {
+      "path": "android/screens/svg/A39_automations-simulate.svg",
+      "bytes": 6556,
+      "sha256": "5df7096ca924a18ec55e541925c8eb10dca8b58d752231c9cb77b3eb348f7f0a"
+    },
+    {
+      "path": "android/screens/svg/A40_automations-history.svg",
+      "bytes": 6569,
+      "sha256": "497aa65291de278e4d9cd5a8754d5e1818104988944bf28c9ddc262259548fd7"
+    },
+    {
+      "path": "android/screens/svg/A41_notifications.svg",
+      "bytes": 6540,
+      "sha256": "64d8356a553ac8b508cda07e61f969714846c63a8fbdcf5ab125c4a62b312355"
+    },
+    {
+      "path": "android/screens/svg/A42_notifications-rules.svg",
+      "bytes": 6563,
+      "sha256": "51ecf2070d99e65f9271bd6416c1fcb6d9f1b2afc2e299276c62d674ded3fe4f"
+    },
+    {
+      "path": "android/screens/svg/A43_assistant.svg",
+      "bytes": 6538,
+      "sha256": "e0c0408938134955d2bdd569e9a719ab6118be900453da852715cb904dfffab9"
+    },
+    {
+      "path": "android/screens/svg/A44_assistant-insight.svg",
+      "bytes": 6557,
+      "sha256": "2cd29b0b5cd4f10380cfb42081f4667d040169e360cb3d926e4c28ebb55a074a"
+    },
+    {
+      "path": "android/screens/svg/A45_reports.svg",
+      "bytes": 6540,
+      "sha256": "98d0ac7136a1e0fd66fe9344f5a07a09891882aa3b99f43b922bf1f4ddc13440"
+    },
+    {
+      "path": "android/screens/svg/A46_reports-detail.svg",
+      "bytes": 6543,
+      "sha256": "b31746d54dffa9ec4defbc198ce1bac8d4684b6c849f524a7f383224b800ad3f"
+    },
+    {
+      "path": "android/screens/svg/A47_family.svg",
+      "bytes": 6552,
+      "sha256": "d02028e43457829804f628a99d7a704b53126a904158a570ba2aaec8a2df7b2a"
+    },
+    {
+      "path": "android/screens/svg/A48_family-invite.svg",
+      "bytes": 6552,
+      "sha256": "87b7aa502ae8c163fef519082e5c5471c580931a16c9412fa188e057a971112c"
+    },
+    {
+      "path": "android/screens/svg/A49_family-care.svg",
+      "bytes": 6548,
+      "sha256": "01f27b7cdb31fc24d79c196fa3317fc2a17a353c37f6bbd7baea2bf1893aee7e"
+    },
+    {
+      "path": "android/screens/svg/A50_safety-checkin.svg",
+      "bytes": 6552,
+      "sha256": "e2bf53563d0422843eb436d2962531ab5de84e466367a89e374182c9b20ebec7"
+    },
+    {
+      "path": "android/screens/svg/A51_devices.svg",
+      "bytes": 6555,
+      "sha256": "0628521867e0af95f2504ce20235c086e00f70e876ec15fcf4eb1232b3a37ca4"
+    },
+    {
+      "path": "android/screens/svg/A52_devices-detail.svg",
+      "bytes": 6566,
+      "sha256": "10d08efd2fab4734fb62d2c949ada15d23f4323996d5262ed1a3636cde41ab75"
+    },
+    {
+      "path": "android/screens/svg/A53_devices-diagnostics.svg",
+      "bytes": 6569,
+      "sha256": "52f3d9d151d2dadee6f89513a7c85ad3edd7e9eb73618d8c53f36d0bac54eb72"
+    },
+    {
+      "path": "android/screens/svg/A54_settings-profile.svg",
+      "bytes": 6544,
+      "sha256": "e5b1a669585b014187b329b47af31d2908f3453b53179a475ea5ede6b48a4c48"
+    },
+    {
+      "path": "android/screens/svg/A55_settings-privacy.svg",
+      "bytes": 6558,
+      "sha256": "f44838ce70cca7cdb3700a66997915de96f2fe7497fd116bbc024377abd4800f"
+    },
+    {
+      "path": "android/screens/svg/A56_settings-sync.svg",
+      "bytes": 6558,
+      "sha256": "f53f0b8926e2895985ea4e51be30a343bf9f67aae8b8a06f5df09395bc918ac8"
+    },
+    {
+      "path": "android/screens/svg/A57_settings-notifications.svg",
+      "bytes": 6562,
+      "sha256": "b0ca50908a222183602a949f39caab0a0259afa669e752a62ca68243c3233cd5"
+    },
+    {
+      "path": "android/screens/svg/A58_settings-appearance.svg",
+      "bytes": 6574,
+      "sha256": "1533f0737b972bf98531e587f6d805ab95655083b67e43b268321509312eb243"
+    },
+    {
+      "path": "android/screens/svg/A59_settings-integrations.svg",
+      "bytes": 6555,
+      "sha256": "dc634bc0782d5aa49b9c508d1e585e53a4360c25928f3677303853630d3d7707"
+    },
+    {
+      "path": "android/screens/svg/A60_settings-security.svg",
+      "bytes": 6553,
+      "sha256": "c585281d26d07f43c3f0ac9d00f7a552473718edfbf22f4a4bfdda1e0d5c968b"
+    },
+    {
+      "path": "android/screens/svg/A61_billing.svg",
+      "bytes": 6545,
+      "sha256": "863707453b27549ae49e2719d3842fd12841e1ccc244b64e53a071889d8c1898"
+    },
+    {
+      "path": "android/screens/svg/A62_support.svg",
+      "bytes": 6545,
+      "sha256": "195a47e3410ced30fc6de21ed494aa83f8a72427f2c8a57e7f2dccc6709236c2"
+    },
+    {
+      "path": "android/screens/svg/A63_support-diagnostics.svg",
+      "bytes": 6562,
+      "sha256": "6468a395b851ae0cb9bfb39206400ec0837021b3c6cead75f7762477fb4d57dd"
+    },
+    {
+      "path": "android/screens/svg/A64_about.svg",
+      "bytes": 6542,
+      "sha256": "95a9b73ca1ba8e5c98669d214f2a4e532ada8954236bb26c17ac6ce78bbb36f3"
+    },
+    {
+      "path": "android/screens/svg/A65_devices-id-appearance.svg",
+      "bytes": 5223,
+      "sha256": "8f08e2bee9e1195a10a9ce5a1aa88a23fca735c16781df311a768949c7c4a4e1"
+    },
+    {
+      "path": "android/screens/svg/A66_devices-id-themes.svg",
+      "bytes": 5219,
+      "sha256": "6ab45853c9861dc9ded50c5be479766bdf38894eff94be3fd53431ec7266ccd2"
+    },
+    {
+      "path": "android/screens/svg/A67_themes-id-preview.svg",
+      "bytes": 5226,
+      "sha256": "3e4b9319e082042c6bcb3cda9f4a59665861ede1d970896d03b24adbfa560773"
+    },
+    {
+      "path": "android/screens/svg/A68_devices-id-themes-check.svg",
+      "bytes": 5239,
+      "sha256": "613b2b73ef0d9fb4695a495837c1bb395a2e79afe1543c4a93adfc35ee1100d0"
+    },
+    {
+      "path": "android/screens/svg/A69_devices-id-themes-download.svg",
+      "bytes": 5242,
+      "sha256": "9f7bcbc47d5a7ac0002b1d0ff77d9f004bc9db063c86d84a956b66bf7148a6e1"
+    },
+    {
+      "path": "android/screens/svg/A70_devices-id-themes-preflight.svg",
+      "bytes": 5236,
+      "sha256": "537018d7474727181184bac95b362def84bf5ce6171092d0ddb6143d2040a8e0"
+    },
+    {
+      "path": "android/screens/svg/A71_devices-id-themes-confirm.svg",
+      "bytes": 5247,
+      "sha256": "14bdf5a0568119908d8915c403a6929103f2a2d567e263972bcbfe325de00a29"
+    },
+    {
+      "path": "android/screens/svg/A72_devices-id-themes-install.svg",
+      "bytes": 5229,
+      "sha256": "c4f46937757049e812ed3f3b9c1e44b0366a338dbbf98d78b09f498a49dd2d81"
+    },
+    {
+      "path": "android/screens/svg/A73_devices-id-themes-result.svg",
+      "bytes": 5242,
+      "sha256": "6a5ef030c5045f3d6658db19e1e0051d94a6763edd33d6f644f199331ad9d7f1"
+    },
+    {
+      "path": "android/screens/svg/A74_devices-id-themes-history.svg",
+      "bytes": 5231,
+      "sha256": "997a94ab72161ad7f55ef78dca5bc6d21c8472c236bbef89957a4b648c1215b7"
+    },
+    {
+      "path": "android/screens/svg/A75_devices-id-themes-restore.svg",
+      "bytes": 5247,
+      "sha256": "5a7c1e347a94b226090859f06906d1d412f03dade58f902f304ac4bfd5845679"
+    },
+    {
+      "path": "android/screens/svg/A76_devices-id-themes-recovery.svg",
+      "bytes": 5240,
+      "sha256": "0917fa564d90239b296e8add41ba18eb9074c30ad7ba41ee71b14ac30d2bcfba"
+    },
+    {
+      "path": "brand/approved/PLACE_OFFICIAL_ASSETS_HERE.md",
+      "bytes": 917,
+      "sha256": "933f336b13f5e70164c454250b2d026a126408cf67734002e93108550035a500"
+    },
+    {
+      "path": "brand/brand-governance.md",
+      "bytes": 1167,
+      "sha256": "950ef79062932c571557ede18552770568800b2e606b87826504f1a6585833f0"
+    },
+    {
+      "path": "docs/DELIVERABLES_AND_LIMITATIONS.md",
+      "bytes": 1530,
+      "sha256": "fe7b8b7c1e7f8aceb7a2b5aa05424a73610cc192afe885d17b9228829fb41197"
+    },
+    {
+      "path": "docs/DESIGN_SYSTEM_GUIDELINES.md",
+      "bytes": 2756,
+      "sha256": "737ab14cd96e5c918d2bb0491ab3b46a0e11b49d4e94201fce0cb33e31639891"
+    },
+    {
+      "path": "docs/WEARABLE_GRAPHICS_PIPELINE.md",
+      "bytes": 911,
+      "sha256": "5dc4d9e6298bfef6a427c17836a52a3d9b8adf31b632abba97fb903d2502a801"
+    },
+    {
+      "path": "icons/png/activity_48.png",
+      "bytes": 683,
+      "sha256": "f9d80790353675345b0f80ce55f9891ce052aea38415b39021c3aa44a17bdd3b"
+    },
+    {
+      "path": "icons/png/arrow_48.png",
+      "bytes": 314,
+      "sha256": "4f5dc738fbc4888c6c1278ef4884107a2ed1067370c373a984d65c971b313816"
+    },
+    {
+      "path": "icons/png/battery_48.png",
+      "bytes": 364,
+      "sha256": "78a7a504eb342de2c30ee8a8629ac486adefd7e68805d1a4d755b7e08f569e93"
+    },
+    {
+      "path": "icons/png/bell_48.png",
+      "bytes": 705,
+      "sha256": "4c3e614070141ff250bd4ee23028d50beaa9f3b1edaf24077dc13dbd71578b71"
+    },
+    {
+      "path": "icons/png/calendar_48.png",
+      "bytes": 427,
+      "sha256": "c2fd6250284fe8e5fd93823abdd5b0d11b8b4b64a15e4c31a2fa5098cae6547b"
+    },
+    {
+      "path": "icons/png/chart_48.png",
+      "bytes": 343,
+      "sha256": "f1223794b16cf692e296c137cf01c88884417371cab5268f798f5f62e031faef"
+    },
+    {
+      "path": "icons/png/check_48.png",
+      "bytes": 345,
+      "sha256": "3e00c215e235c48ef95020e3a049056033f8519ea6e4c416420679a7662dd66c"
+    },
+    {
+      "path": "icons/png/cloud_48.png",
+      "bytes": 1059,
+      "sha256": "93b00e86363901fffc785fbd5a25c90f8a72f45daa84999eea3d700cb845087d"
+    },
+    {
+      "path": "icons/png/code_48.png",
+      "bytes": 825,
+      "sha256": "23e6e40341b729164a351afe3497fd3ac70c9bda07e74e91982ef9ad83157849"
+    },
+    {
+      "path": "icons/png/download_48.png",
+      "bytes": 487,
+      "sha256": "cfccc8a49d9cdf2792a324eb1b5b1ac097c54d23ec830bed747424f716e7c84c"
+    },
+    {
+      "path": "icons/png/hand_48.png",
+      "bytes": 1319,
+      "sha256": "82df4ec9536fcc60ea7f41b9c26ab793409eb1d834c454d7acacdad8bdca8d25"
+    },
+    {
+      "path": "icons/png/heart_48.png",
+      "bytes": 1323,
+      "sha256": "ec7f2fc66fc8819b80a2b0724696e51c6fd176636dc5506d382dec1a35dc684c"
+    },
+    {
+      "path": "icons/png/help_48.png",
+      "bytes": 1740,
+      "sha256": "918b2b0efef57483f20bdb3ef8b5a76fac311f9446679d85eab2064e0aad17db"
+    },
+    {
+      "path": "icons/png/link_48.png",
+      "bytes": 836,
+      "sha256": "22c30549bf1dd96a0441a005e12827d7def8f3fe625c607d9610b4cd2a15b3d5"
+    },
+    {
+      "path": "icons/png/lock_48.png",
+      "bytes": 786,
+      "sha256": "a396cfaa7a695fffd4d3ef73937ced7f45b3356f0965dfeb0d368609d94c9b02"
+    },
+    {
+      "path": "icons/png/mic_48.png",
+      "bytes": 1152,
+      "sha256": "3e67ef95d4c6e4e07dd38289107d952e88217866141e654479e1591cf86d3a72"
+    },
+    {
+      "path": "icons/png/play_48.png",
+      "bytes": 921,
+      "sha256": "1c0566b8358f5101ad2eedfb87c434b46b3c89fb2bf99fc66d2698b93a0a71f5"
+    },
+    {
+      "path": "icons/png/pulse_48.png",
+      "bytes": 804,
+      "sha256": "87e7e7090144a99be47c1243ad97c0ec2aef0c7ce5bc27ef92444667e0c00343"
+    },
+    {
+      "path": "icons/png/settings_48.png",
+      "bytes": 1004,
+      "sha256": "39d24496240ab59dfd343f02659df34f69930fa91b1ecdfd8afa376682353553"
+    },
+    {
+      "path": "icons/png/shield_48.png",
+      "bytes": 1014,
+      "sha256": "a0653b6519918c20ffd2b8feebb69345a90786836d0d6263c0f4b6114aba9288"
+    },
+    {
+      "path": "icons/png/sleep_48.png",
+      "bytes": 683,
+      "sha256": "e23f45a24c9ecbdc135c1c3a35fed4649bb21287f7cfaf3b6f0bd53cc0d49a7f"
+    },
+    {
+      "path": "icons/png/sliders_48.png",
+      "bytes": 411,
+      "sha256": "28737e2437f23fd5a60f035cb3777cfbb14a7f949a0c88319f9f72b8bd1c9ae8"
+    },
+    {
+      "path": "icons/png/spark_48.png",
+      "bytes": 1104,
+      "sha256": "43312ac35efb561be74b8c97f70744223d13149e8ae227e70241bddd6c61367a"
+    },
+    {
+      "path": "icons/png/steps_48.png",
+      "bytes": 913,
+      "sha256": "140dd332cdc9e97bad68d1c3612d9490bdc3efdd094b53988d9d1cdaa42b92fa"
+    },
+    {
+      "path": "icons/png/stop_48.png",
+      "bytes": 314,
+      "sha256": "93154b6f16ead8a1afe24a8709b07c43c21ed0c41910864f51d6580808222bfc"
+    },
+    {
+      "path": "icons/png/users_48.png",
+      "bytes": 1548,
+      "sha256": "5eb706e688b89a5558535058239f4b8f854d1984a33c3866f474bd15084ba9ee"
+    },
+    {
+      "path": "icons/png/watch_48.png",
+      "bytes": 783,
+      "sha256": "e9c5c550ea9aca22563dba3c74d3c39a89669574c40c455f336c6a1c938c7baf"
+    },
+    {
+      "path": "icons/png/wifi_48.png",
+      "bytes": 1154,
+      "sha256": "9b878ea35a10234d892716741801f8a6c2c86b69db1e95a806ba878a98e85f88"
+    },
+    {
+      "path": "icons/svg/activity.svg",
+      "bytes": 224,
+      "sha256": "79f43faf52a15e0911eca73b8a4416143566a051cb4286b1e07844e801180d1a"
+    },
+    {
+      "path": "icons/svg/arrow.svg",
+      "bytes": 223,
+      "sha256": "68f61845687290f3c0a302d8d2ce4d00a335468454882f0aee83790d03e1211d"
+    },
+    {
+      "path": "icons/svg/battery.svg",
+      "bytes": 227,
+      "sha256": "2401acb94eed55d2f8bea56847bbbdee8b0ccd38608036a0879f01777c55c602"
+    },
+    {
+      "path": "icons/svg/bell.svg",
+      "bytes": 240,
+      "sha256": "9d911f072b10f60d9114a0752ea63cb765317ec4fabfa30775004a462ad25831"
+    },
+    {
+      "path": "icons/svg/calendar.svg",
+      "bytes": 234,
+      "sha256": "52fdb700200a8bfa0d75f3049c779d5b4446f8c2810bdc767ad06bdb621348dd"
+    },
+    {
+      "path": "icons/svg/chart.svg",
+      "bytes": 237,
+      "sha256": "a72b80c27ea190a46458d61ccad29811829d0fabeaf62c113a5e3413964a5093"
+    },
+    {
+      "path": "icons/svg/check.svg",
+      "bytes": 216,
+      "sha256": "74beebf0b0131da34dd7e18c511a63a4e9404cee828c099b204df04860a09917"
+    },
+    {
+      "path": "icons/svg/cloud.svg",
+      "bytes": 261,
+      "sha256": "41ec1b61c434a4b15bc69a7ca32ee161bf71541471911ac94c9f7f38fa41b24f"
+    },
+    {
+      "path": "icons/svg/code.svg",
+      "bytes": 239,
+      "sha256": "c316073f4bb5a2cc3674677116dcc279a47072fa12066bc54efb185ad2423a3e"
+    },
+    {
+      "path": "icons/svg/download.svg",
+      "bytes": 231,
+      "sha256": "52334074714c17ca2d859e78fdab2d8055f181af21f220275c3e3eb48d18e398"
+    },
+    {
+      "path": "icons/svg/hand.svg",
+      "bytes": 305,
+      "sha256": "ca51e8bdaea48b3cf05af607e0d75aa8a83ee0af4c8a49c2acf3045a80018da5"
+    },
+    {
+      "path": "icons/svg/heart.svg",
+      "bytes": 282,
+      "sha256": "0f87a32f17869562e73de75ad9efd0cb1bc3f74d084220d530dbbd689f373f82"
+    },
+    {
+      "path": "icons/svg/help.svg",
+      "bytes": 277,
+      "sha256": "376e4a7ec7a5befc3c9ad3a1b836bfa0c6e12ed3141efc183eb9d769d04a2d59"
+    },
+    {
+      "path": "icons/svg/link.svg",
+      "bytes": 278,
+      "sha256": "b77a61d11d57e8541326b37b89dafa0d190b3a1fc1a79147afbdb7fcd095f4e0"
+    },
+    {
+      "path": "icons/svg/lock.svg",
+      "bytes": 240,
+      "sha256": "1e6a7b8891132ae23310e74e66c53594f86f8705d243c74f9b6eecd091ecbf7a"
+    },
+    {
+      "path": "icons/svg/mic.svg",
+      "bytes": 271,
+      "sha256": "b4805d86d335ef3999e789a2e922edc2f3532c723da4f2ba44e32fb034b8c4ee"
+    },
+    {
+      "path": "icons/svg/play.svg",
+      "bytes": 217,
+      "sha256": "c707ace6f4e8c66c5076ff95ad0f5844836d073b78996c7c5be5e737b51d8f81"
+    },
+    {
+      "path": "icons/svg/pulse.svg",
+      "bytes": 224,
+      "sha256": "a87aa7135f1ec1e799e15af2ce86e690920d9da1264439066f3270c1ecaf28d8"
+    },
+    {
+      "path": "icons/svg/settings.svg",
+      "bytes": 298,
+      "sha256": "f344f67eefeadc488617c0e7219ee3fa2870d3b376e501564c428bf861383efb"
+    },
+    {
+      "path": "icons/svg/shield.svg",
+      "bytes": 242,
+      "sha256": "08edba0a1c705d82b674258cf8e5672de85c30adcd136200cf0b6e9e96a9d602"
+    },
+    {
+      "path": "icons/svg/sleep.svg",
+      "bytes": 241,
+      "sha256": "c207664c74039958e78c184bfd46c186d96b03ff29d153915917d027a5337c92"
+    },
+    {
+      "path": "icons/svg/sliders.svg",
+      "bytes": 244,
+      "sha256": "4c4942a16c2e9b117e37c0d7986e963b399a19e73255c66fce15fa849eb07807"
+    },
+    {
+      "path": "icons/svg/spark.svg",
+      "bytes": 259,
+      "sha256": "9b88163c4943fd37925fda4f8f2a6ffbbb4623846aa6dd528837284395df9e21"
+    },
+    {
+      "path": "icons/svg/steps.svg",
+      "bytes": 254,
+      "sha256": "34958c210a46fac3951ab6aae8d6b9fc4c6fc8ff65c78df0aa34a67d4f046408"
+    },
+    {
+      "path": "icons/svg/stop.svg",
+      "bytes": 215,
+      "sha256": "83b5c9b0f5cf5219dffaba2b3a8555d1799181e246a4814896464cd0c7f0d272"
+    },
+    {
+      "path": "icons/svg/users.svg",
+      "bytes": 300,
+      "sha256": "0cd8089ed35f5dc943fdf44867ab42f1b3bec0c27ecbc3fce08bd8a45175f55e"
+    },
+    {
+      "path": "icons/svg/watch.svg",
+      "bytes": 302,
+      "sha256": "b554152fa396a4a41fa326290aacab147bdff029b978ddd9a1cc955adcbfda4a"
+    },
+    {
+      "path": "icons/svg/wifi.svg",
+      "bytes": 271,
+      "sha256": "5270aee6df6f05c8b0fb2e32f58c9df158169218ffd6eee17ea25e58d56959d2"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1788,
+      "sha256": "b563e8646d2c2034844ea9e7682626ce58fbbcb664778e08cbb3aa91a555dc10"
+    },
+    {
+      "path": "preview/ANDROID-01-24.png",
+      "bytes": 227344,
+      "sha256": "9149a1e4aed98ad81db99b7b70f1041133264d9d0338af243d67fc25de3e3f2f"
+    },
+    {
+      "path": "preview/ANDROID-25-48.png",
+      "bytes": 269085,
+      "sha256": "1f30d9d9acf8b6c726eef984fcf01aee5bd6e5b46a02a12a501032d5c3b10741"
+    },
+    {
+      "path": "preview/ANDROID-49-76.png",
+      "bytes": 223745,
+      "sha256": "7c289284e64b3d614a8d043f908271b0699d6e585def3576c2fc3ebd3c95b585"
+    },
+    {
+      "path": "preview/WEARABLE-MONOCROMATICO.png",
+      "bytes": 70933,
+      "sha256": "c91dd90461ca45a1a521cbdbef2a56a27f67e0e0037fb01f98951795fcf8b250"
+    },
+    {
+      "path": "preview/WEB-01-12.png",
+      "bytes": 230081,
+      "sha256": "e38a352298899524b7f2247370bc77c8b72cb767b0f46df9202fa3c47d2759fb"
+    },
+    {
+      "path": "preview/WEB-13-24.png",
+      "bytes": 247471,
+      "sha256": "191370a849d04f551288f2ab0a008f26650a8ca520458ee71a7d8ccfa233d501"
+    },
+    {
+      "path": "preview/WEB-25-36.png",
+      "bytes": 234566,
+      "sha256": "ab52e7c1eac84dcd1b37aa22cd0d8ccff8e5aa3b3c1319bd4febe2c980ba36f0"
+    },
+    {
+      "path": "preview/WEB-37-48.png",
+      "bytes": 229843,
+      "sha256": "ec4c7ec875209aec8770f583d8b590df01a26bcf7fa9a6b03e2faf01b49b3247"
+    },
+    {
+      "path": "preview/WEB-49-58.png",
+      "bytes": 205056,
+      "sha256": "1c71ff6a9729e16e9df114f6516f5ebdf63d4a8dd0a85c79a118f7a04f0b72bd"
+    },
+    {
+      "path": "tokens/deltabots-pulse.css",
+      "bytes": 667,
+      "sha256": "5402639b81a5a46688dc7522840d93684ff7a0178f9824855158d1428d92628c"
+    },
+    {
+      "path": "tokens/deltabots-pulse.ts",
+      "bytes": 500,
+      "sha256": "17d0a5b0c8db42b75ded509180bc214e986b90fa5117275178437fe2e114ad18"
+    },
+    {
+      "path": "tokens/design-tokens.json",
+      "bytes": 1019,
+      "sha256": "5de4b1f20050950756812c26d4979d4580df4fa9f97a7650ac2fcb706ece4bc9"
+    },
+    {
+      "path": "tools/apply_official_logo.py",
+      "bytes": 3412,
+      "sha256": "3835cebcc1234438a036f901441c9ce4d3166daedb156223e89c2abd206d8e2d"
+    },
+    {
+      "path": "tools/validate_identity.py",
+      "bytes": 953,
+      "sha256": "09d81ec11b0ff2c4a6eef559846a8213c295c3a338f1528a652cda263530e424"
+    },
+    {
+      "path": "wearable/mi-band-3/README.md",
+      "bytes": 1313,
+      "sha256": "60239e990c45de51924085f75bf6f2368195953080075e989471e89dfd5bfcea"
+    },
+    {
+      "path": "wearable/mi-band-3/RESOURCE_MAPPING_TEMPLATE.csv",
+      "bytes": 732,
+      "sha256": "526ff7291608fa286d9ef858d956b276120a32d958a2b2b7e82a2f42375310b2"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/png-1bit/alert.png",
+      "bytes": 334,
+      "sha256": "7d5857ff82c8795d73fb19ceedef210ce00e1202754679f41be38b5c68ea0712"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/png-1bit/battery.png",
+      "bytes": 370,
+      "sha256": "b62150493bcdae263ad3b7689ab7cba8586930410a87bc4f159e443ab96e04f1"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/png-1bit/ble_connected.png",
+      "bytes": 343,
+      "sha256": "fe03e1ab83029613edb0a93303521fadb4d34e5ca36bfd48e98c93aa05e81e64"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/png-1bit/ble_lost.png",
+      "bytes": 323,
+      "sha256": "e157ed1890aecb25cea4b1444971f6fce080dbc39f36693934b6b9b747087e44"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/png-1bit/checkin.png",
+      "bytes": 336,
+      "sha256": "a6d945fae75b3a08d4ab3ca0d2007dfbcff88c1292810386775aef30eacc7772"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/png-1bit/clock.png",
+      "bytes": 354,
+      "sha256": "080b914ad9191fe3e00fd414db45d077c6adbc03049f53caef0577604ac0d75e"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/png-1bit/clock_alt.png",
+      "bytes": 360,
+      "sha256": "9338949227915b4c0b430fb405d007256c59016c8f910c8093dcf7f1d91f87fb"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/png-1bit/cloud_offline.png",
+      "bytes": 326,
+      "sha256": "25a2351187c1bda7c89b17b5dcc537692d2faa5159122c1e7f73cfeace478ba8"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/png-1bit/cloud_online.png",
+      "bytes": 332,
+      "sha256": "4c313bcad2ede178f6029a90fbaedb4fc011bab2e72f52f21b5ae34e7dcaea56"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/png-1bit/command_ack.png",
+      "bytes": 355,
+      "sha256": "73c3d0981c3de893a54b67b596565b67541bf0756fac2c685be52cbf2fd57fef"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/png-1bit/command_fail.png",
+      "bytes": 359,
+      "sha256": "75d59bd928babd374ad5b9a917653ab3a1f9f56c8bf6ca3d989986e00b0fd6d1"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/png-1bit/command_sent.png",
+      "bytes": 337,
+      "sha256": "30273e399e8a51540a75896fb0aa5d017c775c91d0a2327b775034bb065f84c5"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/png-1bit/gesture_armed.png",
+      "bytes": 356,
+      "sha256": "9a78dbbdc67419e9d3f2ac35e5b78c72fd34c8051e89454a86bf6bacfc56b7c0"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/png-1bit/gesture_left.png",
+      "bytes": 361,
+      "sha256": "4f864d91091dbb43387194021c78dd50c0f015a9a200d688a86f5244d0dc865e"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/png-1bit/gesture_ready.png",
+      "bytes": 386,
+      "sha256": "652efe2f12d0eb02937d40a0cff5439b5c63bde2c71cf655f12b8de645ea5143"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/png-1bit/gesture_right.png",
+      "bytes": 336,
+      "sha256": "b76589113b2e471b82fa81e41c29b7c49c10968aeb618fd6842e8f5b0fe6203f"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/png-1bit/gesture_stop.png",
+      "bytes": 343,
+      "sha256": "cdfe39fa631883b3df2a7054a2a52954e6899497576987c56380b2336c6f5533"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/png-1bit/heart.png",
+      "bytes": 392,
+      "sha256": "5a559b0b29597ef590b3da9c6fee418b8b156cf735366d175169ed9706b7fe17"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/png-1bit/recovery.png",
+      "bytes": 330,
+      "sha256": "213a39a431cbf12a981f1f2b4372ef381b78d400f32960b5c21d0ac95994e349"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/png-1bit/sleep.png",
+      "bytes": 357,
+      "sha256": "4ccb9056f3777fe21e9457848bdec1e52181a4c989dc5f9e86358a33f100d6fa"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/png-1bit/steps.png",
+      "bytes": 387,
+      "sha256": "f91920c40de82e9b70db534b554a1e42412f1ee089461e195bfda5d6aa312e02"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/png-1bit/syncing.png",
+      "bytes": 365,
+      "sha256": "8b78202466e899fb82773b81a77ef474c14e98038c97bc280e778e50a246f5b4"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/png-1bit/temperature.png",
+      "bytes": 356,
+      "sha256": "b4dc846e96c8660810d79e6649f5f4fefd8820a159f501542bd9f02e041ef20d"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/png-1bit/update.png",
+      "bytes": 332,
+      "sha256": "7bc6c02b916d9f10af7a8c106c606d5c42a3f4901e2e623d078835c02e979c35"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/svg/alert.svg",
+      "bytes": 27378,
+      "sha256": "23c6657c93069f3b7f5ee1e3fdc81c93b3033ca4d831bba002cf1a4c2280f7ac"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/svg/battery.svg",
+      "bytes": 25920,
+      "sha256": "c1791add2f31199f9ef987495ffb1ee3413f216d434fc8e5c73053c51074d892"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/svg/ble_connected.svg",
+      "bytes": 27962,
+      "sha256": "28cb7d6fc5bbeaad1c0b25b720f294ed41a1dd2f7ece48dd95c8920eea3c7f96"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/svg/ble_lost.svg",
+      "bytes": 26202,
+      "sha256": "d29d6452799cbd3fed0e045b0d0bdc4f6b37fa78bd045a281639dd6275b00be4"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/svg/checkin.svg",
+      "bytes": 26903,
+      "sha256": "b9f12f75c91f2da76baa64de97451e27aecb9e215c767a6934d59248d0ab5599"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/svg/clock.svg",
+      "bytes": 26267,
+      "sha256": "c09f6d3a78865d613fbe0f023a45fb481d5517080ff5e4069894dbe3d4037417"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/svg/clock_alt.svg",
+      "bytes": 24823,
+      "sha256": "47476ebeedd6719396ad57f3fb523f00331364bf28ada068dd22e3f2fd249b96"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/svg/cloud_offline.svg",
+      "bytes": 24848,
+      "sha256": "1af4b9edcff619d2355bb55c8003674453f74c4ad4e7ad71937376b05c9ef5e5"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/svg/cloud_online.svg",
+      "bytes": 27465,
+      "sha256": "e2fdeb22dd6c24bd6d38df67b7ec43106a3aa6722f37c991d6bd797004a62e26"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/svg/command_ack.svg",
+      "bytes": 28994,
+      "sha256": "ebca7dd77200af07e8ace77c967a9b410c5160f30c79a68c3a4fecf4a6aa0a60"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/svg/command_fail.svg",
+      "bytes": 28030,
+      "sha256": "56f375a117dedf363bc6e5269989fc809bf22c9c9d9095d79c4c0de7a18bfe08"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/svg/command_sent.svg",
+      "bytes": 29742,
+      "sha256": "994ba8dc32b531ffc146d247c13a387145a0506eae0b11a386252c7d8d93898b"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/svg/gesture_armed.svg",
+      "bytes": 30931,
+      "sha256": "fd83c9a89905bd077c3039378201eb6c8eddad208835d53470277ef6ee009404"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/svg/gesture_left.svg",
+      "bytes": 25563,
+      "sha256": "3387d6f55852a2359efb549953797215544e6aff46f96da8a1e1669d6ba2db75"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/svg/gesture_ready.svg",
+      "bytes": 28776,
+      "sha256": "0ef3b6dc0d5f338f0cc094f912deae15ae967fe0104f932141b95207f550bb79"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/svg/gesture_right.svg",
+      "bytes": 25770,
+      "sha256": "7dea6c4c249aac3f25be0ab7244a986428afe8e0dc3c1a78338f292d3c6ab0d2"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/svg/gesture_stop.svg",
+      "bytes": 29012,
+      "sha256": "20682f1074a186ca79e9b09f3d7c9153910e84484f43e96504b39d7f2762dc1f"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/svg/heart.svg",
+      "bytes": 24844,
+      "sha256": "b7d2cc716fbcc5950f59e5f26e93521133762d820625468d841170abc4ba9078"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/svg/recovery.svg",
+      "bytes": 27138,
+      "sha256": "d96eb2814ca73675fcc68cd719ceb76a088721161cc9cfac825c6091a238701c"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/svg/sleep.svg",
+      "bytes": 25274,
+      "sha256": "2df0426321f27f50e4d9aa7f27ea7272244e0eb19fd6242845fc5492c2b7cae0"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/svg/steps.svg",
+      "bytes": 28274,
+      "sha256": "0d1902e861b2188d2065ca92c2fa0980b07b214049a63aea5c584d2987eef4a2"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/svg/syncing.svg",
+      "bytes": 27650,
+      "sha256": "20f9ff49a1e606a4f841a2e655119f78f8a229b657561845650f3563f6b042db"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/svg/temperature.svg",
+      "bytes": 28034,
+      "sha256": "1e5d38f52e63d03dac2446650a92ffc72553a1ea6a68dfb6bfcdee714c0eb461"
+    },
+    {
+      "path": "wearable/mi-band-3/monochrome-80x128/svg/update.svg",
+      "bytes": 28187,
+      "sha256": "a28db0e04d01b7429c4688997f3cf04c68e4d4f7183a1a5160fad8d4c9a7f707"
+    },
+    {
+      "path": "wearable/mi-band-3/preview-6x/alert.png",
+      "bytes": 3387,
+      "sha256": "6d0bbd9437c9eeb428a60ddfb316d116c19a367453fe0813805dc8dd9e5fc724"
+    },
+    {
+      "path": "wearable/mi-band-3/preview-6x/battery.png",
+      "bytes": 3500,
+      "sha256": "b5d387a2d2048a9610af1e24488559d8f14480d44cd5761f58335b48222b72f3"
+    },
+    {
+      "path": "wearable/mi-band-3/preview-6x/ble_connected.png",
+      "bytes": 3419,
+      "sha256": "7d4fa537f4240ede9849426dad65b4239dc013d6be746795b5a3c0b31fbdac4e"
+    },
+    {
+      "path": "wearable/mi-band-3/preview-6x/ble_lost.png",
+      "bytes": 3358,
+      "sha256": "2d6a19e6d5545874c2aad61f7c3b76e94b51e5c24ed8e294affbffa01b765686"
+    },
+    {
+      "path": "wearable/mi-band-3/preview-6x/checkin.png",
+      "bytes": 3395,
+      "sha256": "0bd66af3c45a94d557828dff09e965cc08fde7d7073a95cd9ad3b8727c8cf572"
+    },
+    {
+      "path": "wearable/mi-band-3/preview-6x/clock.png",
+      "bytes": 3466,
+      "sha256": "2f9d53ec8656e09fced3a2618f4c78251943dabc372f679c1ec275fc0723f2c2"
+    },
+    {
+      "path": "wearable/mi-band-3/preview-6x/clock_alt.png",
+      "bytes": 3487,
+      "sha256": "af5d4937f6ed41ac07471c2a8c5e9b88e723a4d83621ead03593ec93fa1cfb32"
+    },
+    {
+      "path": "wearable/mi-band-3/preview-6x/cloud_offline.png",
+      "bytes": 3325,
+      "sha256": "e660801d28eded419f1394a8ad96ad2506a3a3c3dcf956997b07d46e3eda9387"
+    },
+    {
+      "path": "wearable/mi-band-3/preview-6x/cloud_online.png",
+      "bytes": 3332,
+      "sha256": "0ed798cd58ecc08af0a7b1df4fa4103bf4f8ecdac95a73f0d7ab0acfa4906eb6"
+    },
+    {
+      "path": "wearable/mi-band-3/preview-6x/command_ack.png",
+      "bytes": 3453,
+      "sha256": "3c97811e7828b79dd0abdca4bc4c9aacb50d6e239d907ad4d27bc837f6da63ad"
+    },
+    {
+      "path": "wearable/mi-band-3/preview-6x/command_fail.png",
+      "bytes": 3437,
+      "sha256": "da43135adfa590b23cf34cc690b398d1e08b8fae25420d86fb509ec9b21b0018"
+    },
+    {
+      "path": "wearable/mi-band-3/preview-6x/command_sent.png",
+      "bytes": 3405,
+      "sha256": "760a257d044b7559c78f36b2cba75739185bee3f8531c480d8dbc47ad3460744"
+    },
+    {
+      "path": "wearable/mi-band-3/preview-6x/gesture_armed.png",
+      "bytes": 3504,
+      "sha256": "9fddac8cba3759570582105ac216432d33c8096c5d98c42c642c9c46a4d75f12"
+    },
+    {
+      "path": "wearable/mi-band-3/preview-6x/gesture_left.png",
+      "bytes": 3437,
+      "sha256": "9d51c8dde6ba660343ac9ad771c49a6d6ba66c633cef901682356172ff4e5e2b"
+    },
+    {
+      "path": "wearable/mi-band-3/preview-6x/gesture_ready.png",
+      "bytes": 3543,
+      "sha256": "f23d8689bccfb4c2f78e36885b7a434795b30dd6728a1cff7410b3eefe20b4c6"
+    },
+    {
+      "path": "wearable/mi-band-3/preview-6x/gesture_right.png",
+      "bytes": 3371,
+      "sha256": "8120ae1c252a0a4a609771d905d2873d7f395832d4c00da61cb36afc2ce3b96b"
+    },
+    {
+      "path": "wearable/mi-band-3/preview-6x/gesture_stop.png",
+      "bytes": 3432,
+      "sha256": "0280d2e5bfb003d25ec045c76c14f1b131e3caedd3573d69694e5145a07b7a86"
+    },
+    {
+      "path": "wearable/mi-band-3/preview-6x/heart.png",
+      "bytes": 3467,
+      "sha256": "9dbe5d037cec1f3d0ea64166f2363a82ca844012273688ecb34a93a566ef8a13"
+    },
+    {
+      "path": "wearable/mi-band-3/preview-6x/recovery.png",
+      "bytes": 3380,
+      "sha256": "c28b3e78c5f51c7d4fe46ad282176eb00f09f05e627d3b52cb58fbe8d2ae735a"
+    },
+    {
+      "path": "wearable/mi-band-3/preview-6x/sleep.png",
+      "bytes": 3447,
+      "sha256": "84faf3a8de5a2451cad091a554e4d82aca5e958b2efd2ca91ac912729f94438d"
+    },
+    {
+      "path": "wearable/mi-band-3/preview-6x/steps.png",
+      "bytes": 3557,
+      "sha256": "237041fba9c139c6e9b2f4338fe1ff034c342f86c1b2bb6d994664d2b821176c"
+    },
+    {
+      "path": "wearable/mi-band-3/preview-6x/syncing.png",
+      "bytes": 3500,
+      "sha256": "c0b25c4c68ad5fbf4e479ed6fa65cfe7275d69255ca5c2bf4c9cdb55fa7759a4"
+    },
+    {
+      "path": "wearable/mi-band-3/preview-6x/temperature.png",
+      "bytes": 3485,
+      "sha256": "c051aba462c1415c366ea9db275c97077a5014db285f9fd26c3a5e6f5a7a7c07"
+    },
+    {
+      "path": "wearable/mi-band-3/preview-6x/update.png",
+      "bytes": 3395,
+      "sha256": "c6f7333690bcd1eff6a802b67f57dad85fbd3392c49e0bb287c6669ab32d444f"
+    },
+    {
+      "path": "wearable/mi-band-3/screens.json",
+      "bytes": 3010,
+      "sha256": "350d2231203b183532f443f91354bc653fe43bc7a951fb2bbd41990560a1c5c8"
+    },
+    {
+      "path": "web/components/BrandMark.tsx",
+      "bytes": 409,
+      "sha256": "d5bb266886c5aa5948f76f3a5d3267ba425b2dcd0333ed964673fedd0296a209"
+    },
+    {
+      "path": "web/components/PulseButton.tsx",
+      "bytes": 257,
+      "sha256": "5993534d1d4180ce5cdc1cbb7c270ab523417ec4754b73d68d6e38f18dc895cf"
+    },
+    {
+      "path": "web/components/pulse-components.css",
+      "bytes": 485,
+      "sha256": "7afe647fce4b4261a6713f79e6087b4f04f1e1679727ff7342514bdd7b416ee0"
+    },
+    {
+      "path": "web/gallery.html",
+      "bytes": 10177,
+      "sha256": "c3a58cfca664b22b94f84d529dc644e2df791f893686ce8f7893b5b2cdacc8a7"
+    },
+    {
+      "path": "web/screens/index.json",
+      "bytes": 9324,
+      "sha256": "8b124b7a63a36a6bf5b3c5b62256b2b5a109891815110753198b939c357c2211"
+    },
+    {
+      "path": "web/screens/png/W01_login.png",
+      "bytes": 71907,
+      "sha256": "13f1fea4253594003fa035c59fed68da2231428b17c1e022ada92e418f56f860"
+    },
+    {
+      "path": "web/screens/png/W02_register.png",
+      "bytes": 73688,
+      "sha256": "0c89af51ce30b8cf6810799224b36d829eba4db7ae31693491637e346484c36e"
+    },
+    {
+      "path": "web/screens/png/W03_mfa.png",
+      "bytes": 71466,
+      "sha256": "c74734849dc3a855d4fa5d3e3309ac036d8dc3614fc8c7133c713bb11e02ec78"
+    },
+    {
+      "path": "web/screens/png/W04_reset.png",
+      "bytes": 72105,
+      "sha256": "9e664fb868b61ee2c9de9336eda122039f428bf3a8d2a4076b3793f1b5de7087"
+    },
+    {
+      "path": "web/screens/png/W05_dashboard.png",
+      "bytes": 75463,
+      "sha256": "8e25bc4c1107d8988dcfce1997d46f4595eb9ab338526cbc82c4d39d615e023c"
+    },
+    {
+      "path": "web/screens/png/W06_health-heart.png",
+      "bytes": 72533,
+      "sha256": "773fbb2badb3e47f9d0a386feb6616d5969b0e868a6c5953292df2f06ffa7272"
+    },
+    {
+      "path": "web/screens/png/W07_health-activity.png",
+      "bytes": 68333,
+      "sha256": "f33ec887922d5cf4a8bed4bfb07d5263d1d4d23c00c14bfccb4cfab90ee4c19f"
+    },
+    {
+      "path": "web/screens/png/W08_health-sleep.png",
+      "bytes": 66668,
+      "sha256": "5413f5fac019541e26073c07f13bf4b2cab29d43b6722c61d09386174a233ccc"
+    },
+    {
+      "path": "web/screens/png/W09_health-trends.png",
+      "bytes": 73215,
+      "sha256": "cdfd4d04dcac9f598e8e29a9b049147ddbe9c697b52329daadef812794ea168a"
+    },
+    {
+      "path": "web/screens/png/W10_live.png",
+      "bytes": 76127,
+      "sha256": "d69c4c0ac53e366b0aef62fe3c410acfc3265137bf013ac4402a42b2ded18644"
+    },
+    {
+      "path": "web/screens/png/W11_gestures-lab.png",
+      "bytes": 77501,
+      "sha256": "ddb25ca6da1a396c2f2bcb238cfc1f9ac7cf4df02d821850861e59b9aae6bd2c"
+    },
+    {
+      "path": "web/screens/png/W12_gestures-models.png",
+      "bytes": 79170,
+      "sha256": "b8d7cee957ebd76453f9e7ab312567cd758bf5a063f5c15488798fbbd4a94f0c"
+    },
+    {
+      "path": "web/screens/png/W13_gestures-mappings.png",
+      "bytes": 79921,
+      "sha256": "112be00cca059972627614d1c62c150657823f0264dd9f0aa15fd55a6d8c3809"
+    },
+    {
+      "path": "web/screens/png/W14_control-equipment.png",
+      "bytes": 78838,
+      "sha256": "2bba838a897f719e54c1450ade0a106e1e4f8ce721df6c2925697f9812b246b1"
+    },
+    {
+      "path": "web/screens/png/W15_control-sessions.png",
+      "bytes": 78826,
+      "sha256": "2577215bef57fb54bed07ffcdf523cb4541f3e5e41d205fc9d56fb7c3e826764"
+    },
+    {
+      "path": "web/screens/png/W16_devices.png",
+      "bytes": 74110,
+      "sha256": "87132e224f2f239d211b6662e0b8b6184a4bc2eccb759f3e1c1102ffee1686a5"
+    },
+    {
+      "path": "web/screens/png/W17_devices-id.png",
+      "bytes": 73686,
+      "sha256": "57634196d77bd665e29fcffa8feea62eb2ae625400666925c92937b9439b7ea2"
+    },
+    {
+      "path": "web/screens/png/W18_gateways.png",
+      "bytes": 75300,
+      "sha256": "9b6af395f34319c31723cb0535a16642a6574935f2d50d5877c42ee699f50807"
+    },
+    {
+      "path": "web/screens/png/W19_gateways-id.png",
+      "bytes": 74050,
+      "sha256": "6fc6fa2819d497cab441f919e49ebdd7b18650fe17719b45e579136ebd672bde"
+    },
+    {
+      "path": "web/screens/png/W20_automations.png",
+      "bytes": 75151,
+      "sha256": "a7075942ef278b152deb7f5733cc490485aa85c2cf895248fa7bfa937b20c1aa"
+    },
+    {
+      "path": "web/screens/png/W21_automations-new.png",
+      "bytes": 74543,
+      "sha256": "68149d743527cf640176a51489de3701321e8b7eb4b7d5db4b5dc9dce00d549f"
+    },
+    {
+      "path": "web/screens/png/W22_automations-id.png",
+      "bytes": 74274,
+      "sha256": "f943a3591f49e3007cc810a3537f91346d9784bfb3276817a509e717a55bb976"
+    },
+    {
+      "path": "web/screens/png/W23_automations-id-history.png",
+      "bytes": 75136,
+      "sha256": "2ad6753114e3334db5d9d7dcf6ffcec62e1b20c6ba0324cd81f0db0e1086e2cc"
+    },
+    {
+      "path": "web/screens/png/W24_insights.png",
+      "bytes": 74094,
+      "sha256": "cbb99c1fc15392b01bb22ea8b458366fd0885e81c01b6b4f6e4d4cb82922977c"
+    },
+    {
+      "path": "web/screens/png/W25_assistant.png",
+      "bytes": 74598,
+      "sha256": "20d7712b0523a23a24593696fa676532a6c8be1035a79f637d5afe5636e31692"
+    },
+    {
+      "path": "web/screens/png/W26_reports.png",
+      "bytes": 73799,
+      "sha256": "6d80cff4c8426ea07d5b61a710e5d72b52a9e2b057984a13d6b7bc1beabcb08f"
+    },
+    {
+      "path": "web/screens/png/W27_exports.png",
+      "bytes": 74026,
+      "sha256": "8f3615a50f2aede84b57d1006c5eb59a08a1cc5ac349d1c57d7cd4b1f5340426"
+    },
+    {
+      "path": "web/screens/png/W28_family.png",
+      "bytes": 73310,
+      "sha256": "05cbc339cd75e95329a6118d579887486ed2eee12b0992b503fadc8cc17e0c2d"
+    },
+    {
+      "path": "web/screens/png/W29_family-invitations.png",
+      "bytes": 74804,
+      "sha256": "bd1bcd5094ea3acacfe5b57e06c64ab7afd8c734bb8a4b6d1d54baccc644483e"
+    },
+    {
+      "path": "web/screens/png/W30_care.png",
+      "bytes": 72245,
+      "sha256": "efc7bdcebfd4ad2cec3ec68aaa9bce0b4cad0a50d3ad1e966ad7409200f13c5f"
+    },
+    {
+      "path": "web/screens/png/W31_checkins.png",
+      "bytes": 73585,
+      "sha256": "5bdb195886abc58eb4cae6f8e4d9b999bc51106ff8fe4e4027bf48b441174615"
+    },
+    {
+      "path": "web/screens/png/W32_notifications.png",
+      "bytes": 74274,
+      "sha256": "1ecef4d9bc09e3c81c037f39081a185dae3dae13356e1df60cb68651d7ba4251"
+    },
+    {
+      "path": "web/screens/png/W33_alerts.png",
+      "bytes": 72472,
+      "sha256": "b1b21c9445c0a2f4982fb033f4c981a482ec738bdcdbc586d6a5ee124d9c720f"
+    },
+    {
+      "path": "web/screens/png/W34_organization.png",
+      "bytes": 74744,
+      "sha256": "367142e16505bcb4e0746e89251a58acc1131b76abb716eebbe43756441b6da4"
+    },
+    {
+      "path": "web/screens/png/W35_organization-members.png",
+      "bytes": 75283,
+      "sha256": "3c4d069f16c904d48edf018d2e906f2500f4972922c23dcdbb846119b030a274"
+    },
+    {
+      "path": "web/screens/png/W36_organization-roles.png",
+      "bytes": 74320,
+      "sha256": "e10f2fbf86a7e83c1b43e6d565a9c7eb106c0a4e73772c1ac609098186d08cbe"
+    },
+    {
+      "path": "web/screens/png/W37_billing.png",
+      "bytes": 72077,
+      "sha256": "3a9dfd2cc411ab4c36da017054308a77ab44fb1f87a59e15aad9d121ef0be116"
+    },
+    {
+      "path": "web/screens/png/W38_developers-api-keys.png",
+      "bytes": 75982,
+      "sha256": "6f493c4661b5bed319e153d8d7d5f526c538106a669556803088b761de9851e6"
+    },
+    {
+      "path": "web/screens/png/W39_developers-webhooks.png",
+      "bytes": 75709,
+      "sha256": "f19349dc8365c95d5d1114cd7937bd006f0f9f080ae7b30b863b8319a7d0cde6"
+    },
+    {
+      "path": "web/screens/png/W40_developers-mcp.png",
+      "bytes": 74356,
+      "sha256": "53565f55a1a30cbd9003111dcb4c4f4225b0a6b1718d88d5b4d711359a3aba4c"
+    },
+    {
+      "path": "web/screens/png/W41_developers-docs.png",
+      "bytes": 74407,
+      "sha256": "ad99aa9d6ad58f6596b4effbb1a6d001456346c088f19e0b9bf049ff7ccf1a92"
+    },
+    {
+      "path": "web/screens/png/W42_settings-profile.png",
+      "bytes": 74374,
+      "sha256": "408dee779c6978d419c0ed4c0131104914c5be59b75a9ccf092f96e604637741"
+    },
+    {
+      "path": "web/screens/png/W43_settings-security.png",
+      "bytes": 75062,
+      "sha256": "6ed06ad3f41b954ba3d94b8f4614fe9e9c6f5a181b5883f100fde8019e88bacc"
+    },
+    {
+      "path": "web/screens/png/W44_settings-privacy.png",
+      "bytes": 75400,
+      "sha256": "e6278473ea036bb3b836c240884726fa413830fb9512ecfe54731e0f5bfcd8c0"
+    },
+    {
+      "path": "web/screens/png/W45_settings-preferences.png",
+      "bytes": 74506,
+      "sha256": "cc794626604ebf1237065346ff7e3513bc64d486386d1831701e701afa8f2ec6"
+    },
+    {
+      "path": "web/screens/png/W46_ops-health.png",
+      "bytes": 72479,
+      "sha256": "b07a9a6392332b4ed8759f4726479afb23dd5d6d6b36c09bd7c4c0b12f6ce814"
+    },
+    {
+      "path": "web/screens/png/W47_ops-metrics.png",
+      "bytes": 74020,
+      "sha256": "dbb6b52bd24cb203929c1bb39e52980b9e2da714792321014cf182d9514589c8"
+    },
+    {
+      "path": "web/screens/png/W48_ops-audit.png",
+      "bytes": 72602,
+      "sha256": "9bf9e53da7c70cc2657907932a4bfafb3c658706b7a682a874e81dbef49a31f9"
+    },
+    {
+      "path": "web/screens/png/W49_ops-queues.png",
+      "bytes": 73142,
+      "sha256": "52df469e3b840fc681c4181acbb624bbda9702f7c405bd841ce9bebdf689c22b"
+    },
+    {
+      "path": "web/screens/png/W50_ops-errors.png",
+      "bytes": 72640,
+      "sha256": "9aaf71a79a001cdb2297eabecb5d426f7680c5353b6c10581563136dbbf80aab"
+    },
+    {
+      "path": "web/screens/png/W51_ops-releases.png",
+      "bytes": 73074,
+      "sha256": "0438d3c43c75da3a99f3a9c93caf99375ecf296304fd55600ad250a6cdd96281"
+    },
+    {
+      "path": "web/screens/png/W52_wearable-themes.png",
+      "bytes": 81886,
+      "sha256": "53f62a50cc9dc50db9b107285aebdafc343e0aa5dc1c713b247d3d16eb371ded"
+    },
+    {
+      "path": "web/screens/png/W53_wearable-themes-new.png",
+      "bytes": 80210,
+      "sha256": "664f20b5340f55c1af2005ffa9c495ac0ceb55f1756698c2965a886b02dfd655"
+    },
+    {
+      "path": "web/screens/png/W54_wearable-themes-id-editor.png",
+      "bytes": 80866,
+      "sha256": "ff847e0ff7f59cbb4a9829c8a85d60fe3a9623eca5374030b43d1718e8b3b8a9"
+    },
+    {
+      "path": "web/screens/png/W55_wearable-themes-id-compatibility.png",
+      "bytes": 83112,
+      "sha256": "777a69907871bbae685060ad7ef61cb81df8b5df4ffcba0ef9bd457a0654730b"
+    },
+    {
+      "path": "web/screens/png/W56_wearable-themes-id-releases.png",
+      "bytes": 81103,
+      "sha256": "ff040fd926c7d9508c5821554de99e92a78f1bb8a2eae16d9b90022a0180f395"
+    },
+    {
+      "path": "web/screens/png/W57_wearable-themes-id-tests.png",
+      "bytes": 80410,
+      "sha256": "ddfc6ab2b5ae9f70f5c8cc9dd1f0d08f471c8fe7996b08c0a5d2d1b6a82ff157"
+    },
+    {
+      "path": "web/screens/png/W58_devices-id-appearance.png",
+      "bytes": 80857,
+      "sha256": "3d9b8e69988931592374d1da0fe634e5c009239a499d1aa91741fd94d630948a"
+    },
+    {
+      "path": "web/screens/svg/W01_login.svg",
+      "bytes": 12942,
+      "sha256": "4f724cb63880c8ab7f2ab0d9b6db0226b4b13a7f060107afdae3976bb7e88f83"
+    },
+    {
+      "path": "web/screens/svg/W02_register.svg",
+      "bytes": 12952,
+      "sha256": "9a778c38718b705acc0293857a89f1b6650ca9ce2c31966260a22aa7a8eacdd7"
+    },
+    {
+      "path": "web/screens/svg/W03_mfa.svg",
+      "bytes": 12934,
+      "sha256": "ef15f26ce328453cd2e619cd03d35414efd94a6e89714baf366f03e1c266680d"
+    },
+    {
+      "path": "web/screens/svg/W04_reset.svg",
+      "bytes": 12941,
+      "sha256": "ab66ccc0c742a60020fcaa9fff81fb411832c43375286e94e3ce2e6384b3dd56"
+    },
+    {
+      "path": "web/screens/svg/W05_dashboard.svg",
+      "bytes": 13091,
+      "sha256": "1956a1407f7906948917db3a8966a1d564c5ba36a69bd560ec214ce09ce57046"
+    },
+    {
+      "path": "web/screens/svg/W06_health-heart.svg",
+      "bytes": 13090,
+      "sha256": "8768075ffb6d19744b1daa71901306a3606f5950e15acf7a8fda844447ab2e2c"
+    },
+    {
+      "path": "web/screens/svg/W07_health-activity.svg",
+      "bytes": 13651,
+      "sha256": "e56c1f5244a7ee9a154ab13c51b776334387c425eda58ed1158199c94db08b27"
+    },
+    {
+      "path": "web/screens/svg/W08_health-sleep.svg",
+      "bytes": 13243,
+      "sha256": "0752c25f38a0fb4486f3f404e55cad1f8aa70f704d35de44c61d701367369ff1"
+    },
+    {
+      "path": "web/screens/svg/W09_health-trends.svg",
+      "bytes": 13095,
+      "sha256": "e587c16d0fab8088cf9a45fe47c9a5bcbe0f68d26b1b2148e1460e66429cc413"
+    },
+    {
+      "path": "web/screens/svg/W10_live.svg",
+      "bytes": 16646,
+      "sha256": "ce307b924b1d7563759809772a8d05d30ff35e63a5ce5d7eb16b43dfae2db3bc"
+    },
+    {
+      "path": "web/screens/svg/W11_gestures-lab.svg",
+      "bytes": 16662,
+      "sha256": "bb47e505de795d8df9a279a5137a100602f622c8a755f337b8e56086d8065fd0"
+    },
+    {
+      "path": "web/screens/svg/W12_gestures-models.svg",
+      "bytes": 16672,
+      "sha256": "dbea28d6ac02ebbc6a9406dc7262854deaf9731d38eda7a80c01526a73e4f10a"
+    },
+    {
+      "path": "web/screens/svg/W13_gestures-mappings.svg",
+      "bytes": 16680,
+      "sha256": "93db43355168264a1c4ff38d79233c0150a1b4f5e283e062e5e9f0972e73ed9d"
+    },
+    {
+      "path": "web/screens/svg/W14_control-equipment.svg",
+      "bytes": 16546,
+      "sha256": "c9c3f17a434714b1794dcd2da638e54a6ce9e685fc3693d5d71f4630b26e69f2"
+    },
+    {
+      "path": "web/screens/svg/W15_control-sessions.svg",
+      "bytes": 16556,
+      "sha256": "b5ec66ab9aa6012a5353bb3725b77cc201314dc420f76a84da0140849677834b"
+    },
+    {
+      "path": "web/screens/svg/W16_devices.svg",
+      "bytes": 13085,
+      "sha256": "9d4122c1d8e8316098ab3f56013dc12625fd2138b711b380fb271b285fc5a174"
+    },
+    {
+      "path": "web/screens/svg/W17_devices-id.svg",
+      "bytes": 13098,
+      "sha256": "970b0b15da396d276b853dea55cbc47c3b15ea967a3ea8649dc52f8433e62361"
+    },
+    {
+      "path": "web/screens/svg/W18_gateways.svg",
+      "bytes": 12957,
+      "sha256": "aedd88032de92c355394080f2b0d719a8389eabf820bf65b27c6678531ebde98"
+    },
+    {
+      "path": "web/screens/svg/W19_gateways-id.svg",
+      "bytes": 12963,
+      "sha256": "7e90994c21780b149d283a8ff94adba306bbc81957d94ac633f7d779f798313e"
+    },
+    {
+      "path": "web/screens/svg/W20_automations.svg",
+      "bytes": 13100,
+      "sha256": "a0b1820f73a0d1076aeefe7c453511c7ecf499688ec83738659d4e61191cf373"
+    },
+    {
+      "path": "web/screens/svg/W21_automations-new.svg",
+      "bytes": 13098,
+      "sha256": "1121fddd5958850976aadbe0dde6fe070d9bf88dee62a8c9daea6f282d125826"
+    },
+    {
+      "path": "web/screens/svg/W22_automations-id.svg",
+      "bytes": 13113,
+      "sha256": "2974a2207cb5bb215e2b608e85905ba39b396cfac9a55d51088a0aa891f072a7"
+    },
+    {
+      "path": "web/screens/svg/W23_automations-id-history.svg",
+      "bytes": 13123,
+      "sha256": "b8e4d94ad7528e0b5406b2ce40315dedcf48211119b374a1e921eb2fb971f26b"
+    },
+    {
+      "path": "web/screens/svg/W24_insights.svg",
+      "bytes": 11325,
+      "sha256": "60e5beac56974dc90e134e5f20997f9462027c1d8ebb0a86de6c71284390a57e"
+    },
+    {
+      "path": "web/screens/svg/W25_assistant.svg",
+      "bytes": 11463,
+      "sha256": "b957eaddfc2e3cad4d85aa85540f19188d018a94d4fb69ec00cde77f19697fba"
+    },
+    {
+      "path": "web/screens/svg/W26_reports.svg",
+      "bytes": 12951,
+      "sha256": "81b7b50f796b6b88457059fceac68e27e086f9960451aa870ffcd3d1d4b33283"
+    },
+    {
+      "path": "web/screens/svg/W27_exports.svg",
+      "bytes": 12949,
+      "sha256": "930f25e41ec3e6294ab42d2e8600c066c756d2fb965f4217d591e0a91cc45404"
+    },
+    {
+      "path": "web/screens/svg/W28_family.svg",
+      "bytes": 13082,
+      "sha256": "fa690a8dd9a479f86be6b1e4481e2a0eb06591bce92de5f31bcc1942b14a9251"
+    },
+    {
+      "path": "web/screens/svg/W29_family-invitations.svg",
+      "bytes": 13108,
+      "sha256": "f91c4f9171c2638814b07445dfffc58dd59e0a945909cc0c9ccbbd1753f8c38c"
+    },
+    {
+      "path": "web/screens/svg/W30_care.svg",
+      "bytes": 12944,
+      "sha256": "a5df8599610b20e1f0ecb5205a204c8d836a156149a577ab2f2648d72f44dd65"
+    },
+    {
+      "path": "web/screens/svg/W31_checkins.svg",
+      "bytes": 12959,
+      "sha256": "dc30b43d7ad5ff5c14c7a82b4d4d70f89d01fa7068105f993bf858775a9a5c7b"
+    },
+    {
+      "path": "web/screens/svg/W32_notifications.svg",
+      "bytes": 12979,
+      "sha256": "5229b1b8167c8e0a9556cbf2bccbc90bbf599cb1ff61587421f555caba12814f"
+    },
+    {
+      "path": "web/screens/svg/W33_alerts.svg",
+      "bytes": 12952,
+      "sha256": "1b72445f3e78c0bef0eaa6f4fa1ca71dc0206c16f4729d9633f292b26bb0f894"
+    },
+    {
+      "path": "web/screens/svg/W34_organization.svg",
+      "bytes": 12970,
+      "sha256": "8594da7c67802b71a760a03acc51dce3160fa60d38d046e7d5bba1a34efa08c5"
+    },
+    {
+      "path": "web/screens/svg/W35_organization-members.svg",
+      "bytes": 12979,
+      "sha256": "72e6a872ead0847d7f984cea12715b011fe3aab388fa79bafdf74220b6bb39db"
+    },
+    {
+      "path": "web/screens/svg/W36_organization-roles.svg",
+      "bytes": 12982,
+      "sha256": "0df22fafdee008940d9a9fc700dd8b5bf360f920a3201789b2c2d8b8674a5d65"
+    },
+    {
+      "path": "web/screens/svg/W37_billing.svg",
+      "bytes": 12948,
+      "sha256": "1c7ca642062fb4c5b86e4406197bf99d162d7af96b807dc61d18c9281d3b17c7"
+    },
+    {
+      "path": "web/screens/svg/W38_developers-api-keys.svg",
+      "bytes": 13114,
+      "sha256": "98312237b2bb142d80942c3deeb89c8880dd0bb78ee4de0321f39df5186ff639"
+    },
+    {
+      "path": "web/screens/svg/W39_developers-webhooks.svg",
+      "bytes": 13117,
+      "sha256": "14715b161a9a8f84a5ac3dc1f9a3f4d10008e9e3991aef5f716185db2ac86e3a"
+    },
+    {
+      "path": "web/screens/svg/W40_developers-mcp.svg",
+      "bytes": 13098,
+      "sha256": "7884806086552cf2b491834f60d33986c1ab858441a18b36f38c1b675e4351e1"
+    },
+    {
+      "path": "web/screens/svg/W41_developers-docs.svg",
+      "bytes": 13103,
+      "sha256": "cba501b8a7cefbb5f48b641a5f99f7b7149e6bb60d645f450997a105393e220d"
+    },
+    {
+      "path": "web/screens/svg/W42_settings-profile.svg",
+      "bytes": 13107,
+      "sha256": "ef4fc3cf25d36de13de90d3a1d24774a3e7ab66f1a994d14b9a8d10a75c195b7"
+    },
+    {
+      "path": "web/screens/svg/W43_settings-security.svg",
+      "bytes": 13108,
+      "sha256": "030be29e0abfe4486a8b4bbde8f0c7da4572ab0ba1e6dd61ee8e50e04cc564f2"
+    },
+    {
+      "path": "web/screens/svg/W44_settings-privacy.svg",
+      "bytes": 13104,
+      "sha256": "1085305ca9157e661cbd055a5cb63e8f6ab363ae97cb5f32a1bf01ed1e85fefa"
+    },
+    {
+      "path": "web/screens/svg/W45_settings-preferences.svg",
+      "bytes": 13113,
+      "sha256": "2aaf6b9c1ed1c5bc04a892900642e4a1143e1bffa32b51850b12a5377da29ce4"
+    },
+    {
+      "path": "web/screens/svg/W46_ops-health.svg",
+      "bytes": 13086,
+      "sha256": "6e32f6e4a2f55ec9644309cab14cb37413fc0f7293c96a7a0bcb713d1febf5ea"
+    },
+    {
+      "path": "web/screens/svg/W47_ops-metrics.svg",
+      "bytes": 13092,
+      "sha256": "e423f044fb3986b5aaead4c488762d591a13bdbb8a04753de71f40b934f37175"
+    },
+    {
+      "path": "web/screens/svg/W48_ops-audit.svg",
+      "bytes": 13079,
+      "sha256": "65b32e347e14e14dd8c49e8e21421b1158bf892eca41d3e594feff106021cab0"
+    },
+    {
+      "path": "web/screens/svg/W49_ops-queues.svg",
+      "bytes": 13094,
+      "sha256": "03fda57005142acdfe90606d9f7c17c1bf2041923babfb5ce399514d4af0b79a"
+    },
+    {
+      "path": "web/screens/svg/W50_ops-errors.svg",
+      "bytes": 13084,
+      "sha256": "d09ae2c9f66daa0d324b7a129d800107b0bcfdcbbbcff27bde212196cbdf577e"
+    },
+    {
+      "path": "web/screens/svg/W51_ops-releases.svg",
+      "bytes": 13096,
+      "sha256": "5dacab859cf6b300ac213ef9492254573aee54521544d29cc5ec076fe545cd3c"
+    },
+    {
+      "path": "web/screens/svg/W52_wearable-themes.svg",
+      "bytes": 12015,
+      "sha256": "77e7c69407a755f31ee1907c25806493a7b429b4e575bbd743b4279e62ab995c"
+    },
+    {
+      "path": "web/screens/svg/W53_wearable-themes-new.svg",
+      "bytes": 12011,
+      "sha256": "14674b76922d2ca1b1e5d1b36210c7397a53e3d2ff2da91617b9f0765c5aa620"
+    },
+    {
+      "path": "web/screens/svg/W54_wearable-themes-id-editor.svg",
+      "bytes": 12028,
+      "sha256": "f188b6af881fd8dd644e1afd7afd11f69ffda5b8c8f83e05788974bd75c0c738"
+    },
+    {
+      "path": "web/screens/svg/W55_wearable-themes-id-compatibility.svg",
+      "bytes": 12049,
+      "sha256": "dcfc17d094d2c286acf1b434a738661fb5d2eeba4abde38824e7e2c998aeed23"
+    },
+    {
+      "path": "web/screens/svg/W56_wearable-themes-id-releases.svg",
+      "bytes": 12034,
+      "sha256": "c096af311c77e57e8ea18e44657fda9757e8b1b6cba08d12365115e8871c92df"
+    },
+    {
+      "path": "web/screens/svg/W57_wearable-themes-id-tests.svg",
+      "bytes": 12025,
+      "sha256": "9a6f83ca253ce66294c9f6d16a62bbfb4b792eb9442c17666cd5020988b523c5"
+    },
+    {
+      "path": "web/screens/svg/W58_devices-id-appearance.svg",
+      "bytes": 12016,
+      "sha256": "235833b68f53f484a7c2e252cbfcf506f59b7a28c492898588deedfa7a8ea463"
+    }
+  ]
+}

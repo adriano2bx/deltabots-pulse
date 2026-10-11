@@ -1,0 +1,350 @@
+[
+  {
+    "id": "W01",
+    "route": "/login",
+    "svg": "web/screens/svg/W01_login.svg",
+    "png": "web/screens/png/W01_login.png"
+  },
+  {
+    "id": "W02",
+    "route": "/register",
+    "svg": "web/screens/svg/W02_register.svg",
+    "png": "web/screens/png/W02_register.png"
+  },
+  {
+    "id": "W03",
+    "route": "/mfa",
+    "svg": "web/screens/svg/W03_mfa.svg",
+    "png": "web/screens/png/W03_mfa.png"
+  },
+  {
+    "id": "W04",
+    "route": "/reset",
+    "svg": "web/screens/svg/W04_reset.svg",
+    "png": "web/screens/png/W04_reset.png"
+  },
+  {
+    "id": "W05",
+    "route": "/dashboard",
+    "svg": "web/screens/svg/W05_dashboard.svg",
+    "png": "web/screens/png/W05_dashboard.png"
+  },
+  {
+    "id": "W06",
+    "route": "/health/heart",
+    "svg": "web/screens/svg/W06_health-heart.svg",
+    "png": "web/screens/png/W06_health-heart.png"
+  },
+  {
+    "id": "W07",
+    "route": "/health/activity",
+    "svg": "web/screens/svg/W07_health-activity.svg",
+    "png": "web/screens/png/W07_health-activity.png"
+  },
+  {
+    "id": "W08",
+    "route": "/health/sleep",
+    "svg": "web/screens/svg/W08_health-sleep.svg",
+    "png": "web/screens/png/W08_health-sleep.png"
+  },
+  {
+    "id": "W09",
+    "route": "/health/trends",
+    "svg": "web/screens/svg/W09_health-trends.svg",
+    "png": "web/screens/png/W09_health-trends.png"
+  },
+  {
+    "id": "W10",
+    "route": "/live",
+    "svg": "web/screens/svg/W10_live.svg",
+    "png": "web/screens/png/W10_live.png"
+  },
+  {
+    "id": "W11",
+    "route": "/gestures/lab",
+    "svg": "web/screens/svg/W11_gestures-lab.svg",
+    "png": "web/screens/png/W11_gestures-lab.png"
+  },
+  {
+    "id": "W12",
+    "route": "/gestures/models",
+    "svg": "web/screens/svg/W12_gestures-models.svg",
+    "png": "web/screens/png/W12_gestures-models.png"
+  },
+  {
+    "id": "W13",
+    "route": "/gestures/mappings",
+    "svg": "web/screens/svg/W13_gestures-mappings.svg",
+    "png": "web/screens/png/W13_gestures-mappings.png"
+  },
+  {
+    "id": "W14",
+    "route": "/control/equipment",
+    "svg": "web/screens/svg/W14_control-equipment.svg",
+    "png": "web/screens/png/W14_control-equipment.png"
+  },
+  {
+    "id": "W15",
+    "route": "/control/sessions",
+    "svg": "web/screens/svg/W15_control-sessions.svg",
+    "png": "web/screens/png/W15_control-sessions.png"
+  },
+  {
+    "id": "W16",
+    "route": "/devices",
+    "svg": "web/screens/svg/W16_devices.svg",
+    "png": "web/screens/png/W16_devices.png"
+  },
+  {
+    "id": "W17",
+    "route": "/devices/:id",
+    "svg": "web/screens/svg/W17_devices-id.svg",
+    "png": "web/screens/png/W17_devices-id.png"
+  },
+  {
+    "id": "W18",
+    "route": "/gateways",
+    "svg": "web/screens/svg/W18_gateways.svg",
+    "png": "web/screens/png/W18_gateways.png"
+  },
+  {
+    "id": "W19",
+    "route": "/gateways/:id",
+    "svg": "web/screens/svg/W19_gateways-id.svg",
+    "png": "web/screens/png/W19_gateways-id.png"
+  },
+  {
+    "id": "W20",
+    "route": "/automations",
+    "svg": "web/screens/svg/W20_automations.svg",
+    "png": "web/screens/png/W20_automations.png"
+  },
+  {
+    "id": "W21",
+    "route": "/automations/new",
+    "svg": "web/screens/svg/W21_automations-new.svg",
+    "png": "web/screens/png/W21_automations-new.png"
+  },
+  {
+    "id": "W22",
+    "route": "/automations/:id",
+    "svg": "web/screens/svg/W22_automations-id.svg",
+    "png": "web/screens/png/W22_automations-id.png"
+  },
+  {
+    "id": "W23",
+    "route": "/automations/:id/history",
+    "svg": "web/screens/svg/W23_automations-id-history.svg",
+    "png": "web/screens/png/W23_automations-id-history.png"
+  },
+  {
+    "id": "W24",
+    "route": "/insights",
+    "svg": "web/screens/svg/W24_insights.svg",
+    "png": "web/screens/png/W24_insights.png"
+  },
+  {
+    "id": "W25",
+    "route": "/assistant",
+    "svg": "web/screens/svg/W25_assistant.svg",
+    "png": "web/screens/png/W25_assistant.png"
+  },
+  {
+    "id": "W26",
+    "route": "/reports",
+    "svg": "web/screens/svg/W26_reports.svg",
+    "png": "web/screens/png/W26_reports.png"
+  },
+  {
+    "id": "W27",
+    "route": "/exports",
+    "svg": "web/screens/svg/W27_exports.svg",
+    "png": "web/screens/png/W27_exports.png"
+  },
+  {
+    "id": "W28",
+    "route": "/family",
+    "svg": "web/screens/svg/W28_family.svg",
+    "png": "web/screens/png/W28_family.png"
+  },
+  {
+    "id": "W29",
+    "route": "/family/invitations",
+    "svg": "web/screens/svg/W29_family-invitations.svg",
+    "png": "web/screens/png/W29_family-invitations.png"
+  },
+  {
+    "id": "W30",
+    "route": "/care",
+    "svg": "web/screens/svg/W30_care.svg",
+    "png": "web/screens/png/W30_care.png"
+  },
+  {
+    "id": "W31",
+    "route": "/checkins",
+    "svg": "web/screens/svg/W31_checkins.svg",
+    "png": "web/screens/png/W31_checkins.png"
+  },
+  {
+    "id": "W32",
+    "route": "/notifications",
+    "svg": "web/screens/svg/W32_notifications.svg",
+    "png": "web/screens/png/W32_notifications.png"
+  },
+  {
+    "id": "W33",
+    "route": "/alerts",
+    "svg": "web/screens/svg/W33_alerts.svg",
+    "png": "web/screens/png/W33_alerts.png"
+  },
+  {
+    "id": "W34",
+    "route": "/organization",
+    "svg": "web/screens/svg/W34_organization.svg",
+    "png": "web/screens/png/W34_organization.png"
+  },
+  {
+    "id": "W35",
+    "route": "/organization/members",
+    "svg": "web/screens/svg/W35_organization-members.svg",
+    "png": "web/screens/png/W35_organization-members.png"
+  },
+  {
+    "id": "W36",
+    "route": "/organization/roles",
+    "svg": "web/screens/svg/W36_organization-roles.svg",
+    "png": "web/screens/png/W36_organization-roles.png"
+  },
+  {
+    "id": "W37",
+    "route": "/billing",
+    "svg": "web/screens/svg/W37_billing.svg",
+    "png": "web/screens/png/W37_billing.png"
+  },
+  {
+    "id": "W38",
+    "route": "/developers/api-keys",
+    "svg": "web/screens/svg/W38_developers-api-keys.svg",
+    "png": "web/screens/png/W38_developers-api-keys.png"
+  },
+  {
+    "id": "W39",
+    "route": "/developers/webhooks",
+    "svg": "web/screens/svg/W39_developers-webhooks.svg",
+    "png": "web/screens/png/W39_developers-webhooks.png"
+  },
+  {
+    "id": "W40",
+    "route": "/developers/mcp",
+    "svg": "web/screens/svg/W40_developers-mcp.svg",
+    "png": "web/screens/png/W40_developers-mcp.png"
+  },
+  {
+    "id": "W41",
+    "route": "/developers/docs",
+    "svg": "web/screens/svg/W41_developers-docs.svg",
+    "png": "web/screens/png/W41_developers-docs.png"
+  },
+  {
+    "id": "W42",
+    "route": "/settings/profile",
+    "svg": "web/screens/svg/W42_settings-profile.svg",
+    "png": "web/screens/png/W42_settings-profile.png"
+  },
+  {
+    "id": "W43",
+    "route": "/settings/security",
+    "svg": "web/screens/svg/W43_settings-security.svg",
+    "png": "web/screens/png/W43_settings-security.png"
+  },
+  {
+    "id": "W44",
+    "route": "/settings/privacy",
+    "svg": "web/screens/svg/W44_settings-privacy.svg",
+    "png": "web/screens/png/W44_settings-privacy.png"
+  },
+  {
+    "id": "W45",
+    "route": "/settings/preferences",
+    "svg": "web/screens/svg/W45_settings-preferences.svg",
+    "png": "web/screens/png/W45_settings-preferences.png"
+  },
+  {
+    "id": "W46",
+    "route": "/ops/health",
+    "svg": "web/screens/svg/W46_ops-health.svg",
+    "png": "web/screens/png/W46_ops-health.png"
+  },
+  {
+    "id": "W47",
+    "route": "/ops/metrics",
+    "svg": "web/screens/svg/W47_ops-metrics.svg",
+    "png": "web/screens/png/W47_ops-metrics.png"
+  },
+  {
+    "id": "W48",
+    "route": "/ops/audit",
+    "svg": "web/screens/svg/W48_ops-audit.svg",
+    "png": "web/screens/png/W48_ops-audit.png"
+  },
+  {
+    "id": "W49",
+    "route": "/ops/queues",
+    "svg": "web/screens/svg/W49_ops-queues.svg",
+    "png": "web/screens/png/W49_ops-queues.png"
+  },
+  {
+    "id": "W50",
+    "route": "/ops/errors",
+    "svg": "web/screens/svg/W50_ops-errors.svg",
+    "png": "web/screens/png/W50_ops-errors.png"
+  },
+  {
+    "id": "W51",
+    "route": "/ops/releases",
+    "svg": "web/screens/svg/W51_ops-releases.svg",
+    "png": "web/screens/png/W51_ops-releases.png"
+  },
+  {
+    "id": "W52",
+    "route": "/wearable-themes",
+    "svg": "web/screens/svg/W52_wearable-themes.svg",
+    "png": "web/screens/png/W52_wearable-themes.png"
+  },
+  {
+    "id": "W53",
+    "route": "/wearable-themes/new",
+    "svg": "web/screens/svg/W53_wearable-themes-new.svg",
+    "png": "web/screens/png/W53_wearable-themes-new.png"
+  },
+  {
+    "id": "W54",
+    "route": "/wearable-themes/:id/editor",
+    "svg": "web/screens/svg/W54_wearable-themes-id-editor.svg",
+    "png": "web/screens/png/W54_wearable-themes-id-editor.png"
+  },
+  {
+    "id": "W55",
+    "route": "/wearable-themes/:id/compatibility",
+    "svg": "web/screens/svg/W55_wearable-themes-id-compatibility.svg",
+    "png": "web/screens/png/W55_wearable-themes-id-compatibility.png"
+  },
+  {
+    "id": "W56",
+    "route": "/wearable-themes/:id/releases",
+    "svg": "web/screens/svg/W56_wearable-themes-id-releases.svg",
+    "png": "web/screens/png/W56_wearable-themes-id-releases.png"
+  },
+  {
+    "id": "W57",
+    "route": "/wearable-themes/:id/tests",
+    "svg": "web/screens/svg/W57_wearable-themes-id-tests.svg",
+    "png": "web/screens/png/W57_wearable-themes-id-tests.png"
+  },
+  {
+    "id": "W58",
+    "route": "/devices/:id/appearance",
+    "svg": "web/screens/svg/W58_devices-id-appearance.svg",
+    "png": "web/screens/png/W58_devices-id-appearance.png"
+  }
+]

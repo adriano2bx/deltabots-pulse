@@ -1,0 +1,12 @@
+design/
+docs/
+infra/
+quality/
+packages/contracts/openapi.yaml
+packages/contracts/schemas/
+packages/test-fixtures/examples/
+apps/android/
+apps/esp32-demo/
+pnpm-lock.yaml
+**/dist/
+**/.wrangler/

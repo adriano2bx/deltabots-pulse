@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="db_obsidian">#0A0A0B</color>
+  <color name="db_bone">#F5F7FA</color>
+  <color name="db_steel">#485560</color>
+  <color name="db_cyan">#00D5D8</color>
+  <color name="db_surface_1">#111214</color>
+  <color name="db_border">#25282C</color>
+  <color name="db_muted">#8A929A</color>
+  <color name="db_good">#64D9A8</color>
+  <color name="db_warning">#F0BA6A</color>
+  <color name="db_danger">#F58A8A</color>
+</resources>

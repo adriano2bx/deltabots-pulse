@@ -1,0 +1,16 @@
+{
+  "gateway_id": "gw_test",
+  "device_id": "dev_test",
+  "batch_id": "batch_test",
+  "readings": [
+    {
+      "reading_id": "reading_001",
+      "kind": "heart_rate_bpm",
+      "observed_at": "2026-10-11T20:00:00Z",
+      "value": 72,
+      "unit": "bpm",
+      "quality": "measured",
+      "source": "ble_miband3"
+    }
+  ]
+}

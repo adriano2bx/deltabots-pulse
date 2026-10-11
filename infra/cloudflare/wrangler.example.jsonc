@@ -1,0 +1,16 @@
+{
+  // Template: copie/ajuste por ambiente; NENHUM ID real ou credencial aqui.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "deltabots-pulse-api",
+  "main": "apps/api/src/index.ts",
+  "compatibility_date": "2026-10-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": true,
+  "vars": {"APP_ENV":"staging","PUBLIC_BASE_URL":"https://api.example.invalid","FEATURE_GESTURE_RAW":"false"},
+  "d1_databases": [{"binding":"DB","database_name":"pulse-staging","database_id":"REPLACE_ME"}],
+  "r2_buckets": [{"binding":"RAW_BUCKET","bucket_name":"pulse-staging-raw"}],
+  "kv_namespaces": [{"binding":"CONFIG_KV","id":"REPLACE_ME"}],
+  "queues": {"producers":[{"binding":"INGEST_QUEUE","queue":"pulse-telemetry-staging"},{"binding":"NOTIFY_QUEUE","queue":"pulse-notifications-staging"}],"consumers":[{"queue":"pulse-telemetry-staging","dead_letter_queue":"pulse-telemetry-dlq-staging","max_batch_size":50}]},
+  "durable_objects": {"bindings":[{"name":"SESSIONS","class_name":"PulseSessionRoom"}]},
+  "migrations": [{"tag":"v1","new_sqlite_classes":["PulseSessionRoom"]}]
+}

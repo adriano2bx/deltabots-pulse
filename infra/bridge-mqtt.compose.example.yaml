@@ -1,0 +1,25 @@
+services:
+  pulse-mqtt-bridge:
+    image: deltabots/pulse-mqtt-bridge:REPLACE_WITH_SIGNED_IMAGE
+    restart: unless-stopped
+    environment:
+      PULSE_WSS_URL: wss://api.example.invalid/v1/realtime
+      MQTT_URL: mqtts://broker.example.invalid:8883
+      APP_ENV: production
+    secrets: [pulse_bridge_token,mqtt_client_cert,mqtt_client_key]
+    healthcheck:
+      test: ["CMD", "node", "dist/healthcheck.js"]
+      interval: 20s
+      timeout: 5s
+      retries: 3
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+secrets:
+  pulse_bridge_token:
+    external: true
+  mqtt_client_cert:
+    external: true
+  mqtt_client_key:
+    external: true
+# Config não expõe broker externo; TLS e ACL configuradas separadamente.
