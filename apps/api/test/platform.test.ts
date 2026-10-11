@@ -553,9 +553,7 @@ describe('gestos com gate de hardware (T005, F331–F335)', () => {
   });
 });
 
-async function openWs(
-  ticketUrl: string,
-): Promise<{
+async function openWs(ticketUrl: string): Promise<{
   ws: WebSocket;
   messages: Array<{ type: string; payload: Record<string, unknown> }>;
   next: (type: string) => Promise<{ type: string; payload: Record<string, unknown> }>;

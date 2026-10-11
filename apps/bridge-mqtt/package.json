@@ -1,0 +1,23 @@
+{
+  "name": "@pulse/bridge-mqtt",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "esbuild src/main.ts src/healthcheck.ts --bundle --platform=node --target=node22 --format=esm --outdir=dist --banner:js=\"import { createRequire } from 'module'; const require = createRequire(import.meta.url);\"",
+    "start": "node dist/main.js",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@pulse/contracts": "workspace:*",
+    "@pulse/core": "workspace:*",
+    "mqtt": "5.16.0",
+    "ws": "8.22.0"
+  },
+  "devDependencies": {
+    "@types/ws": "8.18.2",
+    "aedes": "1.2.0",
+    "esbuild": "0.28.2"
+  }
+}

@@ -308,3 +308,19 @@ controlRoutes.get('/sessions/:id/commands', async (c) => {
   );
   return c.json({ data: rows, next_cursor: null });
 });
+
+/** Descoberta para gateways de equipamento (bridge MQTT/ESP32): sessões ativas do seu equipamento. */
+controlRoutes.get('/gateway-sessions', async (c) => {
+  const p = c.get('principal');
+  if (p.kind !== 'gateway' || !p.gatewayId)
+    throw new PulseError('FORBIDDEN', 'credencial de gateway necessária');
+  const rows = await all<{ id: string; equipment_id: string; state: string; expires_at: string }>(
+    c.env.DB,
+    `SELECT cs.id, cs.equipment_id, cs.state, cs.expires_at FROM control_sessions cs JOIN equipment e ON e.id=cs.equipment_id
+      WHERE cs.tenant_id=? AND e.gateway_id=? AND e.revoked_at IS NULL AND cs.state<>'EXPIRED' AND cs.expires_at>? ORDER BY cs.created_at DESC LIMIT 50`,
+    p.tenantId,
+    p.gatewayId,
+    new Date().toISOString(),
+  );
+  return c.json({ data: rows.map((r) => ({ ...r, tenant_id: p.tenantId })), next_cursor: null });
+});

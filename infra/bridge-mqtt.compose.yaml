@@ -1,0 +1,29 @@
+# Compose de produção da ponte (EasyPanel). Segredos são externos; nada é versionado.
+services:
+  pulse-mqtt-bridge:
+    build:
+      context: ../
+      dockerfile: apps/bridge-mqtt/Dockerfile
+    restart: unless-stopped
+    environment:
+      APP_ENV: production
+      PULSE_API_URL: https://api.example.invalid
+      MQTT_URL: mqtts://broker.example.invalid:8883
+      MQTT_BRIDGE_CLIENT_ID: pulse-bridge-1
+      MQTT_CLIENT_CERT_PATH: /run/secrets/mqtt_client_cert
+      MQTT_CLIENT_KEY_PATH: /run/secrets/mqtt_client_key
+      PULSE_BRIDGE_TOKEN_PATH: /run/secrets/pulse_bridge_token
+      PULSE_BRIDGE_STATE_PATH: /var/lib/pulse-bridge/refresh_token
+    secrets: [pulse_bridge_token, mqtt_client_cert, mqtt_client_key]
+    volumes:
+      - bridge-state:/var/lib/pulse-bridge
+    read_only: true
+    tmpfs: [/tmp]
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+volumes:
+  bridge-state:
+secrets:
+  pulse_bridge_token: { external: true }
+  mqtt_client_cert: { external: true }
+  mqtt_client_key: { external: true }
