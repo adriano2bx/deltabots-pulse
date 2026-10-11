@@ -1,0 +1,35 @@
+{
+  // Template versionado: IDs reais e segredos são injetados por ambiente no deploy (nunca commitados).
+  "$schema": "../../node_modules/wrangler/config-schema.json",
+  "name": "deltabots-pulse-api",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": true,
+  "rules": [{ "type": "Text", "globs": ["**/*.yaml"], "fallthrough": true }],
+  "vars": {
+    "APP_ENV": "local",
+    "PUBLIC_BASE_URL": "http://127.0.0.1:8787",
+    "PUBLIC_WS_BASE_URL": "ws://127.0.0.1:8787/v1/realtime",
+    "CORS_ORIGINS": "http://localhost:5173",
+    "FEATURE_GESTURE_RAW": "false",
+    "ACCESS_TOKEN_TTL_S": "900",
+    "REFRESH_TOKEN_TTL_S": "2592000"
+  },
+  "d1_databases": [{ "binding": "DB", "database_name": "pulse-local", "database_id": "00000000-0000-0000-0000-000000000000", "migrations_dir": "../../infra/migrations" }],
+  "r2_buckets": [{ "binding": "RAW_BUCKET", "bucket_name": "pulse-local-raw" }],
+  "kv_namespaces": [{ "binding": "CONFIG_KV", "id": "00000000000000000000000000000000" }],
+  "queues": {
+    "producers": [
+      { "binding": "INGEST_QUEUE", "queue": "pulse-telemetry-local" },
+      { "binding": "NOTIFY_QUEUE", "queue": "pulse-notifications-local" },
+      { "binding": "JOBS_QUEUE", "queue": "pulse-jobs-local" }
+    ],
+    "consumers": [
+      { "queue": "pulse-telemetry-local", "dead_letter_queue": "pulse-telemetry-dlq-local", "max_batch_size": 50, "max_retries": 5 },
+      { "queue": "pulse-notifications-local", "dead_letter_queue": "pulse-notifications-dlq-local", "max_batch_size": 50, "max_retries": 5 },
+      { "queue": "pulse-jobs-local", "dead_letter_queue": "pulse-jobs-dlq-local", "max_batch_size": 10, "max_retries": 3 }
+    ]
+  },
+  "triggers": { "crons": ["* * * * *"] }
+}
