@@ -82,7 +82,11 @@ export class Bridge {
         .open()
         .catch((e) => this.log.warn('falha ao abrir sessão', { session: s.id, err: String(e) }));
     }
-    for (const [id, l] of this.links) if (!active.has(id) || l.closed) (l.shutdown(), this.links.delete(id));
+    for (const [id, l] of this.links) {
+      if (active.has(id) && !l.closed) continue;
+      l.shutdown();
+      this.links.delete(id);
+    }
   }
 
   start(intervalMs = 5_000): void {
