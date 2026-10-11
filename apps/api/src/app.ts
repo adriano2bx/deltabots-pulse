@@ -6,6 +6,9 @@ import { authRoutes } from './routes/auth';
 import { meRoutes } from './routes/me';
 import { consentRoutes } from './routes/consents';
 import { organizationRoutes } from './routes/organizations';
+import { deviceRoutes } from './routes/devices';
+import { gatewayRoutes } from './routes/gateways';
+import { telemetryRoutes } from './routes/telemetry';
 import openapiYaml from '@pulse/contracts/openapi.yaml';
 
 export function createApp(): Hono<AppEnv> {
@@ -83,6 +86,9 @@ export function createApp(): Hono<AppEnv> {
   v1.route('/me', meRoutes);
   v1.route('/consents', consentRoutes);
   v1.route('/organizations', organizationRoutes);
+  v1.route('/devices', deviceRoutes);
+  v1.route('/gateways', gatewayRoutes);
+  v1.route('/telemetry', telemetryRoutes);
   app.route('/v1', v1);
   return app;
 }
