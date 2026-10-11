@@ -4,7 +4,8 @@ import { GatewayHeartbeat, RegisterGatewayRequest } from '@pulse/contracts';
 import { PulseError, newId } from '@pulse/core';
 import type { AppEnv } from '../env';
 import { audit } from '../lib/audit';
-import { requireAuth, requireGateway, requireHuman, requireScope } from '../lib/auth';
+import { requireAuth, requireGateway, requireHuman, requireMfa, requireScope } from '../lib/auth';
+import { issueEquipmentCredentials } from './realtime';
 import { all, first, run, stmt } from '../lib/db';
 import { parseBody } from '../lib/http';
 
@@ -249,4 +250,42 @@ gatewayRoutes.delete('/:id', async (c) => {
     resourceId: gw.id,
   });
   return c.json({ data: { revoked: true } });
+});
+
+/**
+ * Credencial de longa duração para gateways de equipamento (ESP32/bridge MQTT): refresh token de sessão
+ * `gateway`, exibido uma vez. Exige sessão humana com MFA (operação privilegiada).
+ */
+gatewayRoutes.post('/:id/credentials', async (c) => {
+  const p = c.get('principal');
+  requireHuman(p);
+  requireMfa(p);
+  const gw = await first<{ id: string; kind: string }>(
+    c.env.DB,
+    'SELECT id,kind FROM gateways WHERE id=? AND tenant_id=? AND owner_user_id=? AND revoked_at IS NULL',
+    c.req.param('id'),
+    p.tenantId,
+    p.userId,
+  );
+  if (!gw) throw new PulseError('NOT_FOUND');
+  if (gw.kind === 'android')
+    throw new PulseError('CONFLICT', 'gateways Android usam a sessão do próprio app');
+  const refresh = await issueEquipmentCredentials(c.env, p, gw.id);
+  await audit(c.env.DB, {
+    tenantId: p.tenantId,
+    actor: p,
+    action: 'gateway.credentials_issued',
+    resourceType: 'gateway',
+    resourceId: gw.id,
+  });
+  return c.json(
+    {
+      data: {
+        gateway_id: gw.id,
+        refresh_token: refresh,
+        note: 'Guarde em local seguro; não será exibido novamente.',
+      },
+    },
+    201,
+  );
 });

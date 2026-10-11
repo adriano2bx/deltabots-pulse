@@ -9,6 +9,17 @@ import { organizationRoutes } from './routes/organizations';
 import { deviceRoutes } from './routes/devices';
 import { gatewayRoutes } from './routes/gateways';
 import { telemetryRoutes } from './routes/telemetry';
+import { shareRoutes } from './routes/share';
+import { alertRoutes, checkinRoutes, notificationRoutes } from './routes/notifications';
+import { activitiesRoutes, healthRoutes, sleepRoutes } from './routes/health';
+import { exportRoutes, reportRoutes } from './routes/reports';
+import { automationRoutes } from './routes/automations';
+import { apiKeyRoutes, integrationRoutes, mcpRoutes, webhookRoutes } from './routes/integrations';
+import { aiRoutes, mcpServerRoutes } from './routes/ai';
+import { adminRoutes, billingRoutes } from './routes/billing';
+import { gestureRoutes } from './routes/gestures';
+import { controlRoutes } from './routes/control';
+import { realtimeRoutes } from './routes/realtime';
 import openapiYaml from '@pulse/contracts/openapi.yaml';
 
 export function createApp(): Hono<AppEnv> {
@@ -89,6 +100,27 @@ export function createApp(): Hono<AppEnv> {
   v1.route('/devices', deviceRoutes);
   v1.route('/gateways', gatewayRoutes);
   v1.route('/telemetry', telemetryRoutes);
+  v1.route('/share', shareRoutes);
+  v1.route('/notifications', notificationRoutes);
+  v1.route('/alerts', alertRoutes);
+  v1.route('/checkins', checkinRoutes);
+  v1.route('/health', healthRoutes);
+  v1.route('/activities', activitiesRoutes);
+  v1.route('/sleep', sleepRoutes);
+  v1.route('/reports', reportRoutes);
+  v1.route('/exports', exportRoutes);
+  v1.route('/automations', automationRoutes);
+  v1.route('/integrations', integrationRoutes);
+  v1.route('/webhooks', webhookRoutes);
+  v1.route('/api-keys', apiKeyRoutes);
+  v1.route('/mcp', mcpRoutes);
+  v1.route('/mcp-server', mcpServerRoutes);
+  v1.route('/ai', aiRoutes);
+  v1.route('/billing', billingRoutes);
+  v1.route('/admin', adminRoutes);
+  v1.route('/gestures', gestureRoutes);
+  v1.route('/control', controlRoutes);
+  v1.route('/realtime', realtimeRoutes);
   app.route('/v1', v1);
   return app;
 }

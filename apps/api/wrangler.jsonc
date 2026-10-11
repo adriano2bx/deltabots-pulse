@@ -31,5 +31,7 @@
       { "queue": "pulse-jobs-local", "dead_letter_queue": "pulse-jobs-dlq-local", "max_batch_size": 10, "max_retries": 3 }
     ]
   },
+  "durable_objects": { "bindings": [{ "name": "SESSIONS", "class_name": "PulseSessionRoom" }] },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["PulseSessionRoom"] }],
   "triggers": { "crons": ["* * * * *"] }
 }

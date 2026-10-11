@@ -38,6 +38,12 @@ importers:
       '@pulse/core':
         specifier: workspace:*
         version: link:../../packages/core
+      '@pulse/realtime':
+        specifier: workspace:*
+        version: link:../realtime
+      '@pulse/test-fixtures':
+        specifier: workspace:*
+        version: link:../../packages/test-fixtures
       hono:
         specifier: 4.13.13
         version: 4.13.13
@@ -54,12 +60,22 @@ importers:
       '@cloudflare/workers-types':
         specifier: 5.20261011.1
         version: 5.20261011.1
-      '@pulse/test-fixtures':
-        specifier: workspace:*
-        version: link:../../packages/test-fixtures
       wrangler:
         specifier: 4.149.0
         version: 4.149.0(@cloudflare/workers-types@5.20261011.1)(@types/node@22.20.5)
+
+  apps/realtime:
+    dependencies:
+      '@pulse/contracts':
+        specifier: workspace:*
+        version: link:../../packages/contracts
+      '@pulse/core':
+        specifier: workspace:*
+        version: link:../../packages/core
+    devDependencies:
+      '@cloudflare/workers-types':
+        specifier: 5.20261011.1
+        version: 5.20261011.1
 
   packages/contracts:
     dependencies:

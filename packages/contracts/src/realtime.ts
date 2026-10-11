@@ -138,5 +138,7 @@ export const TicketRequest = z.strictObject({
   control_session_id: Id.optional(),
   gateway_id: Id.optional(),
   equipment_id: Id.optional(),
+  /** Titular observado (telemetry_view por beneficiário com concessão ativa). */
+  owner_user_id: Id.optional(),
 });
 export const WssTicket = z.object({ ticket: z.string(), expires_at: IsoDateTime, url: z.string() });

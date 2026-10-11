@@ -40,6 +40,7 @@ export const USER_SESSION_SCOPES: readonly Scope[] = [
   'ai:use',
   'share:manage',
   'org:manage',
+  'mcp:tools',
 ];
 
 /** Escopos de um gateway Android autenticado (sem gestão de conta). */
