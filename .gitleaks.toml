@@ -1,0 +1,6 @@
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Senhas/credenciais fictícias usadas apenas em testes automatizados"
+paths = ['''apps/[^/]+/test/.*\.test\.ts''', '''apps/[^/]+/test/helpers\.ts''']
