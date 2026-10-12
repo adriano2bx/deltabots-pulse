@@ -53,6 +53,7 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
@@ -473,7 +474,7 @@ class Miband3Connection(
 
     /** Carrega do banco as capacidades já comprovadas (por confirmação do usuário ou uso real) neste firmware. */
     suspend fun loadPersistedEvidence(id: String) {
-        val saved = kotlinx.coroutines.flow.first(devices.capabilities(id))
+        val saved = devices.capabilities(id).first()
         persistedSupported = saved.filter { it.state == SupportState.SUPPORTED.name }.mapNotNull { e -> CapabilityId.entries.firstOrNull { it.name == e.capability } }.toSet()
     }
 

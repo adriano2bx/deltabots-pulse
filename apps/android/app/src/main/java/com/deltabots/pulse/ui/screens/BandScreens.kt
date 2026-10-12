@@ -171,7 +171,7 @@ fun HealthScreen(modifier: Modifier) {
         Text("Saúde", style = MaterialTheme.typography.headlineSmall)
         StateHost(hrState) { hr, caption -> MetricTile("Frequência cardíaca", "$hr bpm", caption) }
         if (!ui.isReady) Notice("Pulseira desconectada", "Conecte a pulseira para medir.")
-        val canHr = ui.capabilities.firstOrNull { it.id == CapabilityId.HEART_RATE }?.state?.name
+        val canHr = ui.capabilities.firstOrNull { it.id == CapabilityId.HR_ON_DEMAND }?.state?.name
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             Button(onClick = { band.measureHeartRate() }, enabled = ui.isReady && !ui.measuringHeartRate) { Text(if (ui.measuringHeartRate) "Medindo…" else "Medir agora") }
             OutlinedButton(onClick = { band.setContinuousHeartRate(!ui.continuousHeartRate) }, enabled = ui.isReady) { Text(if (ui.continuousHeartRate) "Parar contínuo" else "Contínuo") }
