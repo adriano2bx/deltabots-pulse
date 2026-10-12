@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DeltaBots Pulse</string>
+    <string name="notification_access_label">Encaminhar notificações para a pulseira</string>
+    <string name="channel_connection">Conexão com a pulseira</string>
+</resources>

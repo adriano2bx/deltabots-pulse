@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [main]
+    branches: [main, 'wip/**']
   pull_request:
   workflow_dispatch:
 
@@ -58,3 +58,21 @@ jobs:
       - uses: gitleaks/gitleaks-action@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  android:
+    name: Android (testes + APK debug)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: gradle/actions/setup-gradle@v4
+      - name: Testes e build
+        working-directory: apps/android
+        run: gradle --no-daemon :core:domain:test :core:network:test :device:miband3:test :app:testPadraoDebugUnitTest :app:assemblePadraoDebug :app:assembleCompletoDebug
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pulse-debug-apks
+          path: apps/android/app/build/outputs/apk/**/*.apk

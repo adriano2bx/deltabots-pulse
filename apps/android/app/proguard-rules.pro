@@ -1,0 +1,3 @@
+-keepclassmembers class * { @kotlinx.serialization.Serializable *; }
+-keep class com.deltabots.pulse.network.** { *; }
+-dontwarn org.slf4j.**
