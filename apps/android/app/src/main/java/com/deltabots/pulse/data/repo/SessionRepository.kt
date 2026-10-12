@@ -5,6 +5,7 @@ import com.deltabots.pulse.BuildConfig
 import com.deltabots.pulse.data.local.DeviceDao
 import com.deltabots.pulse.data.secure.KeystoreSigner
 import com.deltabots.pulse.network.CapabilityReport
+import com.deltabots.pulse.network.ConsentPurposes
 import com.deltabots.pulse.network.CreateConsent
 import com.deltabots.pulse.network.DeviceRegister
 import com.deltabots.pulse.network.GatewayRegister
@@ -47,7 +48,7 @@ class SessionRepository(
     suspend fun grantHealthConsents(): Int {
         val existing = api.consents().filter { it.revokedAt == null }.map { it.purpose }.toSet()
         var n = 0
-        for (p in listOf("health_data_processing", "device_telemetry")) if (p !in existing) {
+        for (p in ConsentPurposes.healthSync) if (p !in existing) {
             api.grantConsent(CreateConsent(p, TERMS_VERSION)); n++
         }
         return n

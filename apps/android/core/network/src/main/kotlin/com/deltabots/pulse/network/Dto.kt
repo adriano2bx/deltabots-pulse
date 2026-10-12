@@ -51,3 +51,11 @@ import kotlinx.serialization.json.JsonElement
 @Serializable data class HeartbeatAck(@SerialName("server_time") val serverTime: String, @SerialName("pending_commands") val pendingCommands: Int = 0)
 @Serializable data class PendingCommand(val id: String, @SerialName("device_id") val deviceId: String, val action: String, val arguments: Map<String, JsonElement> = emptyMap(), @SerialName("expires_at") val expiresAt: String)
 @Serializable data class CommandAck(val status: String, val code: String? = null)
+
+/** Finalidades de consentimento aceitas pela API (packages/contracts/src/consent.ts); um teste impede divergência. */
+object ConsentPurposes {
+    const val HEALTH_PROCESSING = "health_processing"
+    const val CLOUD_SYNC_HEALTH = "cloud_sync_health"
+    const val NOTIFICATION_MIRRORING = "notification_mirroring"
+    val healthSync = listOf(HEALTH_PROCESSING, CLOUD_SYNC_HEALTH)
+}

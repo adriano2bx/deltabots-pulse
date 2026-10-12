@@ -4,12 +4,18 @@ import { Automations } from './pages/Automations';
 import { Consents } from './pages/Consents';
 import { Devices } from './pages/Devices';
 import { Health } from './pages/Health';
+import { Developer } from './pages/Developer';
 import { Login } from './pages/Login';
+import { Organization } from './pages/Organization';
+import { Reports } from './pages/Reports';
 
 const TABS = {
   health: { label: 'Saúde', view: Health },
   devices: { label: 'Dispositivos', view: Devices },
   automations: { label: 'Automações', view: Automations },
+  reports: { label: 'Relatórios', view: Reports },
+  organization: { label: 'Organização', view: Organization },
+  developer: { label: 'Desenvolvedor', view: Developer },
   consents: { label: 'Privacidade', view: Consents },
 } as const;
 type TabKey = keyof typeof TABS;
