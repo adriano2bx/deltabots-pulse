@@ -243,4 +243,17 @@ describe('organizações e RBAC', () => {
     const b = await registerUser();
     expect((await call(`/organizations/${b.tenantId}/members`, { token: a.access })).status).toBe(404);
   });
+  it('limita tentativas de login por e-mail (RATE_LIMITED após 10)', async () => {
+    const email = `brute${Date.now()}@example.test`;
+    const attempt = () =>
+      call('/auth/login', {
+        method: 'POST',
+        headers: { 'cf-connecting-ip': '203.0.113.77' },
+        json: { email, password: 'senha-errada-123' },
+      });
+    for (let i = 0; i < 10; i += 1) expect((await attempt()).status).not.toBe(429);
+    const blocked = await attempt();
+    expect(blocked.status).toBe(429);
+    expect(((await blocked.json()) as { code: string }).code).toBe('RATE_LIMITED');
+  });
 });
