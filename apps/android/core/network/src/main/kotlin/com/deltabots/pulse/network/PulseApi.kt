@@ -94,6 +94,8 @@ class PulseApi(
         is BatchRequest -> PulseJson.encodeToString(BatchRequest.serializer(), body)
         is Heartbeat -> PulseJson.encodeToString(Heartbeat.serializer(), body)
         is CommandAck -> PulseJson.encodeToString(CommandAck.serializer(), body)
+        is ExportRequestDto -> PulseJson.encodeToString(ExportRequestDto.serializer(), body)
+        is DeleteAccountDto -> PulseJson.encodeToString(DeleteAccountDto.serializer(), body)
         is UpdateAutomation -> PulseJson.encodeToString(UpdateAutomation.serializer(), body)
         is kotlinx.serialization.json.JsonElement -> PulseJson.encodeToString(kotlinx.serialization.json.JsonElement.serializer(), body)
         else -> error("tipo não serializável: ${body::class}")
@@ -149,4 +151,12 @@ class PulseApi(
         send(HttpMethod.Patch, "/automations/$id", UpdateAutomation(version, enabled), true, false, emptyMap()).body<Envelope<AutomationDto>>().data
     suspend fun alerts(): List<AlertDto> = send(HttpMethod.Get, "/alerts", null, true, false, emptyMap()).body<ListEnvelope<AlertDto>>().data
     suspend fun ackAlert(id: String) { send(HttpMethod.Post, "/alerts/$id/ack", null, true, false, emptyMap()) }
+
+    // ------------------------------------------------------------------ LGPD: exportação e exclusão
+    suspend fun exports(): List<ExportJobDto> = send(HttpMethod.Get, "/exports", null, true, false, emptyMap()).body<ListEnvelope<ExportJobDto>>().data
+    suspend fun requestExport(kind: String): ExportJobDto = send(HttpMethod.Post, "/exports", ExportRequestDto(kind), true, false, emptyMap()).body<Envelope<ExportJobDto>>().data
+    /** Download autenticado; só o titular consegue. O conteúdo nunca é registrado em log. */
+    suspend fun downloadExport(id: String): ByteArray = send(HttpMethod.Get, "/exports/$id/download", null, true, false, emptyMap()).body()
+    suspend fun requestAccountDeletion(confirmEmail: String, reason: String? = null): DeletionDto =
+        send(HttpMethod.Post, "/me/delete", DeleteAccountDto(confirmEmail, reason), true, false, emptyMap()).body<Envelope<DeletionDto>>().data
 }

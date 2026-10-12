@@ -66,3 +66,8 @@ object ConsentPurposes {
 @Serializable data class AutomationTemplate(val id: String, val title: String, val ast: JsonElement)
 @Serializable data class UpdateAutomation(@SerialName("expected_version") val expectedVersion: Int, val enabled: Boolean? = null)
 @Serializable data class AlertDto(val id: String, val kind: String, val severity: String, val status: String, val summary: String = "", @SerialName("device_id") val deviceId: String? = null, @SerialName("created_at") val createdAt: String = "", @SerialName("ack_at") val ackAt: String? = null)
+
+@Serializable data class ExportRequestDto(val kind: String)
+@Serializable data class ExportJobDto(val id: String, val kind: String, val state: String, @SerialName("download_url") val downloadUrl: String? = null, @SerialName("expires_at") val expiresAt: String? = null, @SerialName("created_at") val createdAt: String = "")
+@Serializable data class DeleteAccountDto(@SerialName("confirm_email") val confirmEmail: String, val reason: String? = null)
+@Serializable data class DeletionDto(val id: String, val state: String)

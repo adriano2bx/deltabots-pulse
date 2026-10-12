@@ -43,7 +43,7 @@ private fun ToggleRow(label: String, checked: Boolean, onChange: (Boolean) -> Un
 }
 
 @Composable
-fun SettingsScreen(modifier: Modifier, onSignedOut: () -> Unit) {
+fun SettingsScreen(modifier: Modifier, onSignedOut: () -> Unit, onOpenPrivacy: () -> Unit = {}) {
     val prefs: Prefs = koinInject()
     val session: SessionRepository = koinInject()
     val telemetry: TelemetryRepository = koinInject()
@@ -82,6 +82,7 @@ fun SettingsScreen(modifier: Modifier, onSignedOut: () -> Unit) {
                 message = try { val n = session.grantHealthConsents(); if (n == 0) "Consentimentos já ativos." else "Consentimento registrado." } catch (e: Exception) { "Falha: ${e.message}" }
             }
         }) { Text("Autorizar envio de dados de saúde") }
+        OutlinedButton(onOpenPrivacy) { Text("Exportar ou excluir meus dados") }
 
         Text("Pulseira", style = MaterialTheme.typography.titleMedium)
         ToggleRow("Mão esquerda", p.leftWrist) { v -> scope.launch { prefs.update { it.copy(leftWrist = v) } } }

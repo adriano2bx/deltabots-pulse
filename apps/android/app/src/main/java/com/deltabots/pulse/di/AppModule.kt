@@ -5,6 +5,7 @@ import com.deltabots.pulse.BuildConfig
 import com.deltabots.pulse.ble.Miband3Connection
 import com.deltabots.pulse.ble.ReadingSink
 import com.deltabots.pulse.data.local.PulseDatabase
+import com.deltabots.pulse.data.repo.LocalDataWiper
 import com.deltabots.pulse.data.repo.Prefs
 import com.deltabots.pulse.data.repo.SessionRepository
 import com.deltabots.pulse.data.repo.TelemetryRepository
@@ -41,6 +42,7 @@ val appModule = module {
     single { TelemetryRepository(get(), get(), get(), get(), get()) }
     single<ReadingSink> { get<TelemetryRepository>() }
     single { SessionRepository(get(), get(), get(), get()) }
+    single { LocalDataWiper(get(), get(), get(), get(), get(), get(), get(), get()) }
     single { GestureLab(androidContext(), get()) }
     single {
         val prefs = get<Prefs>()

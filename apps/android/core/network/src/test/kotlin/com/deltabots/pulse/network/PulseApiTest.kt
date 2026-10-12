@@ -158,4 +158,22 @@ class PulseApiTest {
         assertTrue(patchBody.contains("\"enabled\":true"))
         assertEquals(4, updated.version)
     }
+
+    @Test fun exportDownloadAndDeletionRequestsUseExpectedContracts() = runTest {
+        var deleteBody = ""
+        val (api, _) = api(store = InMemoryTokenStore().also { it.save(StoredSession("rt", "ten_1", "ses_1")) }) { req ->
+            when (req.url.encodedPath) {
+                "/v1/auth/refresh" -> ok(tokens)
+                "/v1/exports/exp_1/download" -> respond(byteArrayOf(1, 2, 3), HttpStatusCode.OK, headersOf(HttpHeaders.ContentType, "application/octet-stream"))
+                "/v1/me/delete" -> {
+                    deleteBody = (req.body as io.ktor.http.content.TextContent).text
+                    ok("""{"data":{"id":"evt_1","state":"queued"}}""", HttpStatusCode.Accepted)
+                }
+                else -> respond("", HttpStatusCode.NotFound)
+            }
+        }
+        assertEquals(listOf<Byte>(1, 2, 3), api.downloadExport("exp_1").toList())
+        assertEquals("queued", api.requestAccountDeletion("a@b.test").state)
+        assertTrue(deleteBody.contains("\"confirm_email\":\"a@b.test\""))
+    }
 }
