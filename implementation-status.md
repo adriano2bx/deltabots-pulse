@@ -9,40 +9,40 @@
 | Estado | Quantidade |
 |---|---|
 | `DESCOPED_BY_OWNER` | 40 |
-| `IN_REVIEW` | 2 |
-| `NOT_STARTED` | 348 |
+| `IN_REVIEW` | 15 |
+| `NOT_STARTED` | 335 |
 
 ## Por área
 
 ### Android: BLE e pareamento
 
-_NOT_STARTED: 15_
+_IN_REVIEW: 10, NOT_STARTED: 5_
 
 | ID | Funcionalidade | Escopo | Estado | Evidência |
 |---|---|---|---|---|
-| F001 | Buscar pulseiras BLE próximas | REQUIRED | `NOT_STARTED` | — |
+| F001 | Buscar pulseiras BLE próximas | REQUIRED | `IN_REVIEW` | apps/android/device/miband3 (testes de protocolo no CI) e app/ble/Miband3Connection.kt; CI Android verde; teste em aparelho do app novo pendente (HARDWARE_BLOCKED, HW01-HW05) |
 | F002 | Parear sem aplicativo Xiaomi quando autorizado | REQUIRED | `NOT_STARTED` | — |
-| F003 | Autenticar com chave legítima | REQUIRED | `NOT_STARTED` | — |
-| F004 | Reconexão BLE automática | REQUIRED | `NOT_STARTED` | — |
-| F005 | Exibir estado da conexão | REQUIRED | `NOT_STARTED` | — |
-| F006 | Exibir bateria da pulseira | REQUIRED | `NOT_STARTED` | — |
-| F007 | Identificar modelo e firmware | REQUIRED | `NOT_STARTED` | — |
-| F008 | Sincronização manual | REQUIRED | `NOT_STARTED` | — |
-| F009 | Sincronização periódica | REQUIRED | `NOT_STARTED` | — |
+| F003 | Autenticar com chave legítima | REQUIRED | `IN_REVIEW` | apps/android/device/miband3 (testes de protocolo no CI) e app/ble/Miband3Connection.kt; CI Android verde; teste em aparelho do app novo pendente (HARDWARE_BLOCKED, HW01-HW05) |
+| F004 | Reconexão BLE automática | REQUIRED | `IN_REVIEW` | apps/android/device/miband3 (testes de protocolo no CI) e app/ble/Miband3Connection.kt; CI Android verde; teste em aparelho do app novo pendente (HARDWARE_BLOCKED, HW01-HW05) |
+| F005 | Exibir estado da conexão | REQUIRED | `IN_REVIEW` | BleStateMachine (core/domain, testes no CI) + Início; teste em aparelho pendente |
+| F006 | Exibir bateria da pulseira | REQUIRED | `IN_REVIEW` | apps/android/device/miband3 (testes de protocolo no CI) e app/ble/Miband3Connection.kt; CI Android verde; teste em aparelho do app novo pendente (HARDWARE_BLOCKED, HW01-HW05) |
+| F007 | Identificar modelo e firmware | REQUIRED | `IN_REVIEW` | apps/android/device/miband3 (testes de protocolo no CI) e app/ble/Miband3Connection.kt; CI Android verde; teste em aparelho do app novo pendente (HARDWARE_BLOCKED, HW01-HW05) |
+| F008 | Sincronização manual | REQUIRED | `IN_REVIEW` | apps/android/device/miband3 (testes de protocolo no CI) e app/ble/Miband3Connection.kt; CI Android verde; teste em aparelho do app novo pendente (HARDWARE_BLOCKED, HW01-HW05) |
+| F009 | Sincronização periódica | REQUIRED | `IN_REVIEW` | SyncWorker/WorkManager + periodicSync (app/sync); teste em aparelho pendente |
 | F010 | Ajustar parâmetros BLE suportados | REQUIRED | `NOT_STARTED` | — |
 | F011 | Localizar pulseira por vibração se suportado | HARDWARE_GATED | `NOT_STARTED` | — |
 | F012 | Diagnóstico RSSI/GATT | REQUIRED | `NOT_STARTED` | — |
-| F013 | Histórico de desconexões | REQUIRED | `NOT_STARTED` | — |
-| F014 | Gerenciar dispositivos cadastrados | REQUIRED | `NOT_STARTED` | — |
+| F013 | Histórico de desconexões | REQUIRED | `IN_REVIEW` | tabela connection_event (Room) registra transições; tela de histórico ainda não existe |
+| F014 | Gerenciar dispositivos cadastrados | REQUIRED | `IN_REVIEW` | Início permite parear/reconectar; gerenciar vários dispositivos ainda não implementado |
 | F015 | Firmware OTA assinado se compatível e autorizado | HARDWARE_GATED | `NOT_STARTED` | — |
 
 ### Android: biometria
 
-_NOT_STARTED: 13_
+_IN_REVIEW: 2, NOT_STARTED: 11_
 
 | ID | Funcionalidade | Escopo | Estado | Evidência |
 |---|---|---|---|---|
-| F016 | Frequência cardíaca atual | REQUIRED | `NOT_STARTED` | — |
+| F016 | Frequência cardíaca atual | REQUIRED | `IN_REVIEW` | apps/android/device/miband3 (testes de protocolo no CI) e app/ble/Miband3Connection.kt; CI Android verde; teste em aparelho do app novo pendente (HARDWARE_BLOCKED, HW01-HW05) |
 | F017 | Histórico de frequência cardíaca | REQUIRED | `NOT_STARTED` | — |
 | F018 | Curva por horário | REQUIRED | `NOT_STARTED` | — |
 | F019 | Média de frequência cardíaca | REQUIRED | `NOT_STARTED` | — |
@@ -50,7 +50,7 @@ _NOT_STARTED: 13_
 | F021 | Comparação entre períodos | REQUIRED | `NOT_STARTED` | — |
 | F022 | Tendências de frequência cardíaca | REQUIRED | `NOT_STARTED` | — |
 | F023 | Leituras inválidas/qualidade | REQUIRED | `NOT_STARTED` | — |
-| F024 | Solicitar medição de FC | REQUIRED | `NOT_STARTED` | — |
+| F024 | Solicitar medição de FC | REQUIRED | `IN_REVIEW` | apps/android/device/miband3 (testes de protocolo no CI) e app/ble/Miband3Connection.kt; CI Android verde; teste em aparelho do app novo pendente (HARDWARE_BLOCKED, HW01-HW05) |
 | F025 | Intervalos de monitoramento suportados | HARDWARE_GATED | `NOT_STARTED` | — |
 | F026 | Alertas de limites configurados | REQUIRED | `NOT_STARTED` | — |
 | F027 | Contexto FC com atividade | REQUIRED | `NOT_STARTED` | — |
@@ -192,7 +192,7 @@ _NOT_STARTED: 20_
 
 ### Cloud: identidade
 
-_NOT_STARTED: 18_
+_IN_REVIEW: 1, NOT_STARTED: 17_
 
 | ID | Funcionalidade | Escopo | Estado | Evidência |
 |---|---|---|---|---|
@@ -205,7 +205,7 @@ _NOT_STARTED: 18_
 | F127 | Tokens rotativos | REQUIRED | `NOT_STARTED` | — |
 | F128 | Revogação sessões | REQUIRED | `NOT_STARTED` | — |
 | F129 | Dispositivos confiáveis | REQUIRED | `NOT_STARTED` | — |
-| F130 | Autenticar gateways Android | REQUIRED | `NOT_STARTED` | — |
+| F130 | Autenticar gateways Android | REQUIRED | `IN_REVIEW` | Gateway com chave ECDSA no Keystore (KeystoreSigner) + prova de posse validada em apps/api/test e core/network (CI) |
 | F131 | Organizações | REQUIRED | `NOT_STARTED` | — |
 | F132 | RBAC | REQUIRED | `NOT_STARTED` | — |
 | F133 | Compartilhamento granular | REQUIRED | `NOT_STARTED` | — |

@@ -1,20 +1,20 @@
 id,area,feature,scope,test_id,status,evidence
-F001,Android: BLE e pareamento,Buscar pulseiras BLE próximas,REQUIRED,TEST-A-001,NOT_STARTED,
+F001,Android: BLE e pareamento,Buscar pulseiras BLE próximas,REQUIRED,TEST-A-001,IN_REVIEW,"apps/android/device/miband3 (testes de protocolo no CI) e app/ble/Miband3Connection.kt; CI Android verde; teste em aparelho do app novo pendente (HARDWARE_BLOCKED, HW01-HW05)"
 F002,Android: BLE e pareamento,Parear sem aplicativo Xiaomi quando autorizado,REQUIRED,TEST-A-002,NOT_STARTED,
-F003,Android: BLE e pareamento,Autenticar com chave legítima,REQUIRED,TEST-A-003,NOT_STARTED,
-F004,Android: BLE e pareamento,Reconexão BLE automática,REQUIRED,TEST-A-004,NOT_STARTED,
-F005,Android: BLE e pareamento,Exibir estado da conexão,REQUIRED,TEST-A-005,NOT_STARTED,
-F006,Android: BLE e pareamento,Exibir bateria da pulseira,REQUIRED,TEST-A-006,NOT_STARTED,
-F007,Android: BLE e pareamento,Identificar modelo e firmware,REQUIRED,TEST-A-007,NOT_STARTED,
-F008,Android: BLE e pareamento,Sincronização manual,REQUIRED,TEST-A-008,NOT_STARTED,
-F009,Android: BLE e pareamento,Sincronização periódica,REQUIRED,TEST-A-009,NOT_STARTED,
+F003,Android: BLE e pareamento,Autenticar com chave legítima,REQUIRED,TEST-A-003,IN_REVIEW,"apps/android/device/miband3 (testes de protocolo no CI) e app/ble/Miband3Connection.kt; CI Android verde; teste em aparelho do app novo pendente (HARDWARE_BLOCKED, HW01-HW05)"
+F004,Android: BLE e pareamento,Reconexão BLE automática,REQUIRED,TEST-A-004,IN_REVIEW,"apps/android/device/miband3 (testes de protocolo no CI) e app/ble/Miband3Connection.kt; CI Android verde; teste em aparelho do app novo pendente (HARDWARE_BLOCKED, HW01-HW05)"
+F005,Android: BLE e pareamento,Exibir estado da conexão,REQUIRED,TEST-A-005,IN_REVIEW,"BleStateMachine (core/domain, testes no CI) + Início; teste em aparelho pendente"
+F006,Android: BLE e pareamento,Exibir bateria da pulseira,REQUIRED,TEST-A-006,IN_REVIEW,"apps/android/device/miband3 (testes de protocolo no CI) e app/ble/Miband3Connection.kt; CI Android verde; teste em aparelho do app novo pendente (HARDWARE_BLOCKED, HW01-HW05)"
+F007,Android: BLE e pareamento,Identificar modelo e firmware,REQUIRED,TEST-A-007,IN_REVIEW,"apps/android/device/miband3 (testes de protocolo no CI) e app/ble/Miband3Connection.kt; CI Android verde; teste em aparelho do app novo pendente (HARDWARE_BLOCKED, HW01-HW05)"
+F008,Android: BLE e pareamento,Sincronização manual,REQUIRED,TEST-A-008,IN_REVIEW,"apps/android/device/miband3 (testes de protocolo no CI) e app/ble/Miband3Connection.kt; CI Android verde; teste em aparelho do app novo pendente (HARDWARE_BLOCKED, HW01-HW05)"
+F009,Android: BLE e pareamento,Sincronização periódica,REQUIRED,TEST-A-009,IN_REVIEW,SyncWorker/WorkManager + periodicSync (app/sync); teste em aparelho pendente
 F010,Android: BLE e pareamento,Ajustar parâmetros BLE suportados,REQUIRED,TEST-A-010,NOT_STARTED,
 F011,Android: BLE e pareamento,Localizar pulseira por vibração se suportado,HARDWARE_GATED,TEST-A-011,NOT_STARTED,
 F012,Android: BLE e pareamento,Diagnóstico RSSI/GATT,REQUIRED,TEST-A-012,NOT_STARTED,
-F013,Android: BLE e pareamento,Histórico de desconexões,REQUIRED,TEST-A-013,NOT_STARTED,
-F014,Android: BLE e pareamento,Gerenciar dispositivos cadastrados,REQUIRED,TEST-A-014,NOT_STARTED,
+F013,Android: BLE e pareamento,Histórico de desconexões,REQUIRED,TEST-A-013,IN_REVIEW,tabela connection_event (Room) registra transições; tela de histórico ainda não existe
+F014,Android: BLE e pareamento,Gerenciar dispositivos cadastrados,REQUIRED,TEST-A-014,IN_REVIEW,Início permite parear/reconectar; gerenciar vários dispositivos ainda não implementado
 F015,Android: BLE e pareamento,Firmware OTA assinado se compatível e autorizado,HARDWARE_GATED,TEST-A-015,NOT_STARTED,
-F016,Android: biometria,Frequência cardíaca atual,REQUIRED,TEST-A-016,NOT_STARTED,
+F016,Android: biometria,Frequência cardíaca atual,REQUIRED,TEST-A-016,IN_REVIEW,"apps/android/device/miband3 (testes de protocolo no CI) e app/ble/Miband3Connection.kt; CI Android verde; teste em aparelho do app novo pendente (HARDWARE_BLOCKED, HW01-HW05)"
 F017,Android: biometria,Histórico de frequência cardíaca,REQUIRED,TEST-A-017,NOT_STARTED,
 F018,Android: biometria,Curva por horário,REQUIRED,TEST-A-018,NOT_STARTED,
 F019,Android: biometria,Média de frequência cardíaca,REQUIRED,TEST-A-019,NOT_STARTED,
@@ -22,7 +22,7 @@ F020,Android: biometria,Mínimo e máximo de FC,REQUIRED,TEST-A-020,NOT_STARTED,
 F021,Android: biometria,Comparação entre períodos,REQUIRED,TEST-A-021,NOT_STARTED,
 F022,Android: biometria,Tendências de frequência cardíaca,REQUIRED,TEST-A-022,NOT_STARTED,
 F023,Android: biometria,Leituras inválidas/qualidade,REQUIRED,TEST-A-023,NOT_STARTED,
-F024,Android: biometria,Solicitar medição de FC,REQUIRED,TEST-A-024,NOT_STARTED,
+F024,Android: biometria,Solicitar medição de FC,REQUIRED,TEST-A-024,IN_REVIEW,"apps/android/device/miband3 (testes de protocolo no CI) e app/ble/Miband3Connection.kt; CI Android verde; teste em aparelho do app novo pendente (HARDWARE_BLOCKED, HW01-HW05)"
 F025,Android: biometria,Intervalos de monitoramento suportados,HARDWARE_GATED,TEST-A-025,NOT_STARTED,
 F026,Android: biometria,Alertas de limites configurados,REQUIRED,TEST-A-026,NOT_STARTED,
 F027,Android: biometria,Contexto FC com atividade,REQUIRED,TEST-A-027,NOT_STARTED,
@@ -128,7 +128,7 @@ F126,Cloud: identidade,Gerenciamento sessões,REQUIRED,TEST-B-126,NOT_STARTED,
 F127,Cloud: identidade,Tokens rotativos,REQUIRED,TEST-B-127,NOT_STARTED,
 F128,Cloud: identidade,Revogação sessões,REQUIRED,TEST-B-128,NOT_STARTED,
 F129,Cloud: identidade,Dispositivos confiáveis,REQUIRED,TEST-B-129,NOT_STARTED,
-F130,Cloud: identidade,Autenticar gateways Android,REQUIRED,TEST-B-130,NOT_STARTED,
+F130,Cloud: identidade,Autenticar gateways Android,REQUIRED,TEST-B-130,IN_REVIEW,Gateway com chave ECDSA no Keystore (KeystoreSigner) + prova de posse validada em apps/api/test e core/network (CI)
 F131,Cloud: identidade,Organizações,REQUIRED,TEST-B-131,NOT_STARTED,
 F132,Cloud: identidade,RBAC,REQUIRED,TEST-B-132,NOT_STARTED,
 F133,Cloud: identidade,Compartilhamento granular,REQUIRED,TEST-B-133,NOT_STARTED,
