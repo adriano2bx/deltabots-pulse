@@ -11,6 +11,7 @@ import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material.icons.filled.Send
 import androidx.compose.material.icons.filled.Favorite
+import androidx.compose.material.icons.filled.Star
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
@@ -28,6 +29,7 @@ private enum class Tab(val label: String, val icon: ImageVector) {
     HOME("Início", Icons.Filled.Home),
     HEALTH("Saúde", Icons.Filled.Favorite),
     BAND("Pulseira", Icons.Filled.Send),
+    GESTURES("Gestos", Icons.Filled.Star),
     SETTINGS("Ajustes", Icons.Filled.Settings),
 }
 
@@ -58,6 +60,7 @@ fun PulseRoot() {
                     Tab.HOME -> HomeScreen(m)
                     Tab.HEALTH -> HealthScreen(m)
                     Tab.BAND -> BandScreen(m)
+                    Tab.GESTURES -> GestureScreen(m)
                     Tab.SETTINGS -> SettingsScreen(m, onSignedOut = { signedIn = false })
                 }
             }

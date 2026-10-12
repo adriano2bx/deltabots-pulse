@@ -11,6 +11,7 @@ import com.deltabots.pulse.data.repo.TelemetryRepository
 import com.deltabots.pulse.data.secure.BleKeyStore
 import com.deltabots.pulse.data.secure.KeystoreSigner
 import com.deltabots.pulse.data.secure.SecureTokenStore
+import com.deltabots.pulse.gestures.GestureLab
 import com.deltabots.pulse.network.PulseApi
 import com.deltabots.pulse.network.RequestSigner
 import com.deltabots.pulse.network.TokenStore
@@ -40,6 +41,7 @@ val appModule = module {
     single { TelemetryRepository(get(), get(), get(), get(), get()) }
     single<ReadingSink> { get<TelemetryRepository>() }
     single { SessionRepository(get(), get(), get(), get()) }
+    single { GestureLab(androidContext(), get()) }
     single {
         val prefs = get<Prefs>()
         Miband3Connection(androidContext(), get(), get(), get()) { runBlocking { prefs.flow.first() } }
