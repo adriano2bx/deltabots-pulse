@@ -71,7 +71,7 @@ jobs:
       - uses: gradle/actions/setup-gradle@v4
       - name: Testes e build
         working-directory: apps/android
-        run: gradle --no-daemon :core:domain:test :core:network:test :device:miband3:test :app:testPadraoDebugUnitTest :app:assemblePadraoDebug :app:assembleCompletoDebug
+        run: ./gradlew --no-daemon :core:domain:test :core:network:test :device:miband3:test :app:testPadraoDebugUnitTest :app:assemblePadraoDebug :app:assembleCompletoDebug
       - uses: actions/upload-artifact@v4
         with:
           name: pulse-debug-apks
