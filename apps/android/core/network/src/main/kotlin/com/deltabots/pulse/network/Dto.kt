@@ -59,3 +59,10 @@ object ConsentPurposes {
     const val NOTIFICATION_MIRRORING = "notification_mirroring"
     val healthSync = listOf(HEALTH_PROCESSING, CLOUD_SYNC_HEALTH)
 }
+
+@Serializable data class AutomationDto(val id: String, val title: String, val enabled: Boolean, val version: Int, @SerialName("risk_level") val riskLevel: String = "low", val ast: JsonElement? = null, @SerialName("updated_at") val updatedAt: String = "")
+@Serializable data class AutomationListEnvelope(val data: List<AutomationDto>, @SerialName("next_cursor") val nextCursor: String? = null, val meta: AutomationMeta = AutomationMeta())
+@Serializable data class AutomationMeta(@SerialName("kill_switch") val killSwitch: Boolean = false)
+@Serializable data class AutomationTemplate(val id: String, val title: String, val ast: JsonElement)
+@Serializable data class UpdateAutomation(@SerialName("expected_version") val expectedVersion: Int, val enabled: Boolean? = null)
+@Serializable data class AlertDto(val id: String, val kind: String, val severity: String, val status: String, val summary: String = "", @SerialName("device_id") val deviceId: String? = null, @SerialName("created_at") val createdAt: String = "", @SerialName("ack_at") val ackAt: String? = null)

@@ -29,7 +29,7 @@ import kotlinx.coroutines.launch
 import org.koin.compose.koinInject
 
 @Composable
-fun GestureScreen(modifier: Modifier) {
+fun GestureScreen(modifier: Modifier, onBack: () -> Unit = {}) {
     val lab: GestureLab = koinInject()
     val ui by lab.ui.collectAsState()
     val scope = rememberCoroutineScope()
@@ -37,6 +37,7 @@ fun GestureScreen(modifier: Modifier) {
     LaunchedEffect(Unit) { lab.reload() }
 
     LazyColumn(modifier.fillMaxSize().padding(16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+        item { OutlinedButton(onBack) { Text("← Pulseira") } }
         item { Text("Laboratório de gestos", style = MaterialTheme.typography.headlineSmall) }
         item {
             Notice(

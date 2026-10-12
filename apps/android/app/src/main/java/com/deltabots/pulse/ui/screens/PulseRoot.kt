@@ -29,7 +29,7 @@ private enum class Tab(val label: String, val icon: ImageVector) {
     HOME("Início", Icons.Filled.Home),
     HEALTH("Saúde", Icons.Filled.Favorite),
     BAND("Pulseira", Icons.Filled.Send),
-    GESTURES("Gestos", Icons.Filled.Star),
+    AUTOMATIONS("Automações", Icons.Filled.Star),
     SETTINGS("Ajustes", Icons.Filled.Settings),
 }
 
@@ -48,6 +48,7 @@ fun PulseRoot() {
         signedIn == false -> AuthScreen(onDone = { signedIn = true })
         else -> {
             var tab by remember { mutableStateOf(Tab.HOME) }
+            var gestures by remember { mutableStateOf(false) }
             Scaffold(bottomBar = {
                 NavigationBar {
                     Tab.entries.forEach {
@@ -59,8 +60,8 @@ fun PulseRoot() {
                 when (tab) {
                     Tab.HOME -> HomeScreen(m)
                     Tab.HEALTH -> HealthScreen(m)
-                    Tab.BAND -> BandScreen(m)
-                    Tab.GESTURES -> GestureScreen(m)
+                    Tab.BAND -> if (gestures) GestureScreen(m, onBack = { gestures = false }) else BandScreen(m, onOpenGestures = { gestures = true })
+                    Tab.AUTOMATIONS -> AutomationsScreen(m)
                     Tab.SETTINGS -> SettingsScreen(m, onSignedOut = { signedIn = false })
                 }
             }

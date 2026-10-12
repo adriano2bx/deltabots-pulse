@@ -183,14 +183,17 @@ fun HealthScreen(modifier: Modifier) {
 }
 
 @Composable
-fun BandScreen(modifier: Modifier) {
+fun BandScreen(modifier: Modifier, onOpenGestures: () -> Unit = {}) {
     val band: Miband3Connection = koinInject()
     val ui by band.ui.collectAsState()
     val log by band.log.collectAsState()
     var title by remember { mutableStateOf("") }
     var body by remember { mutableStateOf("") }
     Column(modifier.fillMaxSize().padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-        Text("Conversar", style = MaterialTheme.typography.headlineSmall)
+        Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
+            Text("Conversar", style = MaterialTheme.typography.headlineSmall)
+            OutlinedButton(onOpenGestures) { Text("Gestos") }
+        }
         OutlinedTextField(title, { title = it }, Modifier.fillMaxWidth(), label = { Text("Título") }, singleLine = true)
         OutlinedTextField(body, { body = it }, Modifier.fillMaxWidth(), label = { Text("Mensagem") })
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {

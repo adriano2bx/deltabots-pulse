@@ -132,4 +132,30 @@ class PulseApiTest {
         api.logout()
         assertEquals(null, store.load())
     }
+
+    @Test fun automationsListSurfacesKillSwitchAndPatchCarriesVersion() = runTest {
+        var patchBody = ""
+        var patchPath = ""
+        val (api, _) = api(store = InMemoryTokenStore().also { it.save(StoredSession("rt", "ten_1", "ses_1")) }) { req ->
+            when {
+                req.url.encodedPath == "/v1/auth/refresh" -> ok(tokens)
+                req.method.value == "GET" && req.url.encodedPath == "/v1/automations" ->
+                    ok("""{"data":[{"id":"aut_1","title":"Bateria baixa","enabled":false,"version":3,"risk_level":"low"}],"next_cursor":null,"meta":{"kill_switch":true}}""")
+                req.method.value == "PATCH" -> {
+                    patchPath = req.url.encodedPath
+                    patchBody = (req.body as io.ktor.http.content.TextContent).text
+                    ok("""{"data":{"id":"aut_1","title":"Bateria baixa","enabled":true,"version":4}}""")
+                }
+                else -> respond("", HttpStatusCode.NotFound)
+            }
+        }
+        val list = api.automations()
+        assertTrue(list.meta.killSwitch)
+        assertEquals(3, list.data.single().version)
+        val updated = api.setAutomationEnabled("aut_1", 3, true)
+        assertEquals("/v1/automations/aut_1", patchPath)
+        assertTrue(patchBody.contains("\"expected_version\":3"))
+        assertTrue(patchBody.contains("\"enabled\":true"))
+        assertEquals(4, updated.version)
+    }
 }

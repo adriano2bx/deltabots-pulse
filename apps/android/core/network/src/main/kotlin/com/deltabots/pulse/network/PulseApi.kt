@@ -94,6 +94,8 @@ class PulseApi(
         is BatchRequest -> PulseJson.encodeToString(BatchRequest.serializer(), body)
         is Heartbeat -> PulseJson.encodeToString(Heartbeat.serializer(), body)
         is CommandAck -> PulseJson.encodeToString(CommandAck.serializer(), body)
+        is UpdateAutomation -> PulseJson.encodeToString(UpdateAutomation.serializer(), body)
+        is kotlinx.serialization.json.JsonElement -> PulseJson.encodeToString(kotlinx.serialization.json.JsonElement.serializer(), body)
         else -> error("tipo não serializável: ${body::class}")
     }
 
@@ -137,4 +139,14 @@ class PulseApi(
     suspend fun heartbeat(gatewayId: String, hb: Heartbeat): HeartbeatAck = send(HttpMethod.Post, "/gateways/$gatewayId/heartbeat", hb, true, true, emptyMap()).body<Envelope<HeartbeatAck>>().data
     suspend fun pendingCommands(gatewayId: String): List<PendingCommand> = send(HttpMethod.Get, "/gateways/$gatewayId/commands", null, true, true, emptyMap()).body<ListEnvelope<PendingCommand>>().data
     suspend fun ackCommand(gatewayId: String, commandId: String, ack: CommandAck) { send(HttpMethod.Post, "/gateways/$gatewayId/commands/$commandId/ack", ack, true, true, emptyMap()) }
+
+    // ------------------------------------------------------------------ automações / alertas
+    suspend fun automations(): AutomationListEnvelope = send(HttpMethod.Get, "/automations", null, true, false, emptyMap()).body()
+    suspend fun automationTemplates(): List<AutomationTemplate> = send(HttpMethod.Get, "/automations/templates", null, true, false, emptyMap()).body<ListEnvelope<AutomationTemplate>>().data
+    /** Modelos nascem desativados (a API valida o AST e o risco); ativar é uma ação explícita do usuário. */
+    suspend fun createAutomation(ast: kotlinx.serialization.json.JsonElement): AutomationDto = send(HttpMethod.Post, "/automations", ast, true, false, emptyMap()).body<Envelope<AutomationDto>>().data
+    suspend fun setAutomationEnabled(id: String, version: Int, enabled: Boolean): AutomationDto =
+        send(HttpMethod.Patch, "/automations/$id", UpdateAutomation(version, enabled), true, false, emptyMap()).body<Envelope<AutomationDto>>().data
+    suspend fun alerts(): List<AlertDto> = send(HttpMethod.Get, "/alerts", null, true, false, emptyMap()).body<ListEnvelope<AlertDto>>().data
+    suspend fun ackAlert(id: String) { send(HttpMethod.Post, "/alerts/$id/ack", null, true, false, emptyMap()) }
 }
