@@ -17,7 +17,7 @@ Cada linha aponta o controle **implementado** e onde ele é testado. Controles s
 | T10 | Token no console roubado por XSS | sessão web | access token só em memória; CSP restritiva; refresh em `sessionStorage` (some ao fechar a aba) | `apps/console/index.html`; `lacuna`: teste E2E de CSP |
 | T11 | Falso "online" mascarando desconexão | segurança operacional | `ScreenState` com Offline/Stale; proveniência e idade em toda leitura | `core/domain` testes |
 | T12 | Capacidade BLE inventada | integridade | capabilities nascem `UNVERIFIED`; só viram `SUPPORTED` com evidência do aparelho | `core/domain` testes |
-| T13 | Flood / abuso de API | disponibilidade | rate limit por IP/identidade em login, refresh, ingestão | `identity.test.ts` |
+| T13 | Flood / abuso de API | disponibilidade | rate limit por IP/identidade em login, refresh, ingestão (implementado em `apps/api/src/lib/ratelimit.ts`) | `lacuna`: sem teste automatizado do limite |
 | T14 | Dependência/segredo no repositório | cadeia de suprimentos | gitleaks no CI; versões fixas e lockfile | `.github/workflows/ci.yml` |
 
 ## Riscos residuais (aceitos ou abertos)
